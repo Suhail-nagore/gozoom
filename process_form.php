@@ -11,6 +11,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Validate and sanitize the form data (perform necessary checks)
 
+    
+
     // Connect to the database
     $servername = "localhost"; // Replace with your MySQL server name
     $username = "gozoomte_form123"; // Replace with your MySQL username
@@ -48,7 +50,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Close the database connection
     $conn = null;
 
+    // Send an email with the form data
+    $to = "chabramohit@gmail.com"; // Replace with the desired email address
+    $subject = "Form Submission";
+    $emailBody = "Name: $name\n";
+    $emailBody .= "Designation: $designation\n";
+    $emailBody .= "Email: $email\n";
+    $emailBody .= "Contact Number: $contactNumber\n";
+    $emailBody .= "Industry: $industry\n";
+    $emailBody .= "Company Name: $companyName\n";
+    $emailBody .= "Solution: $solution\n";
+    $emailBody .= "Message: $message\n";
+
+    // Additional headers
+    $headers = "From: $email" . "\r\n";
+    $headers .= "Reply-To: $email" . "\r\n";
+
+    // Send the email
+    mail($to, $subject, $emailBody, $headers);
+
     // Generate a response (e.g., success message, error message, redirection)
-    echo "<p>Form submitted successfully!</p>";
+    //echo "<p>Form submitted successfully!</p>";
+    header("Location: success.html");
+    exit;
 }
 ?>
