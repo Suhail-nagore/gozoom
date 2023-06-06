@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn = null;
 
     // Send an email with the form data
-    $to = "chabramohit@gmail.com"; // Replace with the desired email address
+    $to = "info@gozooomtech.com"; // Replace with the desired email address
     $subject = "Form Submission";
     $emailBody = "Name: $name\n";
     $emailBody .= "Designation: $designation\n";
