@@ -1,5 +1,11 @@
 <?php
+// Include the PHPMailer autoloader
+require 'PHPMailer.php';
+require 'Exception.php';
+require 'SMTP.php';
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Retrieve form data
     $name = $_POST["name"];
     $designation = $_POST["designation"];
     $email = $_POST["email"];
@@ -10,8 +16,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST["message"];
 
     // Validate and sanitize the form data (perform necessary checks)
-
-    
 
     // Connect to the database
     $servername = "localhost"; // Replace with your MySQL server name
@@ -50,28 +54,42 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Close the database connection
     $conn = null;
 
-    // Send an email with the form data
-    $to = "chabramohit@gmail.com"; // Replace with the desired email address
-    $subject = "Form Submission";
-    $emailBody = "Name: $name\n";
-    $emailBody .= "Designation: $designation\n";
-    $emailBody .= "Email: $email\n";
-    $emailBody .= "Contact Number: $contactNumber\n";
-    $emailBody .= "Industry: $industry\n";
-    $emailBody .= "Company Name: $companyName\n";
-    $emailBody .= "Solution: $solution\n";
-    $emailBody .= "Message: $message\n";
+    // Send an email with the form data using PHPMailer
+    $mail = new PHPMailer();
 
-    // Additional headers
-    $headers = "From: $email" . "\r\n";
-    $headers .= "Reply-To: $email" . "\r\n";
+    // SMTP configuration
+    $mail->isSMTP();
+    $mail->Host = 'mail.gozoomtech.com';  // Replace with your SMTP server address
+    $mail->SMTPAuth = true;
+    $mail->Username = 'info@gozoomtech.com';  // Replace with your SMTP username
+    $mail->Password = 'Gozoom@123';  // Replace with your SMTP password
+    $mail->SMTPSecure = 'tls';  // Enable TLS encryption, 'ssl' also possible
+    $mail->Port = 587;  // TCP port to connect to
+
+    // Sender and recipient settings
+    $mail->setFrom($email, $name);
+    $mail->addAddress('info@gozoomtech.com');  // Replace with the desired email address
+
+    // Email content
+    $mail->Subject = 'Form Submission';
+    $mail->Body = "Name: $name\n" .
+        "Designation: $designation\n" .
+        "Email: $email\n" .
+        "Contact Number: $contactNumber\n" .
+        "Industry: $industry\n" .
+        "Company Name: $companyName\n" .
+        "Solution: $solution\n" .
+        "Message: $message\n";
 
     // Send the email
-    mail($to, $subject, $emailBody, $headers);
-
-    // Generate a response (e.g., success message, error message, redirection)
-    //echo "<p>Form submitted successfully!</p>";
-    header("Location: success.html");
-    exit;
+    if ($mail->send()) {
+        // Redirect to success page
+        header("Location: success.html");
+        exit;
+    } else {
+        // Handle email sending error
+        echo 'Email could not be sent. Error: ' . $mail->ErrorInfo;
+        exit;
+    }
 }
 ?>
