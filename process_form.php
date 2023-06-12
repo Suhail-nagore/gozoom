@@ -1,4 +1,12 @@
 <?php
+require 'PHPMailer.php';
+require 'SMTP.php';
+require 'Exception.php';
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
     $designation = $_POST["designation"];
@@ -51,27 +59,45 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn = null;
 
     // Send an email with the form data
-    $to = "info@gozooomtech.com"; // Replace with the desired email address
-    $subject = "Form Submission";
-    $emailBody = "Name: $name\n";
-    $emailBody .= "Designation: $designation\n";
-    $emailBody .= "Email: $email\n";
-    $emailBody .= "Contact Number: $contactNumber\n";
-    $emailBody .= "Industry: $industry\n";
-    $emailBody .= "Company Name: $companyName\n";
-    $emailBody .= "Solution: $solution\n";
-    $emailBody .= "Message: $message\n";
+   // Send an email with the form data
+$mail = new PHPMailer(true);
 
-    // Additional headers
-    $headers = "From: $email" . "\r\n";
-    $headers .= "Reply-To: $email" . "\r\n";
+try {
+    // Server settings
+    $mail->isSMTP();
+    $mail->Host = 'mail.gozoomtech.com'; // Replace with your SMTP server address
+    $mail->SMTPAuth = true;
+    $mail->Username = 'info@gozoomtech.com'; // Replace with your SMTP username
+    $mail->Password = 'Gozoom@123'; // Replace with your SMTP password
+    $mail->SMTPSecure = 'tls'; // Enable TLS encryption, 'ssl' also possible
+    $mail->Port = 587;
 
-    // Send the email
-    mail($to, $subject, $emailBody, $headers);
+    // Recipients
+    $mail->setFrom($email);
+    $mail->addAddress('info@gozooomtech.com'); // Replace with the desired email address
 
-    // Generate a response (e.g., success message, error message, redirection)
-    //echo "<p>Form submitted successfully!</p>";
+    // Email content
+    $mail->isHTML(false);
+    $mail->Subject = 'Form Submission';
+    $mail->Body = "Name: $name\n"
+        . "Designation: $designation\n"
+        . "Email: $email\n"
+        . "Contact Number: $contactNumber\n"
+        . "Industry: $industry\n"
+        . "Company Name: $companyName\n"
+        . "Solution: $solution\n"
+        . "Message: $message\n";
+
+    $mail->send();
+
+    // Email sent successfully
     header("Location: success.html");
     exit;
+} catch (Exception $e) {
+    // Error sending email
+    echo "Error sending email: " . $mail->ErrorInfo;
+    exit;
+}
+
 }
 ?>
