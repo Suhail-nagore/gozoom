@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ABOUT US</title>
+    <title>GOZOOM TECH</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -228,7 +228,7 @@
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
               <div class="employees">
                 <div class="counter_bardiv33">
-                  <p class="counter-count">3</p>
+                  <p class="counter-count ag-counter">3</p>
                 </div>
                 <p class="employee-p">YEARS IN<br />BUSINESS</p>
               </div>
@@ -236,7 +236,7 @@
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
               <div class="customer">
                 <div class="counter_bardiv33">
-                  <p class="counter-count">5</p>
+                  <p class="counter-count ag-counter">5</p>
                   <span class="counter_span22">+</span>
                 </div>
                 <p class="customer-p">OUTLETS<br />INSTALLED</p>
@@ -245,8 +245,8 @@
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
               <div class="design">
                 <div class="counter_bardiv33">
-                  <p class="counter-count">8</p>
-                  <span class="counter_span22">K+</span>
+                  <p class="counter-count ag-counter">8000</p>
+                  <span class="counter_span22">+</span>
                 </div>
                 <p class="design-p">TRANSATIONS<br />CAPTURED</p>
               </div>
@@ -255,8 +255,8 @@
               <div class="order">
                 <div class="counter_bardiv33">
                   <span class="counter_span33">$</span>
-                  <p class="counter-count">1</p>
-                  <span class="counter_span22">M+</span>
+                  <p class="counter-count ag-counter">1000</p>
+                  <span class="counter_span22">k+</span>
                 </div>
                 <p class="order-p">TRANSACTION<br />VALUE</p>
               </div>
@@ -319,6 +319,12 @@
                     <a href="retail.html">RETAILS</a>
                   </li>
                   <li>
+                    <a href="web.html">WEB DEVELOPMENT</a>
+                  </li>
+                  <li>
+                    <a href="web.html">MOBILE DEVELOPMENT</a>
+                  </li>
+                  <li>
                     <a href="#">GET BROUCHER</a>
                   </li>
                   <li>
@@ -358,6 +364,7 @@
                     type="email"
                     id="email"
                     name="email"
+                    title="Please enter as example@mail.com."
                     class="formfi"
                     placeholder="E-mail"
                     required
@@ -370,8 +377,11 @@
                     name="contact-number"
                     class="formfi"
                     placeholder="Contact No."
+                    pattern="[0-9]+"
+                    title="Please enter only numeric values."
                     required
-                  /><br /><br />
+                  />
+                  <br /><br />
 
                   <!-- <label for="industry">Industry:</label> -->
                   <input
@@ -396,8 +406,12 @@
                   <!-- <label for="solution">Solution:</label> -->
                   <select id="solution" name="solution" class="formfi" required>
                     <option value="">Select an option</option>
-                    <option value="Option 1">Integration</option>
-                    <option value="Option 2">Retail</option></select
+                    <option value="Integration">Integration</option>
+                    <option value="Retail">Retail</option>
+                    <option value="Web DEV">Web Development</option>
+                    <option value="Mobile DEV">
+                      Mobile Development
+                    </option></select
                   ><br /><br />
 
                   <!-- <label for="message">Message:</label> -->
@@ -424,6 +438,7 @@
     </section>
 
     <script src="js/script.js"></script>
+    <script src="js/counter.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

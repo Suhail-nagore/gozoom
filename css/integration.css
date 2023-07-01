@@ -4,6 +4,7 @@ body {
     font-family: Gill Sans, sans-serif;
     /* font-weight: 400; */
     overflow-x: hidden;
+    background-color: black;
 }
 
 body.hidden-scroling {
@@ -743,7 +744,8 @@ video {
 /* ===========yaha se testimonial ka section start ho raha hai bhai ============ */
 
 #testimonials {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
+    background-color: white;
 }
 
 .testi {
@@ -925,7 +927,7 @@ video {
     background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif");
     background-position: center top;
     background-size: cover;
-    margin: 3rem 0 3rem 0;
+    /* margin: 3rem 0 3rem 0; */
 }
 
 .headsec {
@@ -943,7 +945,8 @@ video {
 /* =============partners ka section yaha se shuru ho raha hai  */
 
 #partners {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
+    background-color: white;
 }
 
 .partner {
@@ -982,7 +985,8 @@ video {
     background: #0a1124 !important;
     background-position: center top;
     background-size: cover;
-    margin: 3rem 0 0 0;
+    /* margin: 3rem 0 0 0; */
+    background-color: white;
 }
 
 .fot {

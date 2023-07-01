@@ -340,6 +340,25 @@ a {
     text-align: justify;
 }
 
+/* .ourstory_imgsec2 {
+  display: flex;
+  align-items: stretch;
+}
+
+.img-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.story_img1 {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
+
+
+
 
 /* we stand ka section yaha se start ho raha hai  */
 
@@ -512,7 +531,7 @@ a {
 }
 
 .counter-count {
-    font-size: 35px;
+    font-size: 30px;
     /* text-decoration: underline; */
     /* background-color: #00b3e7; */
     border-radius: 50%;
@@ -539,13 +558,13 @@ a {
 }
 
 .counter_span22 {
-    font-size: 35px;
+    font-size: 30px;
     /* margin-left: -20px; */
     color: #fff;
 }
 
 .counter_span33 {
-    font-size: 35px;
+    font-size: 30px;
     /* margin-right: -20px; */
     color: #fff;
 }
