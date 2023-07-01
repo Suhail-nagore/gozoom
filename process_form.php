@@ -73,8 +73,8 @@ try {
     $mail->Port = 587;
 
     // Recipients
-    $mail->setFrom($email);
-    $mail->addAddress('info@gozooomtech.com'); // Replace with the desired email address
+    $mail->setFrom($email,$name);
+    $mail->addAddress('info@gozoomtech.com'); // Replace with the desired email address
 
     // Email content
     $mail->isHTML(false);
@@ -89,6 +89,8 @@ try {
         . "Message: $message\n";
 
     $mail->send();
+    // print_r($mail);
+    // echo 'Mail SEnt';
 
     // Email sent successfully
     header("Location: success.html");
