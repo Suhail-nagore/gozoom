@@ -1,0 +1,1413 @@
+body {
+    line-height: 1.5;
+    /* font-weight: 400; */
+    overflow-x: hidden;
+    min-height: 100%;
+    overflow-x: hidden;
+    text-size-adjust: 100%;
+    font-family: ibm plex sans, sans-serif;
+
+}
+
+body.hidden-scroling {
+    overflow-y: hidden;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 100%;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Section  */
+
+.page-404-banner.banner-top,
+.print-design-banner.banner-top,
+.page-webdesign-banner.banner-top,
+.page-packaging-banner.banner-top,
+.page-ui-ux-banner.banner-top,
+.banner-top {
+    min-height: 680px;
+    height: 680px;
+}
+
+div {
+    display: block;
+}
+
+.laravel-banner {
+    background-image: url(//www.codeclouds.com/wp-content/themes/CodeClouds/images/laravel-banner.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-top {
+    padding: 200px 0;
+}
+
+.banner-inner.min-adj {
+    min-height: 140px;
+    position: relative;
+    z-index: 1;
+}
+.container,
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.container,
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-group-vertical>.btn-group:after,
+.btn-group-vertical>.btn-group:before,
+.btn-toolbar:after,
+.btn-toolbar:before,
+.clearfix:after,
+.clearfix:before,
+.container-fluid:after,
+.container-fluid:before,
+.container:after,
+.container:before,
+.dl-horizontal dd:after,
+.dl-horizontal dd:before,
+.form-horizontal .form-group:after,
+.form-horizontal .form-group:before,
+.modal-footer:after,
+.modal-footer:before,
+.modal-header:after,
+.modal-header:before,
+.nav:after,
+.nav:before,
+.navbar-collapse:after,
+.navbar-collapse:before,
+.navbar-header:after,
+.navbar-header:before,
+.navbar:after,
+.navbar:before,
+.pager:after,
+.pager:before,
+.panel-body:after,
+.panel-body:before,
+.row:after,
+.row:before {
+    display: table;
+    content: " ";
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.heading-in {
+    margin-top: 45px;
+}
+
+.heading-in h1 {
+    color: #fff;
+    font-family: roboto slab, serif;
+    font-size: 43px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 0 25px;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h2,
+h4,
+h5 {
+    font-weight: 400;
+}
+
+.h1,
+h1 {
+    font-size: 36px;
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h1 {
+    margin: 0.67em 0;
+}
+
+.heading-in p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #373645;
+    margin: 0 0 20px;
+    line-height: 1.3;
+    font-family: ibm plex sans, sans-serif;
+}
+
+
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+.st-cst-btn-area {
+    margin-top: 50px;
+}
+
+.st-cst-btn-area .starBtn {
+    -webkit-font-smoothing: antialiased;
+}
+
+.starBtn.laraBtn {
+    background-color: #fff;
+    color: #e64a39;
+    border: 2px solid #fff;
+    font-weight: 500;
+   
+}
+.starBtn.laraBtn:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 500;
+    
+}
+.btn.starBtn.aboutBtn.laraBtn1 {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 500;
+   
+}
+.btn.starBtn.aboutBtn.laraBtn1:hover {
+    background-color: #fff;
+    color: #e64a39;
+    border: 2px solid #fff;
+    font-weight: 500;
+}
+
+
+.starBtn {
+    padding: 12px 30px;
+    border-radius: 100px;
+    line-height: 1;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    width: 143;
+    border-radius: 41px;
+}
+
+.st-cst-btn-area .starBtn {
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.aboutBtn {
+    background-color: #fff;
+    color: #0e90d0;
+    margin-left: 25px;
+}
+
+
+.btn-group-vertical>.btn-group:after,
+.btn-toolbar:after,
+.clearfix:after,
+.container-fluid:after,
+.container:after,
+.dl-horizontal dd:after,
+.form-horizontal .form-group:after,
+.modal-footer:after,
+.modal-header:after,
+.nav:after,
+.navbar-collapse:after,
+.navbar-header:after,
+.navbar:after,
+.pager:after,
+.panel-body:after,
+.row:after {
+    clear: both;
+}
+
+.laravel-banner .banner-overlay1 {
+    background-color: #e64a39;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+
+.laravel-banner .banner-overlay-shape1 {
+        position: absolute;
+        width: 79%;
+        height: 1436px;
+        -webkit-transform: skew(-250deg);
+        -moz-transform: skew(-250deg);
+        transform: skew(-250deg);
+        background-color: #fff;
+        opacity: .3;
+        left: -1103px;
+        top: -369px;
+}
+
+.laravel-banner .banner-overlay-shape2 {
+    position: absolute;
+    left: 9%;
+    top: -58%;
+    width: 100%;
+    height: 860px;
+    opacity: .502;
+    transform: rotate(52deg);
+    background-color: #fff;
+    opacity: .3;
+    transform-origin: top left;
+    min-height: 1395px;
+}
+
+.laravel-pg.whiteSection.top.no-after,
+.codeigniter-pg.whiteSection.top.no-after,
+.magento-pg.whiteSection.top.no-after,
+.magento-pg.whiteSection.no-after {
+    padding-bottom: 140px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+.whiteSection:before {
+    background-color: #fff;
+    top: -67px;
+    content: '';
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 200px;
+}
+
+.whiteSection .container {
+    position: relative;
+    z-index: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: ' ';
+    display: table;
+    line-height: 0;
+    clear: both;
+}
+
+.hire-txt-top-left .long-sm-text,
+.ci-txt-top-left .long-sm-text {
+    line-height: 38px;
+}
+
+.h2,
+h2 {
+    font-size: 30px;
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+b,
+optgroup,
+strong {
+    font-weight: 700;
+}
+
+.code_a {
+    color: #f4645f;
+}
+
+p a {
+    color: #5c79ff;
+}
+
+a,
+button,
+input[type=submit] {
+    text-decoration: none;
+    transition: all .2s ease-in-out 0s;
+    -moz-transition: all .2s ease-in-out 0s;
+    -webkit-transition: all .2s ease-in-out 0s;
+    -o-transition: all .2s ease-in-out 0s;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+
+.laravel-mascot {
+    text-align: center;
+}
+
+.laravel-mascot img {
+    width: 375px;
+    height: 319px;
+}
+
+img {
+    max-width: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+hr,
+img {
+    border: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: ' ';
+    display: table;
+    line-height: 0;
+    clear: both;
+}
+
+.whiteSection.flat-gray,
+.whiteSection.flat-gray:after,
+.whiteSection.flat-gray:before {
+    background-color: #f7f9fe !important;
+}
+
+.whiteSection.flat-gray,
+.whiteSection.flat-gray:after,
+.whiteSection.flat-gray:before {
+    background-color: #f7f9fe !important;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.clearfix:after,
+.clearfix:before {
+    content: ' ';
+    display: table;
+    line-height: 0;
+    clear: both;
+}
+
+.laravel-char-inst img {
+    width: 224px;
+    height: 250px;
+}
+
+.dev-off-gap-col {
+    padding-left: 45px;
+}
+
+.long-sm-text {
+    font-size: 29px;
+    font-family: roboto slab, serif;
+    font-weight: 300;
+    line-height: 46px;
+    margin: 0 0 33px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.prof-point {
+    padding-left: 16px;
+    width: 50%;
+    float: left;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ol,
+ul {
+    margin-bottom: 10px;
+}
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+}
+
+ol,
+ul {
+    box-sizing: border-box;
+}
+
+.prof-point li {
+    list-style-type: circle;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.prof-point li h3,
+.prof-point li h4 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.3;
+}
+
+::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+}
+
+li {
+    list-style: none;
+}
+
+.laravel.blueSection.white {
+    background: #fff;
+    padding: 170px 0;
+}
+
+.blueSection {
+    padding: 140px 0;
+    background-color: #ddf3ff;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+.pd-right30 {
+    padding-right: 30px;
+}
+
+.lg-gap-wt-txt {
+    font-size: 40px;
+    font-family: roboto slab, serif;
+    font-weight: 300;
+    line-height: 53px;
+    margin: 0 0 60px;
+    padding-top: 18px;
+}
+
+.in-cont-feature {
+    padding-top: 24px;
+}
+
+/* .red-fc-text {
+    color: #f4645f;
+    font-size: 22px;
+    margin: 0 0 23px;
+} */
+
+.pd-left30 {
+    padding-left: 30px;
+}
+
+.in-cont-feature {
+    padding-top: 24px;
+}
+
+.mg-bot54 {
+    margin-bottom: 56px;
+}
+
+.laravel.whiteSection.dp-red.no-after {
+    padding-bottom: 180px;
+    padding-top: 80px;
+}
+
+/* contact me page  */
+.whiteSection.dp-red,
+.whiteSection.dp-red:before,
+.whiteSection.dp-red:after {
+    background-color: #fa503a !important;
+}
+
+.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    word-wrap: normal !important;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.half {
+    max-width: 48%;
+    width: 100%;
+}
+
+.flft {
+    float: left;
+}
+
+.page-template-page-laravel .full_ed,
+.magento-form .full_ed,
+.shopify-form .full_ed,
+.page-response-form .full_ed,
+.ios-form .full_ed,
+.ct_frm .full_ed {
+    z-index: inherit;
+}
+
+.full_ed {
+    position: relative;
+    z-index: 1;
+}
+
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+
+.page-template-page-laravel .theme_1.wpcf7-form input.error,
+.page-template-page-laravel .theme_1.wpcf7-form select.error,
+.page-template-page-laravel .theme_1.wpcf7-form textarea.error {
+    border: 1px solid #000 !important;
+}
+
+.theme_1.wpcf7-form input.error,
+.theme_1.wpcf7-form select.error,
+.theme_1.wpcf7-form textarea.error {
+    border: 1px solid red !important;
+}
+
+.theme_1.wpcf7-form input.error,
+.theme_1.wpcf7-form select.error,
+.theme_1.wpcf7-form textarea.error {
+    border: 1px solid red !important;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+.noErrorMsg.wpcf7-form label.error {
+    display: none !important;
+    height: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
+}
+
+.wpcf7-form label.error {
+    color: #900;
+    font-size: 11px;
+    float: none;
+    padding-left: 5px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+dt,
+kbd kbd,
+label {
+    font-weight: 700;
+}
+
+.laravel-form input[type=email],
+.laravel-form input[type=text],
+.laravel-form textarea,
+.laravel-form input[type=tel] {
+    width: 100%;
+    display: block;
+    outline: none;
+    border: 1px solid #fa503a;
+    background: #fff;
+    padding: 13px 20px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.wpcf7 input[type=url],
+.wpcf7 input[type=email],
+.wpcf7 input[type=tel] {
+    direction: ltr;
+}
+
+.email {
+    width: 100%;
+}
+
+.intl-tel-input {
+    position: relative;
+}
+.wpcf7 input[type=url], .wpcf7 input[type=number], .wpcf7 input[type=tel] {
+    direction: ltr;
+}
+
+
+.Phone {
+    width: 100%;
+}
+.page-template-page-laravel .full_ed, .magento-form .full_ed, .shopify-form .full_ed, .page-response-form .full_ed, .ios-form .full_ed, .ct_frm .full_ed {
+    z-index: inherit;
+}
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+.flrt {
+    float: right;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.flft {
+    float: left;
+}
+.wpcf7 input[type=url], .wpcf7 input[type=email], .wpcf7 input[type=tel] {
+    direction: ltr;
+}
+.email {
+    width: 100%;
+}
+.intl-tel-input {
+    position: relative;
+    /* display: inline-block; */
+}
+.intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container {
+    right: auto;
+    left: 0;
+}
+.intl-tel-input .flag-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 1px;
+}
+.intl-tel-input * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.intl-tel-input input[type=text] {
+    padding-left: 52px !important;
+}
+intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=tel], .intl-tel-input.separate-dial-code input[type=text] {
+    padding-right: 6px;
+    padding-left: 52px;
+    margin-left: 0;
+}
+.cont-form textarea, .left-sec-in textarea, .work-fom textarea, .laravel-form textarea {
+    resize: none;
+}
+.full_ed.accept p {
+    position: relative;
+}
+page-template-page-laravel .laravel-agree {
+    display: block;
+}
+.laravel-agree {
+    line-height: 15px;
+    display: inline-block;
+}
+.agree_cnd {
+    margin-left: 0;
+    margin-bottom: 0;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.wpcf7-list-item {
+    margin: 0 !important;
+    vertical-align: middle;
+}
+.wpcf7-list-item {
+    display: inline-block;
+    margin: 0 0 0 1em;
+}
+.page-template-page-wordpress input[type=checkbox], .page-template-page-laravel input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    vertical-align: sub;
+    margin-right: 4px;
+}
+.laravel-in-frm input[type=checkbox] {
+    margin-right: 7px;
+    margin-top: 0;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    display: inline;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+input:not([type="range"]):not([type="color"]) {
+    writing-mode: horizontal-tb !important;
+}
+user agent stylesheet
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+.full_ed.accept a {
+    color: #00c0ff;
+}
+.laravel-in-frm, .laravel-in-frm a {
+    color: #fff !important;
+}
+.page-template-page-laravel #error_msg {
+    margin: 5px auto;
+    padding: 0;
+}
+.page-template-page-laravel #error_msg {
+    color: #000 !important;
+    padding-top: 17px;
+    display: inline-block;
+}
+#error_msg {
+    padding-top: 10px;
+}
+#error_msg {
+    color: red;
+    text-align: left;
+    font-size: 12px;
+    display: block;
+    font-family: 'IBM Plex Sans',sans-serif;
+}
+#error_msg strong {
+    font-family: 'IBM Plex Sans',sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+b, optgroup, strong {
+    font-weight: 700;
+}
+.page-wordpress.talk-to-codecloud-laravel-experts .agree-lable.subscrb-check, .page-template-page-angularjs .page-angular.talk-to-codecloud-ng-experts .agree-lable.subscrb-check, .page-template-page-laravel .subscrb-check {
+    padding-top: 12px;
+    margin-bottom: 0;
+}
+.page-template-page-laravel .subscrb-check {
+    color: #fff;
+}
+span.wpcf7-list-item-label {
+    display: inline-block;
+    vertical-align: bottom;
+    padding-left: 2px;
+}
+.laravel-form .block-c {
+    padding-top: 12px;
+}
+.block-c {
+    padding-top: 20px;
+}
+.wt-color, .wt-color a, .wt-color p {
+    color: #fff;
+    font-size: 16px;
+}
+.laravel-form .block-c p.bld-head, .magento-form .block-c p.bld-head {
+    margin-bottom: 12px !important;
+}
+.block-c p.bld-head {
+    margin-bottom: 25px !important;
+    margin-top: 18px;
+}
+.block-c p strong {
+    font-weight: 500;
+}
+.page-template-page-laravel .block-c .l_submit {
+    padding-top: 20px;
+}
+.laravel.wpcf7-spinner {
+    top: 9px;
+    left: -5px;
+}
+.wpcf7-spinner {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #23282d;
+    opacity: .75;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 24px;
+    position: relative;
+}
+.wpcf7-spinner:before {
+    content: '';
+    position: absolute;
+    background-color: #fbfbfc;
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    border: none;
+    border-radius: 100%;
+    transform-origin: 8px 8px;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+dt, kbd kbd, label {
+    font-weight: 700;
+}
+.page-template-page-laravel .wpcf7 form .wpcf7-response-output {
+    color: #fff;
+}
+.wpcf7 form.init .wpcf7-response-output, .wpcf7 form.resetting .wpcf7-response-output, .wpcf7 form.submitting .wpcf7-response-output {
+    display: none;
+}
+.wpcf7 form .wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+    border: 2px solid #00a0d2;
+}
+
+.lg-white-txt-nrm {
+    margin-top: 0;
+    font-size: 29px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 300;
+}
+.mg-bot50 {
+    margin-bottom: 50px;
+}
+.inner-mascot-block img {
+    width: 200px;
+    height: 281px;
+}
+
+.whiteSection {
+    padding: 30px 0;
+    position: relative;
+    background-color: #fff;
+}
+.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px,1px,1px,1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    word-wrap: normal !important;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #373645;
+    margin: 0 0 20px;
+    line-height: 1.3;
+    font-family: 'IBM Plex Sans',sans-serif;
+}
+.accept {
+    position: relative;
+}
+.laravel-in-frm, .laravel-in-frm a {
+    color: #fff !important;
+}
+.laravel-agree {
+    line-height: 15px;
+    display: inline-block;
+}
+.agree_cnd {
+    margin-left: 0;
+    margin-bottom: 0;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+input:not([type="range"]):not([type="color"]) {
+    writing-mode: horizontal-tb !important;
+}
+user agent stylesheet
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
+.agree_cnd {
+    margin-left: 0;
+    margin-bottom: 0;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.laravel-agree {
+    line-height: 15px;
+    display: inline-block;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #373645;
+    margin: 0 0 20px;
+    line-height: 1.3;
+    font-family: 'IBM Plex Sans',sans-serif;
+}
+.laravel-in-frm, .laravel-in-frm a {
+    color: #fff !important;
+}
+.page-template-page-wordpress input[type=checkbox], .page-template-page-laravel input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    vertical-align: sub;
+    margin-right: 4px;
+}
+.laravel-in-frm input[type=checkbox] {
+    margin-right: 7px;
+    margin-top: 0;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    display: inline;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 4px 0 0;
+    margin-top: 1px\9;
+    line-height: normal;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.wpcf7-form-control.hide-cf7-label .wpcf7-list-item-label {
+    display: none;
+}
+element.style {
+    display: none;
+}
+.page-template-page-laravel #error_msg {
+    margin: 5px auto;
+    padding: 0;
+}
+.page-template-page-laravel #error_msg {
+    color: #000 !important;
+    padding-top: 17px;
+    display: inline-block;
+}
+
+.wpcf7-list-item {
+    margin: 0 !important;
+    vertical-align: middle;
+}
+.wpcf7-list-item {
+    display: inline-block;
+    margin: 0 0 0 1em;
+}
+subscrb-check .wpcf7-list-item-label {
+    display: none;
+}
+
+b, optgroup, strong {
+    font-weight: 700;
+}
+.page-template-page-laravel .block-c .l_submit {
+    padding-top: 20px;
+}
+a, button, input[type=submit] {
+    text-decoration: none;
+    transition: all .2s ease-in-out 0s;
+    -moz-transition: all .2s ease-in-out 0s;
+    -webkit-transition: all .2s ease-in-out 0s;
+    -o-transition: all .2s ease-in-out 0s;
+}
+button, html input[type=button], input[type=reset], input[type=submit] {
+    cursor: pointer;
+}
+
+.starBtn {
+    padding: 12px 30px;
+    border-radius: 100px;
+    background-color: #0e90d0;
+    line-height: 1;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+}
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 34px;
+}
+.btn, .btn-danger.active, .btn-danger:active, .btn-default.active, .btn-default:active, .btn-info.active, .btn-info:active, .btn-primary.active, .btn-primary:active, .btn-warning.active, .btn-warning:active, .btn.active, .btn:active, .dropdown-menu>.disabled>a:focus, .dropdown-menu>.disabled>a:hover, .form-control, .navbar-toggle, .open>.dropdown-toggle.btn-danger, .open>.dropdown-toggle.btn-default, .open>.dropdown-toggle.btn-info, .open>.dropdown-toggle.btn-primary, .open>.dropdown-toggle.btn-warning {
+    background-image: none;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+
+.wpcf7-form-control.has-spinner.wpcf7-submit.btn.starBtn:hover{
+    background-color: #0a1124;
+}
+.laravel .wpcf7-spinner {
+    top: 9px;
+    left: -5px;
+}
+.wpcf7-spinner {
+    visibility: hidden;
+    display: inline-block;
+    background-color: #23282d;
+    opacity: .75;
+    width: 24px;
+    height: 24px;
+    border: none;
+    border-radius: 100%;
+    padding: 0;
+    margin: 0 24px;
+    position: relative;
+}
+.wpcf7-spinner:before {
+    content: '';
+    position: absolute;
+    background-color: #fbfbfc;
+    top: 4px;
+    left: 4px;
+    width: 6px;
+    height: 6px;
+    border: none;
+    border-radius: 100%;
+    transform-origin: 8px 8px;
+    animation-name: spin;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.gap-80-lft {
+    padding-left: 80px;
+}
+ @media (max-width: 530px){
+    .heading-in.laravel h1 {
+        font-size: 2.2rem;
+        
+    }
+    .heading-in.laravel p {
+        font-size: 1.5rem;
+        
+    }
+    .banner-inner.min-adj{
+        margin-top: -5rem;
+    }
+} 
+
+  @media (min-width: 768px){
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+}
+  }
+
