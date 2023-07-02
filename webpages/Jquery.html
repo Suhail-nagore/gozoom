@@ -1,782 +1,535 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      media="all"
-      onload="this.onload=null;this.media='all';"
-      id="ao_optimized_gfonts"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900%7CRoboto+Slab:100,300,400,700%7CIBM+Plex+Sans:300,400,500,600,700&amp;display=swap"
-    />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../css/Jquery.css" />
-    <link rel="stylesheet" href="../css/web.css" />
 
-    <title>Jquery</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="all" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900%7CRoboto+Slab:100,300,400,700%7CIBM+Plex+Sans:300,400,500,600,700&amp;display=swap">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../css/Jquery.css">
+  <link rel="stylesheet" href="../css/web.css">
 
-  <body
-    class="page-template page-template-page-templates page-template-page-angularjs page-template-page-templatespage-angularjs-php page page-id-13202 page-child parent-pageid-12886 wp-schema-pro-2.7.7"
-  >
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-MSQJ4S"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <header class="header">
-      <div class="container1">
-        <div class="header-main">
-          <div class="open-nav-menu">
-            <span></span>
-          </div>
-          <div class="menu-overlay"></div>
+  <title>Jquery</title>
+</head>
 
-          <!-- ----------------ye yaha se navigation menu start ho rahi hai -------------------------- -->
-          <nav class="nav-menu">
-            <div class="close-nav-menu">
-              <img src="/images/close.svg" alt="close button" />
+<body
+  class="page-template page-template-page-templates page-template-page-angularjs page-template-page-templatespage-angularjs-php page page-id-13202 page-child parent-pageid-12886  wp-schema-pro-2.7.7">
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MSQJ4S" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+      <header class="header">
+        <div class="container1">
+          <div class="header-main">
+            <div class="open-nav-menu">
+              <span></span>
             </div>
-            <ul class="menu">
-              <li class="menu-item">
-                <a href="/index.html">HOME</a>
-              </li>
-              <li class="menu-item">
-                <a href="/integration.html">INTEGRATION</a>
-              </li>
-              <li class="menu-item menu-item-has-children">
-                <a href="/retail.html" data-toggle="sub-menu">RETAIL </a>
-                <!-- <ul class="sub-menu">
+            <div class="menu-overlay"></div>
+  
+            <!-- ----------------ye yaha se navigation menu start ho rahi hai -------------------------- -->
+            <nav class="nav-menu">
+              <div class="close-nav-menu">
+                <img src="images/close.svg" alt="close button" />
+              </div>
+              <ul class="menu">
+                <li class="menu-item">
+                  <a href="index.html">HOME</a>
+                </li>
+                <li class="menu-item">
+                  <a href="integration.html">INTEGRATION</a>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="retail.html" data-toggle="sub-menu">RETAIL </a>
+                  <!-- <ul class="sub-menu">
                                   <li class="menu-item"> <a href="#">RETAIL 1</a></li>
                                   <li class="menu-item"> <a href="#">RETAIL 2</a></li>
                                   <li class="menu-item"> <a href="#">RETAIL 3</a></li>
                                   <li class="menu-item"> <a href="#">RETAIL 4</a></li>
                               </ul> -->
-              </li>
-              <!-- <li class="menu-item">
+                </li>
+                <!-- <li class="menu-item">
                               <a href="demo.html">DEMO</a>
                           </li> -->
-              <!-- <li class="menu-item">
+                <!-- <li class="menu-item">
                               <a href="kiosks.html">KIOSKS</a>
                           </li> -->
-              <li class="menu-item">
-                <a href="/web.html">WEB</a>
-              </li>
-
-              <li class="menu-item">
-                <a href="/blogs.html">BLOGS</a>
-              </li>
-              <li class="menu-item">
-                <a href="/about.html">ABOUT US</a>
-              </li>
-              <li class="menu-item menu-item-has-children">
-                <a href="#contact" data-toggle="sub-menu"
-                  >CONTACT US
-                  <!-- <i class="plus"></i> -->
-                </a>
-                <!-- <ul class="sub-menu">
+                <li class="menu-item">
+                  <a href="web.html">WEB</a>
+                </li>
+  
+                <li class="menu-item">
+                  <a href="blogs.html">BLOGS</a>
+                </li>
+                <li class="menu-item">
+                  <a href="about.html">ABOUT US</a>
+                </li>
+                <li class="menu-item menu-item-has-children">
+                  <a href="#contact" data-toggle="sub-menu"
+                    >CONTACT US
+                    <!-- <i class="plus"></i> -->
+                  </a>
+                  <!-- <ul class="sub-menu">
                                   <li class="menu-item"> <a href="#">Contact 1</a></li>
                                   <li class="menu-item"> <a href="#">Contact 2</a></li>
                                   <li class="menu-item"> <a href="#">Contact 3</a></li>
                                   <li class="menu-item"> <a href="#">Contact 4</a></li>
                               </ul> -->
-              </li>
-            </ul>
-          </nav>
-          <div class="logo">
-            <a href="/index.html"><img src="/images/logo1.png" alt="" /></a>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section class="page-jquery-banner banner-top">
-      <div class="banner-inner min-adj">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="heading-in page-jquery">
-                <h1 class="page-jquery-banner-heading">
-                  Get Expert jQuery Help in 24 Hours
-                </h1>
-                <p class="page-jquery-banner-text">
-                  Our jQuery developers can help you with your project
-                </p>
-                <p>
-                  <a class="btn starBtn page-jquery-btn-default" href="#contact"
-                    >Enquire Now</a
-                  ><a class="btn starBtn page-jquery-btn" href="/about.html"
-                    >About Us</a
-                  >
-                </p>
-              </div>
+                </li>
+              </ul>
+            </nav>
+            <div class="logo">
+              <a href="index.html"><img src="images/logo1.png" alt="" /></a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="banner-overlay1"></div>
-      <div class="banner-overlay-shape1"></div>
-      <div class="banner-overlay-shape2"></div>
-    </section>
+      </header>
 
-    <section class="page-jquery complicated-things whiteSection no-after">
+
+
+  <section class="page-jquery-banner banner-top">
+    <div class="banner-inner min-adj">
       <div class="container">
         <div class="row">
-          <div class="col-sm-8">
-            <div class="complicated-things-text pad-top-60">
-              <h2 class="long-lg-text">We Simplify the Complicated Things</h2>
-              <p>
-                jQuery, a multi-browser JavaScript library, is designed to
-                simplify the scripting of HTML. The syntax of jQuery is mainly
-                designed to make things much easier to navigate around a
-                document—choosing DOM elements, handling events, creating
-                animations and developing Ajax applications. In addition, jQuery
-                provides capabilities for developers to create plug-ins on top
-                of JavaScript.
-              </p>
-              <p>
-                At GoZooms, we provide
-                <strong>on-demand jQuery developers</strong> that have extensive
-                experience with web-based projects. Our efficient jQuery
-                development process allows us to easily reduce the time of
-                development and get your project delivered quickly. Our global
-                team of developers has hands-on experience in jQuery features,
-                such as <strong>DOM management, jQuery plugins</strong>, and
-                more, which are used to make your site dynamic and intuitive. By
-                choosing GoZooms jQuery experts, your tasks will be completed
-                quickly and cost effectively, all while adding significant value
-                to your web-project.
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="complicated-things-img text-right clearfix">
-              <img
-                src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/char-jquery.svg"
-                class="complicated-things-model"
-                alt="complicated-things-model"
-              />
+          <div class="col-sm-12">
+            <div class="heading-in page-jquery">
+              <h1 class="page-jquery-banner-heading">Get Expert jQuery Help in 24 Hours</h1>
+              <p class="page-jquery-banner-text">Our jQuery developers can help you with your project</p>
+              <p><a class="btn starBtn page-jquery-btn-default " href="#contact">Enquire Now</a><a
+                  class="btn starBtn page-jquery-btn" href="about.html">About Us</a></p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+    <div class="banner-overlay1"></div>
+    <div class="banner-overlay-shape1"></div>
+    <div class="banner-overlay-shape2"></div>
+  </section>
 
-    <section
-      class="page-jquery hire-jquery-developer whiteSection light-blue-bg no-after"
-    >
-      <div class="container">
-        <h3 class="long-sm-text">On-Demand jQuery Developers for Hire</h3>
-        <div class="row">
-          <div class="col-sm-8">
-            <div class="hire-jquery-developer-section">
-              <!-- ngRepeat: developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage)) -->
-              <div
-                ng-repeat="developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage))"
-                class="hire-jquery-developer-section-content clearfix ng-scope"
-              >
-                <div class="hire-jquery-developer-category">
-                  <div class="jquery-dev-photo">
-                    <img
-                      ng-src="https://www.codeclouds.com/wp-content/uploads/2018/11/Avijit.jpg"
-                      class="hire-jquery-developer-img"
-                      alt="Abhijit (India)"
-                      src="/images/profilepic.svg"
-                    />
-                  </div>
-                </div>
-                <div class="hire-jquery-developer-name-section">
-                  <div class="hire-jquery-developer-name-part clearfix">
-                    <div class="hire-jquery-developer-name ft-500 ng-binding">
-                      Tushar (India)
-                    </div>
-                    <p class="ready-hire">Ready to hire</p>
-                  </div>
-                  <div class="experience">
-                    <p class="ng-binding">
-                      Senior jQuery Developer | 7 Years Experience
-                    </p>
-                  </div>
-                  <div class="review">
-                    <img
-                      src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/star-review.png"
-                      class="developer-review"
-                      alt="Star icon"
-                    />
-                  </div>
-                </div>
-                <div class="request-interview">
-                  <div class="request-interview-text">
-                    <a href="" ng-click="requestInterview(developer)"
-                      >Request Interview</a
-                    >
-                  </div>
-                </div>
+
+  <section class="page-jquery complicated-things whiteSection no-after">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="complicated-things-text pad-top-60">
+            <h2 class="long-lg-text">We Simplify the Complicated Things</h2>
+            <p>jQuery, a multi-browser JavaScript library, is designed to simplify the scripting of HTML. The syntax of
+              jQuery is mainly designed to make things much easier to navigate around a document—choosing DOM elements,
+              handling events, creating animations and developing Ajax applications. In addition, jQuery provides
+              capabilities for developers to create plug-ins on top of JavaScript.</p>
+            <p>At GoZooms, we provide <strong>on-demand jQuery developers</strong> that have extensive experience
+              with web-based projects. Our efficient jQuery development process allows us to easily reduce the time of
+              development and get your project delivered quickly. Our global team of developers has hands-on experience
+              in jQuery features, such as <strong>DOM management, jQuery plugins</strong>, and more, which are used to
+              make your site dynamic and intuitive. By choosing GoZooms jQuery experts, your tasks will be completed
+              quickly and cost effectively, all while adding significant value to your web-project.</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="complicated-things-img text-right clearfix"> <img
+              src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/char-jquery.svg"
+              class="complicated-things-model" alt="complicated-things-model"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="page-jquery hire-jquery-developer whiteSection light-blue-bg no-after">
+    <div class="container">
+      <h3 class="long-sm-text">On-Demand jQuery Developers for Hire</h3>
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="hire-jquery-developer-section">
+            <!-- ngRepeat: developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage)) -->
+            <div ng-repeat="developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage))"
+              class="hire-jquery-developer-section-content clearfix ng-scope">
+              <div class="hire-jquery-developer-category">
+                <div class="jquery-dev-photo"> <img
+                    ng-src="https://www.codeclouds.com/wp-content/uploads/2018/11/Avijit.jpg"
+                    class="hire-jquery-developer-img" alt="Abhijit (India)"
+                    src="images/profilepic.svg"></div>
               </div>
-              <!-- end ngRepeat: developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage)) -->
-              <div
-                ng-repeat="developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage))"
-                class="hire-jquery-developer-section-content clearfix ng-scope"
-              >
-                <div class="hire-jquery-developer-category">
-                  <div class="jquery-dev-photo">
-                    <img
-                      ng-src="https://www.codeclouds.com/wp-content/uploads/2018/11/Arnab.jpg"
-                      class="hire-jquery-developer-img"
-                      alt="Arnab (India)"
-                      src="/images/profilepic.svg"
-                    />
-                  </div>
+              <div class="hire-jquery-developer-name-section">
+                <div class="hire-jquery-developer-name-part clearfix">
+                  <div class="hire-jquery-developer-name ft-500 ng-binding">Tushar (India)</div>
+                  <p class="ready-hire ">Ready to hire</p>
                 </div>
-                <div class="hire-jquery-developer-name-section">
-                  <div class="hire-jquery-developer-name-part clearfix">
-                    <div class="hire-jquery-developer-name ft-500 ng-binding">
-                      Lakshay (India)
-                    </div>
-                    <p class="ready-hire">Ready to hire</p>
-                  </div>
-                  <div class="experience">
-                    <p class="ng-binding">
-                      Senior jQuery Developer | 2+ Years Experience
-                    </p>
-                  </div>
-                  <div class="review">
-                    <img
-                      src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/star-review.png"
-                      class="developer-review"
-                      alt="Star icon"
-                    />
-                  </div>
+                <div class="experience">
+                  <p class="ng-binding">Senior jQuery Developer | 7 Years Experience</p>
                 </div>
-                <div class="request-interview">
-                  <div class="request-interview-text">
-                    <a href="" ng-click="requestInterview(developer)"
-                      >Request Interview</a
-                    >
-                  </div>
-                </div>
+                <div class="review"> <img
+                    src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/star-review.png"
+                    class="developer-review" alt="Star icon"></div>
               </div>
-              <!-- end ngRepeat: developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage)) -->
-              <div
-                ng-repeat="developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage))"
-                class="hire-jquery-developer-section-content clearfix ng-scope"
-              >
-                <div class="hire-jquery-developer-category">
-                  <div class="jquery-dev-photo">
-                    <img
-                      ng-src="https://www.codeclouds.com/wp-content/uploads/2018/11/Ranak.jpg"
-                      class="hire-jquery-developer-img"
-                      alt="Raunak (India)"
-                      src="/images/profilepic.svg"
-                    />
-                  </div>
-                </div>
-                <div class="hire-jquery-developer-name-section">
-                  <div class="hire-jquery-developer-name-part clearfix">
-                    <div class="hire-jquery-developer-name ft-500 ng-binding">
-                      Abhijeet (India)
-                    </div>
-                    <p class="ready-hire ready-hire-active">Hired on Project</p>
-                  </div>
-                  <div class="experience">
-                    <p class="ng-binding">
-                      Senior jQuery Developer | 4 Years Experience
-                    </p>
-                  </div>
-                  <div class="review">
-                    <img
-                      src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/star-review.png"
-                      class="developer-review"
-                      alt="Star icon"
-                    />
-                  </div>
-                </div>
-                <div class="request-interview">
-                  <div class="request-interview-text">
-                    <a href="" ng-click="requestInterview(developer)"
-                      >Request Interview</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!-- end ngRepeat: developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage)) -->
-              <div
-                ng-repeat="developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage))"
-                class="hire-jquery-developer-section-content clearfix ng-scope"
-              >
-                <div class="hire-jquery-developer-category">
-                  <div class="jquery-dev-photo">
-                    <img
-                      ng-src="https://www.codeclouds.com/wp-content/uploads/2018/11/Subham.jpg"
-                      class="hire-jquery-developer-img"
-                      alt="Subham (India)"
-                      src="/images/profilepic.svg"
-                    />
-                  </div>
-                </div>
-                <div class="hire-jquery-developer-name-section">
-                  <div class="hire-jquery-developer-name-part clearfix">
-                    <div class="hire-jquery-developer-name ft-500 ng-binding">
-                      Rohit (India)
-                    </div>
-                    <p class="ready-hire ready-hire-active">Hired on Project</p>
-                  </div>
-                  <div class="experience">
-                    <p class="ng-binding">
-                      Senior jQuery Developer | 3 Years Experience
-                    </p>
-                  </div>
-                  <div class="review">
-                    <img
-                      src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/star-review.png"
-                      class="developer-review"
-                      alt="Star icon"
-                    />
-                  </div>
-                </div>
-                <div class="request-interview">
-                  <div class="request-interview-text">
-                    <a href="" ng-click="requestInterview(developer)"
-                      >Request Interview</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <!-- end ngRepeat: developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage)) -->
-              <div
-                class="pagignation text-center port_pagi"
-                ng-show="developers.length > 4"
-              >
-                <ul
-                  class="pagination-sm pagination ng-isolate-scope ng-not-empty ng-valid"
-                  total-items="totalItems"
-                  ng-model="currentPage"
-                  ng-change="pageChanged()"
-                  items-per-page="itemsPerPage"
-                >
-                  <!-- ngIf: boundaryLinks -->
-                  <!-- ngIf: directionLinks -->
-                  <li
-                    ng-if="directionLinks"
-                    ng-class="{disabled: noPrevious()}"
-                    class="ng-scope disabled"
-                  >
-                    <a
-                      href=""
-                      ng-click="selectPage(page - 1)"
-                      class="ng-binding"
-                      >Previous</a
-                    >
-                  </li>
-                  <!-- end ngIf: directionLinks -->
-                  <!-- ngRepeat: page in pages track by $index -->
-                  <li
-                    ng-repeat="page in pages track by $index"
-                    ng-class="{active: page.active}"
-                    class="ng-scope active"
-                  >
-                    <a
-                      href=""
-                      ng-click="selectPage(page.number)"
-                      class="ng-binding"
-                      >1</a
-                    >
-                  </li>
-                  <!-- end ngRepeat: page in pages track by $index -->
-                  <li
-                    ng-repeat="page in pages track by $index"
-                    ng-class="{active: page.active}"
-                    class="ng-scope"
-                  >
-                    <a
-                      href=""
-                      ng-click="selectPage(page.number)"
-                      class="ng-binding"
-                      >2</a
-                    >
-                  </li>
-                  <!-- end ngRepeat: page in pages track by $index -->
-                  <!-- ngIf: directionLinks -->
-                  <li
-                    ng-if="directionLinks"
-                    ng-class="{disabled: noNext()}"
-                    class="ng-scope"
-                  >
-                    <a
-                      href=""
-                      ng-click="selectPage(page + 1)"
-                      class="ng-binding"
-                      >Next</a
-                    >
-                  </li>
-                  <!-- end ngIf: directionLinks -->
-                  <!-- ngIf: boundaryLinks -->
-                </ul>
+              <div class="request-interview">
+                <div class="request-interview-text"><a href="" ng-click="requestInterview(developer)">Request
+                    Interview</a></div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="client-review">
-              <h4 class="client-review-heading">Clients Reviews</h4>
-              <div class="client-review-catagory">
-                <p>
-                  GoZooms do great work and continually exceed expectations.
-                  They are good people and a pleasure to work with.
-                </p>
-                <span class="client-name">- Jeffery</span>
+            <!-- end ngRepeat: developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage)) -->
+            <div ng-repeat="developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage))"
+              class="hire-jquery-developer-section-content clearfix ng-scope">
+              <div class="hire-jquery-developer-category">
+                <div class="jquery-dev-photo"> <img
+                    ng-src="https://www.codeclouds.com/wp-content/uploads/2018/11/Arnab.jpg"
+                    class="hire-jquery-developer-img" alt="Arnab (India)"
+                    src="images/profilepic.svg"></div>
               </div>
-              <div class="client-review-catagory">
-                <p>
-                  AMAZING!! Exceeded My Expectations in everything they did for
-                  us. I truly do not know how they complete taks so quickly and
-                  more importantly get it right every time on the first attempt.
-                  I'm Blown Away!!!
-                </p>
-                <span class="client-name">- Sal</span>
+              <div class="hire-jquery-developer-name-section">
+                <div class="hire-jquery-developer-name-part clearfix">
+                  <div class="hire-jquery-developer-name ft-500 ng-binding">Lakshay (India)</div>
+                  <p class="ready-hire ">Ready to hire</p>
+                </div>
+                <div class="experience">
+                  <p class="ng-binding">Senior jQuery Developer | 2+ Years Experience</p>
+                </div>
+                <div class="review"> <img
+                    src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/star-review.png"
+                    class="developer-review" alt="Star icon"></div>
               </div>
-              <div class="client-review-catagory">
-                <p>
-                  Their team is great! I've been working with them for about 6
-                  months now. They are super-fast, do great work and stay in
-                  contact on the daily. Highly recommended!
-                </p>
-                <span class="client-name">- Daniel</span>
+              <div class="request-interview">
+                <div class="request-interview-text"><a href="" ng-click="requestInterview(developer)">Request
+                    Interview</a></div>
               </div>
-              <div class="client-review-catagory no-bdr">
-                <p>
-                  GoZooms is an efficient, loyal, and solution based team that
-                  is always available! Great people behind a unified mission to
-                  ensure online marketing is constantly evolving and operating
-                  to the fullest capacity!
-                </p>
-                <span class="client-name">- Kate</span>
+            </div>
+            <!-- end ngRepeat: developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage)) -->
+            <div ng-repeat="developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage))"
+              class="hire-jquery-developer-section-content clearfix ng-scope">
+              <div class="hire-jquery-developer-category">
+                <div class="jquery-dev-photo"> <img
+                    ng-src="https://www.codeclouds.com/wp-content/uploads/2018/11/Ranak.jpg"
+                    class="hire-jquery-developer-img" alt="Raunak (India)"
+                    src="images/profilepic.svg"></div>
               </div>
-              <div class="clearfix text-center">
-                <a href="/webpages/Jquery.html" class="client-review-read"
-                  >Read more &gt;
-                </a>
+              <div class="hire-jquery-developer-name-section">
+                <div class="hire-jquery-developer-name-part clearfix">
+                  <div class="hire-jquery-developer-name ft-500 ng-binding">Abhijeet (India)</div>
+                  <p class="ready-hire ready-hire-active">Hired on Project</p>
+                </div>
+                <div class="experience">
+                  <p class="ng-binding">Senior jQuery Developer | 4 Years Experience</p>
+                </div>
+                <div class="review"> <img
+                    src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/star-review.png"
+                    class="developer-review" alt="Star icon"></div>
               </div>
+              <div class="request-interview">
+                <div class="request-interview-text"><a href="" ng-click="requestInterview(developer)">Request
+                    Interview</a></div>
+              </div>
+            </div>
+            <!-- end ngRepeat: developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage)) -->
+            <div ng-repeat="developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage))"
+              class="hire-jquery-developer-section-content clearfix ng-scope">
+              <div class="hire-jquery-developer-category">
+                <div class="jquery-dev-photo"> <img
+                    ng-src="https://www.codeclouds.com/wp-content/uploads/2018/11/Subham.jpg"
+                    class="hire-jquery-developer-img" alt="Subham (India)"
+                    src="images/profilepic.svg"></div>
+              </div>
+              <div class="hire-jquery-developer-name-section">
+                <div class="hire-jquery-developer-name-part clearfix">
+                  <div class="hire-jquery-developer-name ft-500 ng-binding">Rohit (India)</div>
+                  <p class="ready-hire ready-hire-active">Hired on Project</p>
+                </div>
+                <div class="experience">
+                  <p class="ng-binding">Senior jQuery Developer | 3 Years Experience</p>
+                </div>
+                <div class="review"> <img
+                    src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/star-review.png"
+                    class="developer-review" alt="Star icon"></div>
+              </div>
+              <div class="request-interview">
+                <div class="request-interview-text"><a href="" ng-click="requestInterview(developer)">Request
+                    Interview</a></div>
+              </div>
+            </div>
+            <!-- end ngRepeat: developer in developers.slice(((currentPage-1)*itemsPerPage), ((currentPage)*itemsPerPage)) -->
+            <div class="pagignation text-center port_pagi" ng-show="developers.length > 4">
+              <ul class="pagination-sm pagination ng-isolate-scope ng-not-empty ng-valid" total-items="totalItems"
+                ng-model="currentPage" ng-change="pageChanged()" items-per-page="itemsPerPage">
+                <!-- ngIf: boundaryLinks -->
+                <!-- ngIf: directionLinks -->
+                <li ng-if="directionLinks" ng-class="{disabled: noPrevious()}" class="ng-scope disabled"><a href=""
+                    ng-click="selectPage(page - 1)" class="ng-binding">Previous</a></li>
+                <!-- end ngIf: directionLinks -->
+                <!-- ngRepeat: page in pages track by $index -->
+                <li ng-repeat="page in pages track by $index" ng-class="{active: page.active}" class="ng-scope active">
+                  <a href="" ng-click="selectPage(page.number)" class="ng-binding">1</a>
+                </li>
+                <!-- end ngRepeat: page in pages track by $index -->
+                <li ng-repeat="page in pages track by $index" ng-class="{active: page.active}" class="ng-scope"><a
+                    href="" ng-click="selectPage(page.number)" class="ng-binding">2</a></li>
+                <!-- end ngRepeat: page in pages track by $index -->
+                <!-- ngIf: directionLinks -->
+                <li ng-if="directionLinks" ng-class="{disabled: noNext()}" class="ng-scope"><a href=""
+                    ng-click="selectPage(page + 1)" class="ng-binding">Next</a></li><!-- end ngIf: directionLinks -->
+                <!-- ngIf: boundaryLinks -->
+              </ul>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section
-      class="page-jquery choose-us-developer whiteSection deep-blue-bg no-after"
-    >
-      <div class="container">
-        <div class="choose-us-developer-heading text-center">
-          <h3 class="long-sm-text color-white">Why Should You Choose Us?</h3>
-        </div>
-        <div class="choose-us-developer-inner">
-          <div class="choose-us-developer-inner-category block-3 top clearfix">
-            <ul>
-              <li>
-                <div class="choose-us-developer-inner-category-top clearfix">
-                  <img
-                    src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/choose-us-icon1.png"
-                    class="customized-icon"
-                    alt="Customized experience"
-                  />
-                  <h4 class="choose-us-developer-inner-category-text">
-                    Customized Experiences
-                  </h4>
-                </div>
-                <p class="choose-us-developer-content">
-                  Our specialized jQuery development process utilizes the latest
-                  stable jQuery version along with the best plugins to provide
-                  extended functionality. This way, we can provide the best
-                  tailored solutions for your business.
-                </p>
-              </li>
-              <li>
-                <div class="choose-us-developer-inner-category-top clearfix">
-                  <img
-                    src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/choose-us-icon2.png"
-                    class="satisfaction-icon"
-                    alt="Satisfaction Guarantee"
-                  />
-                  <h4 class="choose-us-developer-inner-category-text">
-                    Satisfaction Guarantee
-                  </h4>
-                </div>
-                <p class="choose-us-developer-content">
-                  For us, customer satisfaction is of the utmost importance. We
-                  will provide you with
-                  <strong>dedicated jQuery developers</strong> as well as a
-                  project manager to ensure that all the aspects of your project
-                  run smoothly.
-                </p>
-              </li>
-              <li>
-                <div class="choose-us-developer-inner-category-top clearfix">
-                  <img
-                    src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/choose-us-icon3.png"
-                    class="collective-icon"
-                    alt="Collective Collaboration"
-                  />
-                  <h4 class="choose-us-developer-inner-category-text">
-                    Collective Collaboration
-                  </h4>
-                </div>
-                <p class="choose-us-developer-content">
-                  We aim to shape the right engagement model for your custom
-                  solution right from the beginning. As a team we develop unique
-                  web solutions according to your needs and help promote your
-                  online market presence.
-                </p>
-              </li>
-            </ul>
-          </div>
-          <div class="choose-us-developer-inner-category block-3 clearfix">
-            <ul>
-              <li>
-                <div class="choose-us-developer-inner-category-top clearfix">
-                  <img
-                    src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/choose-us-icon4.png"
-                    class="fast-development-icon"
-                    alt="Fast Development"
-                  />
-                  <h4 class="choose-us-developer-inner-category-text">
-                    Fast Development
-                  </h4>
-                </div>
-                <p class="choose-us-developer-content">
-                  Having developers that have strong time management skills is
-                  our speciality. You can trust us to efficiently deliver
-                  results for your project while being completed on time and on
-                  budget.
-                </p>
-              </li>
-              <li>
-                <div class="choose-us-developer-inner-category-top clearfix">
-                  <img
-                    src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/choose-us-icon5.png"
-                    class="pricing-icon"
-                    alt="Competitive Pricing"
-                  />
-                  <h4 class="choose-us-developer-inner-category-text">
-                    Competitive Pricing
-                  </h4>
-                </div>
-                <p class="choose-us-developer-content">
-                  Looking to hire an expert jQuery developer or consultant? Be
-                  sure you contact us as we have some of the most competitive
-                  rates on the market for dedicated development professionals.
-                </p>
-              </li>
-              <li>
-                <div class="choose-us-developer-inner-category-top clearfix">
-                  <img
-                    src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/choose-us-icon6.png"
-                    class="support-icon"
-                    alt="Support icon"
-                  />
-                  <h4 class="choose-us-developer-inner-category-text">
-                    18/5 Technical Support
-                  </h4>
-                </div>
-                <p class="choose-us-developer-content">
-                  Our dedicated support team and strong technical assistance
-                  helps your business through any issues via email, Skype, phone
-                  or other chat platforms!
-                </p>
-              </li>
-            </ul>
+        <div class="col-sm-4">
+          <div class="client-review">
+            <h4 class="client-review-heading">Clients Reviews</h4>
+            <div class="client-review-catagory">
+              <p>GoZooms do great work and continually exceed expectations. They are good people and a pleasure to
+                work with.</p> <span class="client-name">- Jeffery</span>
+            </div>
+            <div class="client-review-catagory">
+              <p>AMAZING!! Exceeded My Expectations in everything they did for us. I truly do not know how they complete
+                taks so quickly and more importantly get it right every time on the first attempt. I'm Blown Away!!!</p>
+              <span class="client-name">- Sal</span>
+            </div>
+            <div class="client-review-catagory">
+              <p>Their team is great! I've been working with them for about 6 months now. They are super-fast, do great
+                work and stay in contact on the daily. Highly recommended!</p> <span class="client-name">- Daniel</span>
+            </div>
+            <div class="client-review-catagory no-bdr">
+              <p>GoZooms is an efficient, loyal, and solution based team that is always available! Great people
+                behind a unified mission to ensure online marketing is constantly evolving and operating to the fullest
+                capacity!</p> <span class="client-name">- Kate</span>
+            </div>
+            <div class="clearfix text-center"> <a href="webpages/Jquery.html"
+                class="client-review-read">Read more &gt; </a></div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- footer -->
 
-    <section id="contact">
-      <footer class="footer">
+  <section class="page-jquery choose-us-developer whiteSection deep-blue-bg no-after">
+    <div class="container">
+      <div class="choose-us-developer-heading text-center">
+        <h3 class="long-sm-text color-white">Why Should You Choose Us?</h3>
+      </div>
+      <div class="choose-us-developer-inner">
+        <div class="choose-us-developer-inner-category block-3 top clearfix">
+          <ul>
+            <li>
+              <div class="choose-us-developer-inner-category-top clearfix"> <img
+                  src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/choose-us-icon1.png"
+                  class="customized-icon" alt="Customized experience">
+                <h4 class="choose-us-developer-inner-category-text">Customized Experiences</h4>
+              </div>
+              <p class="choose-us-developer-content">Our specialized jQuery development process utilizes the latest
+                stable jQuery version along with the best plugins to provide extended functionality. This way, we can
+                provide the best tailored solutions for your business.</p>
+            </li>
+            <li>
+              <div class="choose-us-developer-inner-category-top clearfix"> <img
+                  src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/choose-us-icon2.png"
+                  class="satisfaction-icon" alt="Satisfaction Guarantee">
+                <h4 class="choose-us-developer-inner-category-text">Satisfaction Guarantee</h4>
+              </div>
+              <p class="choose-us-developer-content">For us, customer satisfaction is of the utmost importance. We will
+                provide you with <strong>dedicated jQuery developers</strong> as well as a project manager to ensure
+                that all the aspects of your project run smoothly.</p>
+            </li>
+            <li>
+              <div class="choose-us-developer-inner-category-top clearfix"> <img
+                  src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/choose-us-icon3.png"
+                  class="collective-icon" alt="Collective Collaboration">
+                <h4 class="choose-us-developer-inner-category-text">Collective Collaboration</h4>
+              </div>
+              <p class="choose-us-developer-content">We aim to shape the right engagement model for your custom solution
+                right from the beginning. As a team we develop unique web solutions according to your needs and help
+                promote your online market presence.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="choose-us-developer-inner-category block-3 clearfix">
+          <ul>
+            <li>
+              <div class="choose-us-developer-inner-category-top clearfix"> <img
+                  src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/choose-us-icon4.png"
+                  class="fast-development-icon" alt="Fast Development">
+                <h4 class="choose-us-developer-inner-category-text">Fast Development</h4>
+              </div>
+              <p class="choose-us-developer-content">Having developers that have strong time management skills is our
+                speciality. You can trust us to efficiently deliver results for your project while being completed on
+                time and on budget.</p>
+            </li>
+            <li>
+              <div class="choose-us-developer-inner-category-top clearfix"> <img
+                  src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/choose-us-icon5.png"
+                  class="pricing-icon" alt="Competitive Pricing">
+                <h4 class="choose-us-developer-inner-category-text">Competitive Pricing</h4>
+              </div>
+              <p class="choose-us-developer-content">Looking to hire an expert jQuery developer or consultant? Be sure
+                you contact us as we have some of the most competitive rates on the market for dedicated development
+                professionals.</p>
+            </li>
+            <li>
+              <div class="choose-us-developer-inner-category-top clearfix"> <img
+                  src="https://www.codeclouds.com/wp-content/themes/CodeClouds/images/choose-us-icon6.png"
+                  class="support-icon" alt="Support icon">
+                <h4 class="choose-us-developer-inner-category-text">18/5 Technical Support</h4>
+              </div>
+              <p class="choose-us-developer-content">Our dedicated support team and strong technical assistance helps
+                your business through any issues via email, Skype, phone or other chat platforms!</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer -->
+ 
+  <section id="contact">
+
+    <footer class="footer">
         <div class="container fot">
-          <!-- <div class="container logo foologo">
+
+            <!-- <div class="container logo foologo">
                 <a href="index.html"><img src="images/logo.png" alt=""></a>
             </div> -->
         </div>
 
         <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-lg">
-              <div class="focon">
-                <h2 class="fohead">GLOBAL LOCATIONS</h2>
-              </div>
-              <div class="foadd">
-                <ul>
-                  <li>
-                    <img class="flag" src="../images/usflag.webp" alt="" />
-                    <h3>
-                      400 River Side CT <br />
-                      Santa Clara <br />
-                      CA 95054-3535 <br />
-                      United States
-                    </h3>
-                  </li>
-                  <li>
-                    <img class="flag" src="../images/indiaflag.png" alt="" />
-                    <h3>
-                      A1B/19 A, Paschim Vihar <br />
-                      New Delhi 110063 <br />
-                      India <br />info@gozoomtech.com
-                    </h3>
-                  </li>
-                </ul>
-              </div>
+            <div class="row">
+                <div class="col-md-6 col-lg">
+                    <div class="focon">
+                        <h2 class="fohead">GLOBAL LOCATIONS</h2>
+                    </div>
+                    <div class="foadd">
+                        <ul>
+                            <li>
+                                <img class="flag" src="images/usflag.webp" alt="">
+                                <h3>400 River Side CT <br> Santa Clara <br> CA 95054-3535 <br> United States</h3>
+                            </li>
+                            <li>
+                                <img class="flag" src="images/indiaflag.png" alt="">
+                                <h3>A1B/19 A, Paschim Vihar <br> New Delhi 110063 <br> India <br>info@gozoomtech.com
+                                </h3>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg">
+                    <div class="focon">
+                        <h2 class="fohead">QUICK LINKS</h2>
+                    </div>
+                    <div class="folinks">
+                        <ul>
+                            <li>
+                                <a href="index.html">HOME</a>
+                            </li>
+                            <li>
+                                <a href="integration.html">INTEGRATION</a>
+                            </li>
+                            <li>
+                                <a href="retail.html">RETAILS</a>
+                            </li>
+                            <li>
+                                <a href="web.html">WEB DEVELOPMENT</a>
+                            </li>
+                            <li>
+                                <a href="web.html">MOBILE DEVELOPMENT</a>
+                            </li>
+                            <li>
+                                <a href="#">GET BROUCHER</a>
+                            </li>
+                            <li>
+                                <a href="about.html">ABOUT-US</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg">
+                    <div class="focon">
+                        <h2 class="fohead">
+                            REACH US TODAY
+                        </h2>
+                    </div>
+                    <div class="foform">
+                        <form action="process_form.php" method="POST">
+                            <!-- <label for="name">Name:</label> -->
+                            <input type="text" id="name" name="name" class="formfi" placeholder="Name"
+                                required><br><br>
+
+                            <!-- <label for="designation">Designation:</label> -->
+                            <input type="text" id="designation" name="designation" class="formfi"
+                                placeholder="Designation" required><br><br>
+
+                            <!-- <label for="email">Email:</label> -->
+                            <input type="email" id="email" name="email" title="Please enter as example@mail.com." class="formfi" placeholder="E-mail"
+                                required><br><br>
+
+                            <!-- <label for="contact-number">Contact Number:</label> -->
+                            <input type="tel" id="contact-number" name="contact-number" class="formfi"
+                                placeholder="Contact No." pattern="[0-9]+" title="Please enter only numeric values."
+                                required />
+                            <br><br>
+
+                            <!-- <label for="industry">Industry:</label> -->
+                            <input type="text" id="industry" name="industry" class="formfi" placeholder="Industry"
+                                required><br><br>
+
+                            <!-- <label for="company-name">Company Name:</label> -->
+                            <input type="text" id="company-name" name="company-name" class="formfi"
+                                placeholder="company-name" required><br><br>
+
+                            <!-- <label for="solution">Solution:</label> -->
+                            <select id="solution" name="solution" class="formfi" required>
+                                <option value="">Select an option</option>
+                                <option value="Integration">Integration</option>
+                                <option value="Retail">Retail</option>
+                                <option value="Web DEV">Web Development</option>
+                                <option value="Mobile DEV">Mobile Development</option>
+                            </select><br><br>
+
+                            <!-- <label for="message">Message:</label> -->
+                            <textarea class="textarea" id="message" placeholder="Message"
+                                name="message"></textarea><br><br>
+
+                            <input class="formbtn" type="submit" value="Submit">
+                        </form>
+
+                    </div>
+                </div>
+
             </div>
-            <div class="col-md-6 col-lg">
-              <div class="focon">
-                <h2 class="fohead">QUICK LINKS</h2>
-              </div>
-              <div class="folinks">
-                <ul>
-                  <li>
-                    <a href="index.html">HOME</a>
-                  </li>
-                  <li>
-                    <a href="integration.html">INTEGRATION</a>
-                  </li>
-                  <li>
-                    <a href="retail.html">RETAILS</a>
-                  </li>
-                  <li>
-                    <a href="web.html">WEB DEVELOPMENT</a>
-                  </li>
-                  <li>
-                    <a href="web.html">MOBILE DEVELOPMENT</a>
-                  </li>
-                  <li>
-                    <a href="#">GET BROUCHER</a>
-                  </li>
-                  <li>
-                    <a href="about.html">ABOUT-US</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg">
-              <div class="focon">
-                <h2 class="fohead">REACH US TODAY</h2>
-              </div>
-              <div class="foform">
-                <form action="process_form.php" method="POST">
-                  <!-- <label for="name">Name:</label> -->
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    class="formfi"
-                    placeholder="Name"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="designation">Designation:</label> -->
-                  <input
-                    type="text"
-                    id="designation"
-                    name="designation"
-                    class="formfi"
-                    placeholder="Designation"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="email">Email:</label> -->
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    title="Please enter as example@mail.com."
-                    class="formfi"
-                    placeholder="E-mail"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="contact-number">Contact Number:</label> -->
-                  <input
-                    type="tel"
-                    id="contact-number"
-                    name="contact-number"
-                    class="formfi"
-                    placeholder="Contact No."
-                    pattern="[0-9]+"
-                    title="Please enter only numeric values."
-                    required
-                  />
-                  <br /><br />
-
-                  <!-- <label for="industry">Industry:</label> -->
-                  <input
-                    type="text"
-                    id="industry"
-                    name="industry"
-                    class="formfi"
-                    placeholder="Industry"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="company-name">Company Name:</label> -->
-                  <input
-                    type="text"
-                    id="company-name"
-                    name="company-name"
-                    class="formfi"
-                    placeholder="company-name"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="solution">Solution:</label> -->
-                  <select id="solution" name="solution" class="formfi" required>
-                    <option value="">Select an option</option>
-                    <option value="Integration">Integration</option>
-                    <option value="Retail">Retail</option>
-                    <option value="Web DEV">Web Development</option>
-                    <option value="Mobile DEV">
-                      Mobile Development
-                    </option></select
-                  ><br /><br />
-
-                  <!-- <label for="message">Message:</label> -->
-                  <textarea
-                    class="textarea"
-                    id="message"
-                    placeholder="Message"
-                    name="message"
-                  ></textarea
-                  ><br /><br />
-
-                  <input class="formbtn" type="submit" value="Submit" />
-                </form>
-              </div>
-            </div>
-          </div>
         </div>
-      </footer>
-      <div class="container copyright">
-        <h2 class="copy">
-          © COPYRIGHT <span class="gozoom">GoZoom</span>. All Rights Reserved
-        </h2>
-      </div>
-    </section>
-  </body>
-  <script src="/js/script.js"></script>
-  <script src="/js/swiper-bundle.min.js"></script>
-  <script src="/js/testcard.js"></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    </footer>
+    <div class="container copyright">
+        <h2 class="copy">© COPYRIGHT <span class="gozoom">GoZoom</span>. All Rights Reserved</h2>
+    </div>
+</section>
+</body>
+<script src="/js/script.js"></script>
+<script src="/js/swiper-bundle.min.js"></script>
+<script src="/js/testcard.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"
-  ></script>
+    crossorigin="anonymous"></script>
+
 </html>

@@ -1,483 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      media="all"
-      onload="this.onload=null;this.media='all';"
-      id="ao_optimized_gfonts"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900%7CRoboto+Slab:100,300,400,700%7CIBM+Plex+Sans:300,400,500,600,700&amp;display=swap"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../css/php.css" />
-    <link rel="stylesheet" href="../css/web.css" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="all" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900%7CRoboto+Slab:100,300,400,700%7CIBM+Plex+Sans:300,400,500,600,700&amp;display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/php.css">
+    <link rel="stylesheet" href="../css/web.css">
     <!-- <link rel="stylesheet" href="../css/responsive.css"> -->
     <title>PHP</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- header hai ye yaha se start-->
 
     <header class="header">
-      <div class="container1">
-        <div class="header-main">
-          <div class="open-nav-menu">
-            <span></span>
-          </div>
-          <div class="menu-overlay"></div>
+        <div class="container1">
+            <div class="header-main">
+                <div class="open-nav-menu">
+                    <span></span>
+                </div>
+                <div class="menu-overlay"></div>
 
-          <!-- ----------------ye yaha se navigation menu start ho rahi hai -------------------------- -->
-          <nav class="nav-menu">
-            <div class="close-nav-menu">
-              <img src="images/close.svg" alt="close button" />
-            </div>
-            <ul class="menu">
-              <li class="menu-item">
-                <a href="/index.html">HOME</a>
-              </li>
-              <li class="menu-item">
-                <a href="integration.html">INTEGRATION</a>
-              </li>
-              <li class="menu-item menu-item-has-children">
-                <a href="/retail.html" data-toggle="sub-menu">RETAIL </a>
-                <!-- <ul class="sub-menu">
+                <!-- ----------------ye yaha se navigation menu start ho rahi hai -------------------------- -->
+                <nav class="nav-menu">
+                    <div class="close-nav-menu">
+                        <img src="images/close.svg" alt="close button" />
+                    </div>
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="index.html">HOME</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="integration.html">INTEGRATION</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="retail.html" data-toggle="sub-menu">RETAIL </a>
+                            <!-- <ul class="sub-menu">
                                   <li class="menu-item"> <a href="#">RETAIL 1</a></li>
                                   <li class="menu-item"> <a href="#">RETAIL 2</a></li>
                                   <li class="menu-item"> <a href="#">RETAIL 3</a></li>
                                   <li class="menu-item"> <a href="#">RETAIL 4</a></li>
                               </ul> -->
-              </li>
-              <!-- <li class="menu-item">
+                        </li>
+                        <!-- <li class="menu-item">
                               <a href="demo.html">DEMO</a>
                           </li> -->
-              <!-- <li class="menu-item">
+                        <!-- <li class="menu-item">
                               <a href="kiosks.html">KIOSKS</a>
                           </li> -->
-              <li class="menu-item">
-                <a href="/web.html">WEB</a>
-              </li>
+                        <li class="menu-item">
+                            <a href="web.html">WEB</a>
+                        </li>
 
-              <li class="menu-item">
-                <a href="/blogs.html">BLOGS</a>
-              </li>
-              <li class="menu-item">
-                <a href="/about.html">ABOUT US</a>
-              </li>
-              <li class="menu-item menu-item-has-children">
-                <a href="#contact" data-toggle="sub-menu"
-                  >CONTACT US
-                  <!-- <i class="plus"></i> -->
-                </a>
-                <!-- <ul class="sub-menu">
+                        <li class="menu-item">
+                            <a href="blogs.html">BLOGS</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="about.html">ABOUT US</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children">
+                            <a href="#contact" data-toggle="sub-menu">CONTACT US
+                                <!-- <i class="plus"></i> -->
+                            </a>
+                            <!-- <ul class="sub-menu">
                                   <li class="menu-item"> <a href="#">Contact 1</a></li>
                                   <li class="menu-item"> <a href="#">Contact 2</a></li>
                                   <li class="menu-item"> <a href="#">Contact 3</a></li>
                                   <li class="menu-item"> <a href="#">Contact 4</a></li>
                               </ul> -->
-              </li>
-            </ul>
-          </nav>
-          <div class="logo">
-            <a href="/index.html"><img src="../images/logo1.png" alt="" /></a>
-          </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo1.png" alt="" /></a>
+                </div>
+            </div>
         </div>
-      </div>
     </header>
 
     <section class="page-php-banner banner-top">
-      <div class="banner-inner min-adj">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="heading-in page-php">
-                <h1 class="page-php-banner-heading">
-                  Hire Talented PHP Developers
-                </h1>
-                <p class="page-php-banner-text">
-                  Discover how we can help make your project successful
-                </p>
-                <p>
-                  <a class="btn starBtn page-php-btn-default" href="#contact"
-                    >Enquire Now</a
-                  >
-                  <a
-                    class="btn starBtn page-php-btn scrollTo"
-                    href="/about.html"
-                    >Learn More</a
-                  >
-                </p>
-              </div>
+        <div class="banner-inner min-adj">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="heading-in page-php">
+                            <h1 class="page-php-banner-heading">Hire Talented PHP Developers</h1>
+                            <p class="page-php-banner-text">Discover how we can help make your project successful</p>
+                            <p>
+                                <a class="btn starBtn page-php-btn-default" href="#contact">Enquire Now</a>
+                                <a class="btn starBtn page-php-btn scrollTo" href="about.html">Learn More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="banner-overlay1"></div>
-      <div class="banner-overlay-shape1"></div>
-      <div class="banner-overlay-shape2"></div>
+        <div class="banner-overlay1"></div>
+        <div class="banner-overlay-shape1"></div>
+        <div class="banner-overlay-shape2"></div>
     </section>
     <section class="page-php amazing-idea whiteSection no-after">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-7">
-            <div class="amazing-idea-text pad-top-60">
-              <h2 class="long-lg-text">
-                Helping Businesses Transform Their Ideas into
-                <br />
-                "Amazing Experiences"
-              </h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="amazing-idea-text pad-top-60">
+                        <h2 class="long-lg-text">
+                            Helping Businesses Transform Their Ideas into
+                            <br>
+                            "Amazing Experiences"
+                        </h2>
 
-              <p>
-                "PHP is one of the most popular and important programming
-                languages, powering more than 80% of the internet. Millions of
-                sites are powered by PHP, and it is a preferred option for
-                feature rich website development. Many content role in
-                developing a dynamic website with any server-side
-                functionality.”
-              </p>
-              <p>
-                "Our "
-                <strong
-                  >team of experienced PHP web and application
-                  developers</strong
-                >
-                "produce stable and effective code that helps clients across the
-                globe gain reliable and smooth access to all of their products
-                and services. Working with GoZooms means that you will have
-                access to high-quality, customized, and unique PHP solutions,
-                developed with a proven process that reduces both development
-                time and cost. We've fine tuned the best PHP development
-                processes and practices through our years of experience,
-                allowing us to produce high quality results in less time.""
-              </p>
+                        <p>
+                            "PHP is one of the most popular and important programming languages, powering more than 80%
+                            of the internet. Millions of sites are powered by PHP, and it is a
+                            preferred option for feature rich website development. Many content
+                            role in developing a dynamic website with any server-side functionality.”
+                        </p>
+                        <p>
+                            "Our "
+                            <strong>team of experienced PHP web and application developers</strong>
+                            "produce stable and effective code that helps clients across the globe gain reliable and
+                            smooth access to all of their products and services. Working with GoZooms means that you
+                            will have access to high-quality, customized, and unique PHP solutions, developed with a
+                            proven process that reduces both development time and cost. We've fine tuned the best PHP
+                            development processes and practices through our years of experience, allowing us to produce
+                            high quality results in less time.""
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="amazing-idea text-center clearfix">
+                        <img src="images/phpboyy.svg" alt="amazing-idea" naptha_cursor="region">
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-sm-5">
-            <div class="amazing-idea text-center clearfix">
-              <img
-                src="/images/phpboyy.svg"
-                alt="amazing-idea"
-                naptha_cursor="region"
-              />
-            </div>
-          </div>
         </div>
-      </div>
     </section>
     <section class="page-php team-specialize whiteSection violet-bg no-after">
-      <div class="container">
-        <div class="team-specialize-heading text-center clearfix">
-          <h3 class="team-specialize-heading-text">
-            Our PHP Team Specializes In...
-          </h3>
-        </div>
-        <div class="team-specialize-inner">
-          <div class="row">
-            <div class="team-specialize-column-3-info top clearfix">
-              <div class="col-sm-4">
-                <div class="team-specialize-part text-center">
-                  <div class="team-specialize-img-part">
-                    <img
-                      src="https://www.codeclouds.com/wp-content/uploads/2018/10/1-snowflake.svg"
-                      class="reduce-time-cost-icon"
-                      alt="1-snowflake"
-                    />
-                  </div>
-                  <p>
-                    Offering outstanding, customized, and unique
-                    <strong>PHP web development solutions</strong> with a proven
-                    development process that reduces time and cost.
-                  </p>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="team-specialize-part text-center">
-                  <div class="team-specialize-img-part">
-                    <img
-                      src="https://www.codeclouds.com/wp-content/uploads/2018/10/2-diamond.svg"
-                      class="php-application-icon"
-                      alt="2-diamond"
-                    />
-                  </div>
-                  <p>
-                    Following dominant and flawless core PHP development
-                    practices with robust infrastructure and flexible models to
-                    create awesome PHP applications.
-                  </p>
-                </div>
-              </div>
-              <div class="col-sm-4">
-                <div class="team-specialize-part text-center">
-                  <div class="team-specialize-img-part">
-                    <img
-                      src="https://www.codeclouds.com/wp-content/uploads/2018/10/3-plane.svg"
-                      class="rapid-development-icon"
-                      alt="3-plane"
-                    />
-                  </div>
-                  <p>
-                    Rapid development of PHP web pages and applications by
-                    implementing more efficient code, resulting in less
-                    development time.
-                  </p>
-                </div>
-              </div>
+        <div class="container">
+            <div class="team-specialize-heading text-center clearfix">
+                <h3 class="team-specialize-heading-text">Our PHP Team Specializes In...</h3>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section
-      class="page-webdesign php-professional choose-packaging whiteSection no-after"
-    >
-      <div class="container">
-        <div class="row clearfix" id="learnMore">
-          <div class="work-with-box">
-            <h3 class="long-sm-text">
-              Why You Should Work with Our PHP Developers
-            </h3>
-            <div class="choose-our-designers clearfix">
-              <div class="col-sm-7">
-                <div class="choose-our-designers-content top clearfix">
-                  <ul>
-                    <li>
-                      Our comprehensive understanding allows us to have great
-                      efficency
-                    </li>
-                    <li>
-                      We deliver maximum performance with the best results to
-                      our customers
-                    </li>
-                  </ul>
+            <div class="team-specialize-inner">
+                <div class="row">
+                    <div class="team-specialize-column-3-info top clearfix">
+                        <div class="col-sm-4">
+                            <div class="team-specialize-part text-center">
+                                <div class="team-specialize-img-part"> <img
+                                        src="https://www.codeclouds.com/wp-content/uploads/2018/10/1-snowflake.svg"
+                                        class="reduce-time-cost-icon" alt="1-snowflake"></div>
+                                <p>Offering outstanding, customized, and unique <strong>PHP web development
+                                        solutions</strong> with a proven development process that reduces time and cost.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="team-specialize-part text-center">
+                                <div class="team-specialize-img-part"> <img
+                                        src="https://www.codeclouds.com/wp-content/uploads/2018/10/2-diamond.svg"
+                                        class="php-application-icon" alt="2-diamond"></div>
+                                <p>Following dominant and flawless core PHP development practices with robust
+                                    infrastructure and flexible models to create awesome PHP applications.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="team-specialize-part text-center">
+                                <div class="team-specialize-img-part"> <img
+                                        src="https://www.codeclouds.com/wp-content/uploads/2018/10/3-plane.svg"
+                                        class="rapid-development-icon" alt="3-plane"></div>
+                                <p>Rapid development of PHP web pages and applications by implementing more efficient
+                                    code, resulting in less development time.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="choose-our-designers-content top clearfix">
-                  <ul>
-                    <li>
-                      Our use of Model View Controller makes development more
-                      efficient
-                    </li>
-                    <li>
-                      We are committed to delivering efficient solutions at the
-                      lowest costs
-                    </li>
-                  </ul>
-                </div>
-                <div class="choose-our-designers-content bottom clearfix">
-                  <ul>
-                    <li>
-                      Years of experience allows us to have accurate and
-                      errorless code
-                    </li>
-                    <li>
-                      We offer dedicated customer support and technical
-                      assistance through various channels
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-sm-5">
-                <div class="choose-our-designers-img">
-                  <img
-                    src="https://www.codeclouds.com/wp-content/uploads/2018/10/char-php.svg"
-                    class="choose-packaging-model"
-                    style="width: 166px; height: 228px"
-                    alt="char-php"
-                  />
-                </div>
-                <div class="php-professional-text">
-                  <p class="php-professionals-heading">
-                    Ask our PHP professionals<br />about their services today!
-                  </p>
-                  <div class="clearfix text-center package-get-started">
-                    <a href="#contact" class="btn starBtn explore"
-                      >Get Started</a
-                    >
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
-
+    <section class="page-webdesign php-professional choose-packaging  whiteSection  no-after">
+        <div class="container">
+            <div class="row clearfix" id="learnMore">
+                <div class="work-with-box">
+                    <h3 class="long-sm-text">Why You Should Work with Our PHP Developers</h3>
+                    <div class="choose-our-designers clearfix">
+                        <div class="col-sm-7">
+                            <div class="choose-our-designers-content top clearfix">
+                                <ul>
+                                    <li>Our comprehensive understanding
+                                        allows us to have great efficency</li>
+                                    <li>We deliver maximum performance with the best results to our customers</li>
+                                </ul>
+                            </div>
+                            <div class="choose-our-designers-content top clearfix">
+                                <ul>
+                                    <li>Our use of Model View Controller
+                                        makes development more efficient</li>
+                                    <li>We are committed to delivering efficient solutions at the lowest costs</li>
+                                </ul>
+                            </div>
+                            <div class="choose-our-designers-content bottom clearfix">
+                                <ul>
+                                    <li>Years of experience allows us to have
+                                        accurate and errorless code</li>
+                                    <li>We offer dedicated customer support and technical assistance through various
+                                        channels</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="choose-our-designers-img"> <img
+                                    src="https://www.codeclouds.com/wp-content/uploads/2018/10/char-php.svg"
+                                    class="choose-packaging-model" style="width: 166px;height: 228px" alt="char-php">
+                            </div>
+                            <div class="php-professional-text">
+                                <p class="php-professionals-heading">Ask our PHP professionals<br>about their services
+                                    today!</p>
+                                <div class="clearfix text-center package-get-started"> <a href="#contact"
+                                        class="btn starBtn explore">Get Started</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
     <section id="contact">
+
       <footer class="footer">
-        <div class="container fot">
-          <!-- <div class="container logo foologo">
+          <div class="container fot">
+
+              <!-- <div class="container logo foologo">
                   <a href="index.html"><img src="images/logo.png" alt=""></a>
               </div> -->
-        </div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-lg">
-              <div class="focon">
-                <h2 class="fohead">GLOBAL LOCATIONS</h2>
-              </div>
-              <div class="foadd">
-                <ul>
-                  <li>
-                    <img class="flag" src="../images/usflag.webp" alt="" />
-                    <h3>
-                      400 River Side CT <br />
-                      Santa Clara <br />
-                      CA 95054-3535 <br />
-                      United States
-                    </h3>
-                  </li>
-                  <li>
-                    <img class="flag" src="../images/indiaflag.png" alt="" />
-                    <h3>
-                      A1B/19 A, Paschim Vihar <br />
-                      New Delhi 110063 <br />
-                      India <br />info@gozoomtech.com
-                    </h3>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg">
-              <div class="focon">
-                <h2 class="fohead">QUICK LINKS</h2>
-              </div>
-              <div class="folinks">
-                <ul>
-                  <li>
-                    <a href="index.html">HOME</a>
-                  </li>
-                  <li>
-                    <a href="integration.html">INTEGRATION</a>
-                  </li>
-                  <li>
-                    <a href="retail.html">RETAILS</a>
-                  </li>
-                  <li>
-                    <a href="web.html">WEB DEVELOPMENT</a>
-                  </li>
-                  <li>
-                    <a href="web.html">MOBILE DEVELOPMENT</a>
-                  </li>
-                  <li>
-                    <a href="#">GET BROUCHER</a>
-                  </li>
-                  <li>
-                    <a href="about.html">ABOUT-US</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg">
-              <div class="focon">
-                <h2 class="fohead">REACH US TODAY</h2>
-              </div>
-              <div class="foform">
-                <form action="process_form.php" method="POST">
-                  <!-- <label for="name">Name:</label> -->
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    class="formfi"
-                    placeholder="Name"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="designation">Designation:</label> -->
-                  <input
-                    type="text"
-                    id="designation"
-                    name="designation"
-                    class="formfi"
-                    placeholder="Designation"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="email">Email:</label> -->
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    title="Please enter as example@mail.com."
-                    class="formfi"
-                    placeholder="E-mail"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="contact-number">Contact Number:</label> -->
-                  <input
-                    type="tel"
-                    id="contact-number"
-                    name="contact-number"
-                    class="formfi"
-                    placeholder="Contact No."
-                    pattern="[0-9]+"
-                    title="Please enter only numeric values."
-                    required
-                  />
-                  <br /><br />
-
-                  <!-- <label for="industry">Industry:</label> -->
-                  <input
-                    type="text"
-                    id="industry"
-                    name="industry"
-                    class="formfi"
-                    placeholder="Industry"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="company-name">Company Name:</label> -->
-                  <input
-                    type="text"
-                    id="company-name"
-                    name="company-name"
-                    class="formfi"
-                    placeholder="company-name"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="solution">Solution:</label> -->
-                  <select id="solution" name="solution" class="formfi" required>
-                    <option value="">Select an option</option>
-                    <option value="Integration">Integration</option>
-                    <option value="Retail">Retail</option>
-                    <option value="Web DEV">Web Development</option>
-                    <option value="Mobile DEV">
-                      Mobile Development
-                    </option></select
-                  ><br /><br />
-
-                  <!-- <label for="message">Message:</label> -->
-                  <textarea
-                    class="textarea"
-                    id="message"
-                    placeholder="Message"
-                    name="message"
-                  ></textarea
-                  ><br /><br />
-
-                  <input class="formbtn" type="submit" value="Submit" />
-                </form>
-              </div>
-            </div>
           </div>
-        </div>
+
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6 col-lg">
+                      <div class="focon">
+                          <h2 class="fohead">GLOBAL LOCATIONS</h2>
+                      </div>
+                      <div class="foadd">
+                          <ul>
+                              <li>
+                                  <img class="flag" src="images/usflag.webp" alt="">
+                                  <h3>400 River Side CT <br> Santa Clara <br> CA 95054-3535 <br> United States</h3>
+                              </li>
+                              <li>
+                                  <img class="flag" src="images/indiaflag.png" alt="">
+                                  <h3>A1B/19 A, Paschim Vihar <br> New Delhi 110063 <br> India <br>info@gozoomtech.com
+                                  </h3>
+                              </li>
+
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-lg">
+                      <div class="focon">
+                          <h2 class="fohead">QUICK LINKS</h2>
+                      </div>
+                      <div class="folinks">
+                          <ul>
+                              <li>
+                                  <a href="index.html">HOME</a>
+                              </li>
+                              <li>
+                                  <a href="integration.html">INTEGRATION</a>
+                              </li>
+                              <li>
+                                  <a href="retail.html">RETAILS</a>
+                              </li>
+                              <li>
+                                  <a href="web.html">WEB DEVELOPMENT</a>
+                              </li>
+                              <li>
+                                  <a href="web.html">MOBILE DEVELOPMENT</a>
+                              </li>
+                              <li>
+                                  <a href="#">GET BROUCHER</a>
+                              </li>
+                              <li>
+                                  <a href="about.html">ABOUT-US</a>
+                              </li>
+                          </ul>
+
+                      </div>
+                  </div>
+                  <div class="col-md-6 col-lg">
+                      <div class="focon">
+                          <h2 class="fohead">
+                              REACH US TODAY
+                          </h2>
+                      </div>
+                      <div class="foform">
+                          <form action="process_form.php" method="POST">
+                              <!-- <label for="name">Name:</label> -->
+                              <input type="text" id="name" name="name" class="formfi" placeholder="Name"
+                                  required><br><br>
+
+                              <!-- <label for="designation">Designation:</label> -->
+                              <input type="text" id="designation" name="designation" class="formfi"
+                                  placeholder="Designation" required><br><br>
+
+                              <!-- <label for="email">Email:</label> -->
+                              <input type="email" id="email" name="email" title="Please enter as example@mail.com." class="formfi" placeholder="E-mail"
+                                  required><br><br>
+
+                              <!-- <label for="contact-number">Contact Number:</label> -->
+                              <input type="tel" id="contact-number" name="contact-number" class="formfi"
+                                  placeholder="Contact No." pattern="[0-9]+" title="Please enter only numeric values."
+                                  required />
+                              <br><br>
+
+                              <!-- <label for="industry">Industry:</label> -->
+                              <input type="text" id="industry" name="industry" class="formfi" placeholder="Industry"
+                                  required><br><br>
+
+                              <!-- <label for="company-name">Company Name:</label> -->
+                              <input type="text" id="company-name" name="company-name" class="formfi"
+                                  placeholder="company-name" required><br><br>
+
+                              <!-- <label for="solution">Solution:</label> -->
+                              <select id="solution" name="solution" class="formfi" required>
+                                  <option value="">Select an option</option>
+                                  <option value="Integration">Integration</option>
+                                  <option value="Retail">Retail</option>
+                                  <option value="Web DEV">Web Development</option>
+                                  <option value="Mobile DEV">Mobile Development</option>
+                              </select><br><br>
+
+                              <!-- <label for="message">Message:</label> -->
+                              <textarea class="textarea" id="message" placeholder="Message"
+                                  name="message"></textarea><br><br>
+
+                              <input class="formbtn" type="submit" value="Submit">
+                          </form>
+
+                      </div>
+                  </div>
+
+              </div>
+          </div>
       </footer>
       <div class="container copyright">
-        <h2 class="copy">
-          © COPYRIGHT <span class="gozoom">GoZoom</span>. All Rights Reserved
-        </h2>
+          <h2 class="copy">© COPYRIGHT <span class="gozoom">GoZoom</span>. All Rights Reserved</h2>
       </div>
-    </section>
-  </body>
-  <script src="js/script.js"></script>
+  </section>
+  
+</body>
+<script src="js/script.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/testcard.js"></script>
   <script
@@ -485,4 +360,5 @@
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"
   ></script>
+
 </html>
