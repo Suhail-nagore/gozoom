@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
     line-height: 1.5;
@@ -1366,6 +1367,308 @@ a {
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
 }
+.service-icon1 {
+    width: 34px;
+    height: 39px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    background-position: 0 0;
+}
+
+.service-icon-sprites {
+    background: url(../images/service-icon-sprites-new.webp) no-repeat 0 0;
+}
+
+.service-icon2 {
+    width: 24px;
+    height: 39px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    background-position: -55px 0;
+}
+
+.service-icon3 {
+    width: 41px;
+    height: 39px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    background-position: -99px 0;
+}
+
+.service-icon4 {
+    width: 36px;
+    height: 39px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    background-position: -161px 0;
+}
+
+.service-icon5 {
+    width: 33px;
+    height: 39px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    background-position: -217px 0;
+}
+
+.service-icon6 {
+    width: 35px;
+    height: 39px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    background-position: -270px 0;
+}
+
+.service-icon8 {
+    width: 37px;
+    height: 39px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    background-position: -373px 0;
+}
+
+.service-icon9 {
+    width: 31px;
+    height: 39px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    background-position: -431px 0;
+}
+
+.service-icon10 {
+    width: 36px;
+    height: 39px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    background-position: -482px 0;
+}
+
+.srvice-slide-sec .owl-nav {
+    display: block;
+    position: absolute;
+    top: -120px;
+    right: 200px;
+}
+
+@media (min-width: 1366px) and (max-width: 1600px) {.srvice-slide-sec .owl-nav {
+    top: -100px;
+    right: 80px;
+}
+}
+@media (min-width: 1280px) and (max-width: 1365px) {.srvice-slide-sec .owl-nav {
+    top: -100px;
+    right: 70px;
+}
+}
+@media (min-width: 1024px) and (max-width: 1279px) {.srvice-slide-sec .owl-nav {
+    right: 0;
+}
+}
+@media (min-width: 768px) and (max-width: 1023px) {.srvice-slide-sec .owl-nav {
+    position: static;
+    width: 100%;
+    text-align: center;
+}
+}
+@media (min-width: 320px) and (max-width: 767px) {.srvice-slide-sec .owl-nav {
+    display: none;
+}
+}
+
+
+.srvice-slide-sec .owl-nav .owl-prev {
+    background: url(https://img.hiddenbrains.com/public/local-cdn/images/arrow-left-hm.svg?v1) no-repeat center;
+    filter: brightness(100%);
+}
+
+.srvice-slide-sec .owl-nav .owl-next,
+.srvice-slide-sec .owl-nav .owl-prev {
+    width: 77px;
+    height: 20px;
+    margin: 0 10px;
+    text-indent: -9999px;
+    float: left;
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    cursor: pointer;
+    border: 1px solid #0067ff;
+    border-radius: 50%;
+    height: 56px;
+    width: 56px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {.srvice-slide-sec .owl-nav {
+    display: none;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .srvice-slide-sec .owl-nav {
+        display: none;
+    }
+}
+
+.srvice-slide-sec .owl-nav .owl-next {
+    background: url(https://img.hiddenbrains.com/public/local-cdn/images/arrow-right-hm.svg) no-repeat center;
+    filter: brightness(100%);
+}
+
+
+
+
+ /*==================== the technology section is starts from here  =======================*/
+
+.home-techno-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.home-techno-tabs {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.home-techno-tabs .nav-tabs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.home-techno-tabs .nav-tabs .item {
+    margin-bottom: -1px;
+}
+
+.home-techno-tabs .nav-tabs .item.active a {
+    color: #0067ff;
+    background: 0 0;
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {.home-techno-tabs .nav-tabs .item a {
+    font-size: 20px;
+}
+}
+
+@media (min-width: 1366px) and (max-width: 1600px) {.home-techno-tabs .nav-tabs .item a {
+    font-size: 20px;
+}
+}
+@media (min-width: 1024px) and (max-width: 1279px) {.home-techno-tabs .nav-tabs .item a {
+    min-width: 140px;
+    line-height: 54px;
+    font-size: 20px;
+}
+}
+@media (min-width: 768px) and (max-width: 1023px) {.home-techno-tabs .nav-tabs .item a {
+    display: block;
+    border: 1px solid #eee !important;
+    border-radius: 8px;
+    overflow: hidden;
+    min-width: inherit;
+    width: 100%;
+    font-size: 15px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {.home-techno-tabs .nav-tabs .item a {
+    display: block;
+    border: 1px solid #eee !important;
+    border-radius: 8px;
+    overflow: hidden;
+    min-width: 120px;
+    width: 100%;
+    font-size: 15px;
+}
+}
+.home-techno-tabs .nav-tabs .item a {
+    min-width: 190px;
+    line-height: 60px;
+    position: relative;
+    font-size: 20px;
+    color: #121212;
+    transition: all .3s ease-in-out;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    border: none !important;
+    cursor: pointer !important;
+    text-decoration: none;
+}
+
+.home-techno-tabs .nav-tabs .item.active a:after {
+    background: #0067ff;
+}
+
+.home-techno-tabs .nav-tabs .item a:after {
+    content: '';
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: 0 0;
+    border-radius: 15px;
+}
+
+.home-techno-tabs .q-t-s-txt .tab_content {
+    display: block;
+    margin: 0;
+    width: 100%;
+    padding: 50px 0 0;
+}
+
+.tab-pane:active {
+    display: block;
+}
+
+.tab-pane {
+    display: none;
+    height: auto !important;
+}
+
+.tech-service-link {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+   
+}
+
+.q-t-s-txt ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'lato';
+    list-style-type: none;
+    
+}
+
 
 
 /* the slider style is ends here  */
