@@ -19,6 +19,7 @@ body.hidden-scroling {
 .container1 {
     width: 100%;
     margin-top: 0;
+    
 }
 
 ul {
@@ -365,6 +366,8 @@ a {
     width: 100%;
     position: relative;
     padding: 100px 0;
+    
+    
 }
 
 
@@ -397,12 +400,19 @@ a {
 .row1 {
     margin-right: -15px;
     margin-left: -15px;
+    border-radius: 10px;
+        box-shadow:
+            0 0 10px rgba(0, 0, 0, 0.2),
+            0 0 20px rgba(0, 0, 0, 0.15),
+            0 0 30px rgba(0, 0, 0, 0.1),
+            0 0 40px rgba(0, 0, 0, 0.05);
 }
 
 .home-overview-flex {
     display: flex;
     align-items: flex-start;
     width: 100%;
+    
 }
 
 .home-overview-flex .home-cmn-ttl {
@@ -557,6 +567,7 @@ a {
     .home-cmn-ttl p {
         font-size: 24px;
         line-height: 30px;
+        padding-bottom: 10px;
     }
 }
 
@@ -572,6 +583,7 @@ a {
     font-size: 16px;
     transition: all .3s ease-in-out;
     -webkit-transition: all .3s ease-in-out;
+    
 }
 
 .home-cmn-btn:hover {
@@ -1035,7 +1047,7 @@ a {
     width: 100%;
     display: flex;
     padding: 35px;
-    min-height: 520px;
+    min-height: 480px;
     background: white;
     flex-direction: column;
     position: relative;
@@ -1770,23 +1782,6 @@ a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .home-techno-tabs .q-t-s-txt .tab_content {
     display: block;
     margin: 0;
@@ -1822,6 +1817,369 @@ a {
 }
 
 
+
+.tech-service-link li {
+    margin: 15px 18px;
+}
+
+
+.tech-service-link li .tech-service-sqr {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    border: 1px solid transparent;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease-in-out;
+    border-radius: 4px;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+}
+
+.tech-ic {
+    width: auto;
+    min-height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-service-link li .tech-service-sqr .web-angularjs-icon {
+    background-position: -130px 0;
+}
+
+.web-angularjs-icon {
+    width: 57px;
+    height: 60px;
+    /* background-position: 0 -525px; */
+}
+
+.web-tech-service-sprite {
+    display: block;
+    background: url(../images/web-techno-service-sprite.webp) no-repeat;
+    flex-shrink: 0;
+}
+
+.tech-service-link li .tech-service-sqr span {
+    font-size: 20px;
+    line-height: 28px;
+    display: block;
+    margin: 15px 0 0;
+}
+
+.tech-service-link li .tech-service-sqr .web-reactjs-icon {
+    background-position: -76px -214px;
+}
+
+.web-reactjs-icon {
+    width: 68px;
+    height: 60px;
+    /* background-position: -136px -525px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-vuejs-icon {
+    background-position: 0 -214px;
+}
+
+.web-vuejs-icon {
+    width: 68px;
+    height: 59px;
+    /* background-position: -62px -525px; */
+}
+
+
+.tech-service-link li .tech-service-sqr .web-knockout-icon {
+    background-position: -160px -214px;
+}
+
+.web-knockout-icon {
+    width: 60px;
+    height: 60px;
+    /* background-position: -208px -525px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-csharp-icon {
+    background-position: -135px -142px;
+}
+
+.web-csharp-icon {
+    width: 53px;
+    height: 60px;
+    /* background-position: -275px -525px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-netcore-icon {
+    background-position: -271px -279px;
+}
+
+.web-netcore-icon {
+    width: 60px;
+    height: 60px;
+    /* background-position: -337px -525px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-nodejs-icon {
+    background-position: -197px 0;
+}
+
+.web-nodejs-icon {
+    width: 53px;
+    height: 60px;
+    /* background-position: 0 -585px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-php-icon {
+    background-position: -260px 0;
+}
+
+.web-php-icon {
+    width: 74px;
+    height: 39px;
+    /* background-position: -58px -585px; */
+}
+.tech-service-link li .tech-service-sqr .web-pythone-icon {
+    background-position: -336px -69px;
+}
+.web-pythone-icon {
+    width: 60px;
+    height: 60px;
+    /* background-position: -137px -585px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-javascript-icon {
+    background-position: -352px -343px;
+}
+
+.web-javascript-icon {
+    width: 44px;
+    height: 60px;
+    /* background-position: -202px -585px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-iphone-icon {
+    background-position: -56px -897px;
+}
+.web-iphone-icon {
+    width: 40px;
+    height: 61px;
+    /* background-position: -10px -897px; */
+}
+.tech-service-link li .tech-service-sqr .web-android-icon {
+    background-position: -298px -897px;
+}
+
+.web-android-icon {
+    width: 52px;
+    height: 61px;
+    /* background-position: -242px -897px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-swift-icon {
+    background-position: -128px -280px;
+}
+
+.web-swift-icon {
+    width: 60px;
+    height: 60px;
+    /* background-position: -252px -585px; */
+}
+.tech-service-link li .tech-service-sqr .web-kotlin-icon {
+    background-position: -203px -280px;
+}
+.web-kotlin-icon {
+    width: 60px;
+    height: 60px;
+    /* background-position: -325px -585px; */
+}
+.tech-service-link li .tech-service-sqr .web-reactjs-icon {
+    background-position: -76px -214px;
+}
+
+.web-reactjs-icon {
+    width: 68px;
+    height: 60px;
+    /* background-position: -136px -525px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-xamarin-icon {
+    background-position: -197px -142px;
+}
+
+.web-xamarin-icon {
+    width: 68px;
+    height: 60px;
+    /* background-position: -54px -645px; */
+}
+.tech-service-link li .tech-service-sqr .web-gflutter-icon {
+    background-position: -131px -344px;
+}
+
+.web-gflutter-icon {
+    width: 49px;
+    height: 60px;
+    /* background-position: 0 -645px; */
+}
+.tech-service-link li .tech-service-sqr .web-wordpress-icon {
+    background-position: -265px -69px;
+}
+.web-wordpress-icon {
+    width: 60px;
+    height: 60px;
+    /* background-position: -128px -645px; */
+}
+.tech-service-link li .tech-service-sqr .web-magento-icon {
+    background-position: -204px -69px;
+}
+
+.web-magento-icon {
+    width: 51px;
+    height: 60px;
+    /* background-position: -192px -645px; */
+}
+.tech-service-link li .tech-service-sqr .web-shopify-icon {
+    background-position: -72px -405px;
+}
+.web-shopify-icon {
+    width: 53px;
+    height: 60px;
+    /* background-position: -320px -645px; */
+}
+.tech-service-link li .tech-service-sqr .web-dnn-icon {
+    background-position: -200px -405px;
+}
+
+.web-dnn-icon {
+    width: 60px;
+    height: 60px;
+    /* background-position: -63px -705px; */
+}
+.tech-service-link li .tech-service-sqr .web-kentico-icon {
+    background-position: -133px -405px;
+}
+
+.web-kentico-icon {
+    width: 60px;
+    height: 60px;
+    /* background-position: 0 -705px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-woocommerce-icon {
+    background-position: 0 -405px;
+}
+
+.web-woocommerce-icon {
+    width: 66px;
+    height: 40px;
+    /* background-position: -248px -645px; */
+}
+.tech-service-link li .tech-service-sqr .web-aws-icon {
+    background-position: -272px -405px;
+}
+
+.web-aws-icon {
+    width: 60px;
+    height: 36px;
+    /* background-position: -128px -705px; */
+}
+.tech-service-link li .tech-service-sqr .web-azure-icon {
+    background-position: 0 -465px;
+}
+.web-azure-icon {
+    width: 60px;
+    height: 45px;
+    /* background-position: -256px -704px; */
+}
+.tech-service-link li .tech-service-sqr .web-gcloud-icon {
+    background-position: -340px -405px;
+}
+.web-gcloud-icon {
+    width: 60px;
+    height: 48px;
+    /* background-position: -192px -705px; */
+}
+.tech-service-link li .tech-service-sqr .web-doker-icon {
+    background-position: -72px -465px;
+}
+
+.web-doker-icon {
+    width: 70px;
+    height: 50px;
+    /* background-position: -320px -704px; */
+}
+.tech-service-link li .tech-service-sqr .web-jenkins-icon {
+    background-position: -152px -465px;
+}
+.web-jenkins-icon {
+    width: 43px;
+    height: 59px;
+    /* background-position: 0 -765px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-kubernetes-icon {
+    background-position: -204px -465px;
+}
+.web-kubernetes-icon {
+    width: 60px;
+    height: 58px;
+    /* background-position: -48px -765px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-mongodb-icon {
+    background-position: 0 0;
+}
+
+.web-mongodb-icon {
+    width: 55px;
+    height: 60px;
+    /* background-position: -112px -766px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-mysql-icon {
+    background-position: -272px -465px;
+}
+
+.web-mysql-icon {
+    width: 60px;
+    height: 58px;
+    /* background-position: -176px -766px; */
+}
+
+.tech-service-link li .tech-service-sqr .web-sqlserver-icon {
+    background-position: -343px -465px;
+}
+
+.web-sqlserver-icon {
+    width: 60px;
+    height: 60px;
+    /* background-position: -244px -766px; */
+}
+.tech-service-link li .tech-service-sqr .web-postgre-icon {
+    background-position: -344px -142px;
+}
+.web-postgre-icon {
+    width: 58px;
+    height: 60px;
+    /* background-position: -304px -766px; */
+}
+.tech-service-link li .tech-service-sqr .web-mariadb-icon {
+    background-position: -64px -344px;
+}
+.web-mariadb-icon {
+    width: 60px;
+    height: 40px;
+    /* background-position: 0 -826px; */
+}
+.tech-service-link li .tech-service-sqr .web-dynamodb-icon {
+    background-position: -275px -343px;
+}
+.web-dynamodb-icon {
+    width: 53px;
+    height: 60px;
+    /* background-position: -64px -826px; */
+}
 
 /* the slider style is ends here  */
 
