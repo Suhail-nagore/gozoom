@@ -7,6 +7,11 @@
     border: 0 solid transparent;
 }
 
+.main{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .kt-row-column-wrap {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -68,6 +73,7 @@
     font-size: 48px;
     line-height: 60px;
     margin-bottom: 0px;
+    font-weight: bold;
     
 }
 
@@ -116,7 +122,7 @@
 .wp-block-kadence-advancedheading.kt-adv-heading_81b28a-00[data-kb-block="kb-adv-heading_81b28a-00"]{
     font-size: 20px;
     line-height: 30px;
-    color: rgb(17, 126, 167);
+    color: #666;
 }
 
 @media (max-width: 1600px) {
@@ -177,6 +183,7 @@ li.kt-svg-icon-list-style-default svg {
 
 .kt-svg-icon-list-text {
     padding-top: 0.2rem;
+    color: #666;
 }
 
 
@@ -222,6 +229,12 @@ li.kt-svg-icon-list-style-default svg {
     width: 100%;
 }
 
+@media (max-width: 767px) {
+    .site-footer-subscribe__form .site-footer-subscribe__email{
+        font-size: 16px;
+    }
+}
+
 .in-page input {
     height: 56px;
     line-height: 56px;
@@ -257,4 +270,141 @@ li.kt-svg-icon-list-style-default svg {
     background-color: white;
     border-color: white;
     color: #6283dd;
+}
+
+
+#comlogo{
+    margin-top: 2rem;
+}
+
+.logo-image {
+    width: 70%;
+    filter: grayscale(100%);
+}
+
+.logocen{
+    text-align: center;
+    align-items: center;
+}
+
+.adobe{
+    padding-top: 10px;
+}
+
+.conlogo{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (max-width: 767px) {
+    .conlogo{
+        margin: auto;
+    }
+
+    .logo-image{
+        width: 50%;
+        max-height: 100%;
+    }
+    
+    .logocen{
+        margin: 10px;
+    }
+}
+
+
+.benifit{
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.benihead{
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.card-container{
+    margin-top: 2rem;
+}
+.ca-cont{
+    display: flex;
+}
+
+.card {
+    background-color:white;
+    border-radius: 8px;
+    margin-top: 1rem;
+    flex: 1;
+}
+
+.card-body{
+    margin-top: 10px;
+}
+
+.card-img-top {
+    /* margin: -15px; */
+    border-radius: 8px;
+}
+
+.card-title{
+    font-size: 24px;
+        line-height: 28px;
+        font-weight: 600;
+        font-family: Poppins;
+        padding-top: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+}
+
+.card-text{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 767px) {
+    .benifit{
+        padding: 0;
+    }
+}
+@media (max-width: 1023px) {
+    .benifit {
+        padding: 0;
+    }
+}
+
+
+.startfree {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.startfree a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.startfree a>span {
+    margin: 10px;
+    /* transition: margin-right 0.3s ease-in-out; */
+}
+
+.startfree a:hover>span {
+    margin-right: 5px;
+}
+
+.startfree a>i {
+    color: #f26f26;
+    transition: transform 0.3s ease-in-out;
+}
+
+.startfree a:hover>i {
+    transform: translateX(5px);
 }
