@@ -408,3 +408,77 @@ li.kt-svg-icon-list-style-default svg {
 .startfree a:hover>i {
     transform: translateX(5px);
 }
+
+
+
+
+.card-title2 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    font-family: Poppins;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.cardshadow{
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 20px 0px;
+    border-radius: 20px;
+}
+
+.card-img-top2 {
+    /* margin: -15px; */
+    border-radius: 20px 20px 0 0;
+}
+
+
+
+
+#temp{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+/* Default styles for the image */
+.img-container {
+    width: 100%;
+    /* Full width by default */
+}
+
+/* Media queries for different screen sizes */
+@media (min-width: 576px) {
+
+    /* Small devices (576px and up) */
+    /* .img-container { */
+        /* width: 50%; */
+        /* Adjust the width as needed for small devices */
+    /* } */
+}
+
+@media (min-width: 768px) {
+
+    /* Medium devices (768px and up) */
+    .img-container {
+        width: 100%;
+        /* Adjust the width as needed for medium devices */
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* Large devices (992px and up) */
+    .img-container {
+        width: 100%;
+        /* Adjust the width as needed for large devices */
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /* Extra large devices (1200px and up) */
+    .img-container {
+        width: 100%;
+        /* Adjust the width as needed for extra large devices */
+    }
+}
