@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&display=swap');
+
+
 .we-hb-section {
     display: block;
     width: 100%;
@@ -95,7 +98,7 @@
 }
 
 .cmn-sub-ttl {
-    color: var(--main-blue);
+    color: #0067ff;
     font-size: 16px;
     letter-spacing: .3em;
     text-transform: uppercase;
@@ -162,6 +165,7 @@
     line-height: 34px;
     color: #333333;
     letter-spacing: .2px;
+    font-family: 'Noto Sans Cypro Minoan', sans-serif;
 }
 
 
@@ -463,6 +467,7 @@
 .overview-blk ul li p {
     font-size: 18px;
     line-height: 24px;
+    font-family: 'Noto Sans Cypro Minoan', sans-serif;
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
@@ -925,6 +930,7 @@
     color: #333333;
     margin: 10px 0 0;
     max-height: 172px;
+    font-family: 'Noto Sans Cypro Minoan', sans-serif;
 }
 
 
