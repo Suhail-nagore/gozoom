@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 
 
 .we-hb-section {
@@ -105,6 +107,7 @@
     display: block;
     margin-bottom: 5px;
     font-weight: 700;
+    font-family: 'Lato', sans-serif;
 }
 
 
