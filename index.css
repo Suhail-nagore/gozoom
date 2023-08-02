@@ -1,0 +1,1145 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=IBM+Plex+Sans:ital,wght@0,100;1,400&family=Lato:wght@300&family=Roboto+Slab&display=swap');
+
+body {
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    /* font-family: 'Gill Sans', sans-serif; */
+    /* font-weight: 400; */
+}
+
+body.hidden-scroling {
+    overflow-y: hidden;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 100%;
+    margin-top: 0;
+    
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER HAI YAHA PE  */
+
+.header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    padding: 0px;
+    margin-top: 0;
+}
+
+.header-main {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 0;
+    /* border-radius: 10px; */
+    box-shadow: 2px 2px;
+}
+
+.header .logo {
+    padding: 0 15px;
+    margin-top: 3px;
+}
+
+.header .logo a {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #39b7ff;
+    font-weight: 600;
+}
+
+.header .logo a img {
+    width: 100%;
+    height: 50px !important;
+    padding-right: 2rem !important;
+}
+
+.header .nav-menu {
+    padding: 0 50px;
+}
+
+.header .menu>.menu-item {
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+
+.header .menu>.menu-item>a {
+    display: block;
+    padding: 12px 0;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: Gill Sans, sans-serif;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+.header .menu>.menu-item>.sub-menu>.menu-item:hover>a,
+.header .menu>.menu-item:hover>a {
+    color: #39b7ff;
+}
+
+.header .menu>.menu-item>.sub-menu {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 220px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #ffffff;
+    padding: 10px 0;
+    border-top: 3px solid #39b7ff;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+}
+
+@media (min-width: 992px) {
+    .header .menu>.menu-item-has-children:hover>.sub-menu {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .header .menu>.menu-item-has-children:hover>a .plus:after {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+.header .menu>.menu-item>.sub-menu>.menu-item {
+    display: block;
+}
+
+.header .menu>.menu-item>.sub-menu>.menu-item>a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+}
+
+.header .open-nav-menu {
+    height: 34px;
+    width: 40px;
+    margin-right: 15px;
+    margin-top: 5px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.header .open-nav-menu span {
+    display: block;
+    height: 3px;
+    width: 24px;
+    background-color: #39b7ff;
+    position: relative;
+}
+
+.header .open-nav-menu span:before,
+.header .open-nav-menu span:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #39b7ff;
+    box-sizing: border-box;
+}
+
+.header .open-nav-menu span:before {
+    top: -7px;
+}
+
+.header .open-nav-menu span::after {
+    top: 7px;
+}
+
+.header .close-nav-menu {
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    margin: 0 0 15px 15px;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .close-nav-menu img {
+    width: 16px;
+}
+
+.header .menu-overlay {
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.header .menu-overlay.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* home section yaha se shuru ho raha hai  */
+
+.home-section {
+    width: 100%;
+    display: block;
+    min-height: 100vh;
+    background-image: url("../images/pi.jpg");
+    background-position: center top;
+    background-size: cover;
+}
+
+
+/* responsive ka sara material yaha pe hai  */
+
+@media (max-width: 756px) {
+    .header .nav-menu {
+        position: fixed;
+        right: -280px;
+        visibility: hidden;
+        width: 280px;
+        height: 100%;
+        top: 0;
+        overflow-y: auto;
+        z-index: 1000;
+        padding: 15px 0;
+        background-color: #222222;
+        transition: all 0.5s ease;
+    }
+
+    .header .nav-menu.open {
+        visibility: visible;
+        right: 0px;
+    }
+
+    .header .menu>.menu-item {
+        display: block;
+        margin: 0;
+    }
+
+    .header .menu>.menu-item-has-children>a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header .menu>.menu-item>a {
+        color: #ffffff;
+        padding: 12px 15px;
+        border-bottom: 1px solid #333333;
+    }
+
+    .header .menu>.menu-item:first-child>a {
+        border-top: 1px solid #333333;
+    }
+
+    .header .menu>.menu-item>a .plus:before,
+    .header .menu>.menu-item>a .plus:after {
+        background-color: #ffffff
+    }
+
+    .header .menu>.menu-item-has-children.active>a .plus:after {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    .header .menu>.menu-item>.sub-menu {
+        width: 100%;
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        border: none;
+        background-color: transparent;
+        box-shadow: none;
+        transform: translateY(0px);
+        padding: 0px;
+        left: auto;
+        top: auto;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    .header .menu>.menu-item>.sub-menu>.menu-item>a {
+        padding: 12px 45px;
+        color: #ffffff;
+        border-bottom: 1px solid #333333;
+    }
+
+    .header .close-nav-menu,
+    .header .open-nav-menu {
+        display: flex;
+    }
+}
+
+
+/* yaha se heading and main page start ki css start ho rahi hai 
+ */
+
+.heading {
+    background: transparent;
+    margin-top: 17rem;
+    position: absolute;
+    z-index: 99;
+}
+
+.hero {
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.hero>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero:hover>a {
+    text-decoration: none;
+}
+
+.integration:hover {
+    color: #39b7ff;
+}
+
+.retail:hover {
+    color: #39b7ff;
+}
+
+.explore-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* .explore-content {
+    margin-top: 3rem;
+    margin-left: 6rem;
+} */
+
+.explore {
+    background-color: #2a4c79bf;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    /* padding: .7rem 0; */
+    /* margin-left: 1rem; */
+    /* margin-top: 1rem; */
+    /* display: flexbox; */
+    /* position: absolute; */
+}
+
+/* the section main style is started from here  */
+
+/* the slider style is ends here  */
+
+/* .baac {
+    background-color: #16a9e2;
+    padding: 2rem 10rem;
+    display: flexbox;
+    position: absolute;
+    z-index: -99;
+} */
+
+.m1 {
+    background-color: #e5e6eb;
+    padding: 35px;
+    margin-top: 3rem;
+}
+
+.m1 .para1>p {
+    letter-spacing: 1px !important;
+    color: #394b72 !important;
+    text-align: justify !important;
+    font-size: 1.4rem !important;
+}
+
+.icon-heading {
+    padding: 20px 20px;
+}
+
+.icon {
+    margin: 5px;
+    color: #16a9e2;
+}
+
+.check-heading {
+    /* padding: 0 0 10px 45px; */
+    color: #394b72;
+    font-weight: 600 !important;
+    padding-left: 15px !important;
+    font-size: 22px;
+    padding-bottom: 10px !important;
+    line-height: 1;
+    margin-bottom: 5px !important;
+}
+
+
+/* card yaha se shuru ho rahe hai */
+
+.c-img {
+    margin-top: 100px;
+    /* display: flex; */
+}
+
+/* .row-image {
+    /* padding-left: 40px; */
+/* } */
+
+.image-card {
+    margin: auto;
+    padding: 20px;
+}
+
+.c-body {
+    background-color: #e5e6eb;
+}
+
+.card-p {
+    /* letter-spacing: 1px !important; */
+    color: #117ea7 !important;
+    text-align: justify !important;
+    padding: 15px 8px !important;
+    font-size: 1.3rem !important;
+    margin-top: 20px !important;
+    margin-bottom: 0px !important;
+}
+
+.c-btn {
+    background-color: #117ea7;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.c-para {
+    /* margin-bottom: 1.7rem; */
+    padding-bottom: 2.6rem;
+}
+
+
+/* second image section yaha se shuru ho raha hai bro */
+
+
+#img2 {
+    width: 100%;
+    display: block;
+    min-height: 100vh;
+    background-image: url("../images/cloud-connect.png");
+    background-position: center top;
+    background-size: cover;
+    margin: 3rem 0 3rem 0;
+}
+
+/* #wall_video {
+    width: 100%;
+    transform: translate(0%, 0%);
+    background-size: cover;
+}
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    /* overflow-x: hidden; */
+/* } */
+
+.head1 {
+    background-color: transparent;
+    text-align: left;
+    font-size: 60px;
+    font-weight: 800;
+    padding: 2rem;
+    color: #00a2fe;
+}
+
+.p2 {
+    background-color: transparent;
+    color: #000;
+    text-align: left;
+    margin: auto;
+    font-size: 20px;
+    padding: 2rem;
+}
+
+.c-btn2 {
+    background-color: #117ea7;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+    margin-left: 1.8rem;
+}
+
+
+/* testimoniala section yaha se shuru ho raha hai bhai */
+
+#testimonials {
+    margin-top: 5rem;
+}
+
+.testi {
+    color: #00a2fe;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+
+/* .test-card {
+    margin: 20px;
+}
+
+.car-img {
+    max-height: 70px;
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 70px;
+}  */
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.slide-content {
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #FFF;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: #00a2fe; */
+    border-radius: 25px 25px 0 25px;
+}
+
+
+/* .overlay::before,
+.overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px; */
+
+
+/* background-color: #00a2fe; */
+
+
+/* }
+
+.overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+} */
+
+.card-image {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+    border: 4px solid #00a2fe;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+
+.description {
+    font-size: 14px;
+    color: #707070;
+    text-align: left;
+    /* padding-top: 2rem; */
+}
+
+.button {
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #00a2fe;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #265DF2;
+}
+
+.swiper-navBtn {
+    color: #6E93f7;
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+    color: #4070F4;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    font-size: 35px;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: #6E93f7;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .swiper-navBtn {
+        display: none;
+    }
+}
+
+
+/* =================hot air balloon section yaha se start ho raha hai ======= */
+
+#secondbannerimg {
+    width: 100%;
+    display: block;
+    min-height: 100vh;
+    background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif");
+    background-position: center top;
+    background-size: cover;
+    margin: 3rem 0 3rem 0;
+}
+
+.headsec {
+    color: #FFF;
+    position: absolute;
+    padding-top: 15rem;
+    padding-left: 7rem;
+}
+
+.c-btn1:hover {
+    background-color: transparent;
+}
+
+
+/* =============partners ka section yaha se shuru ho raha hai  */
+
+#partners {
+    margin-top: 3rem;
+}
+
+.partner {
+    color: #00a2fe;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.part {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.partimg {
+    height: 150px;
+    width: 150px;
+    padding: 1rem;
+    object-fit: contain;
+    align-items: center;
+}
+
+
+/* =============footer ka section yaha se start ho raha hai sir  */
+
+#contact {
+    width: 100%;
+    display: block;
+    min-height: 80vh;
+    /* background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif"); */
+    background: #0a1124 !important;
+    background-position: center top;
+    background-size: cover;
+    margin: 3rem 0 0 0;
+}
+
+.fot {
+    padding-top: 2rem;
+}
+
+.foologo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .logo {
+    padding: 0 15px;
+    margin-top: 3px;
+}
+
+.footer .logo a {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #39b7ff;
+    font-weight: 600;
+}
+
+.focon {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fohead {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+.flag {
+    max-height: 50px;
+    max-width: 50px;
+    padding: 10px;
+}
+
+.foadd {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.folinks {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.folinks ul li>a {
+    color: white;
+    line-height: 2rem;
+}
+
+.folinks ul li:hover>a {
+    color: #00a2fe;
+}
+
+.foform {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.formfi {
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    width: 350px;
+    font-size: 14px;
+    font-family: SF UI Display light, sans-serif;
+    margin-bottom: 10px;
+    color: #bbb;
+    padding-left: 0px;
+}
+
+.textarea {
+    width: 350px;
+}
+
+.formbtn {
+    background-color: #117ea7;
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 3rem;
+    /* margin-bottom: 1rem; */
+}
+
+.copy {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.gozoom {
+    font-weight: bolder;
+}
+
+#contact {
+    width: 100%;
+    display: block;
+    min-height: 80vh;
+    /* background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif"); */
+    background: #0a1124 !important;
+    background-position: center top;
+    background-size: cover;
+    margin: 3rem 0 0 0;
+}
+
+.fot {
+    padding-top: 2rem;
+}
+
+.foologo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .logo {
+    padding: 0 15px;
+    margin-top: 3px;
+}
+
+.footer .logo a {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #39b7ff;
+    font-weight: 600;
+}
+
+.footer .logo a img {
+    width: 100%;
+    height: 8vh !important;
+}
+
+.focon {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fohead {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+.flag {
+    max-height: 50px;
+    max-width: 50px;
+    padding: 10px;
+}
+
+.foadd {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.folinks {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.folinks ul li>a {
+    color: white;
+    line-height: 2rem;
+}
+
+.folinks ul li:hover>a {
+    color: #00a2fe;
+}
+
+.foform {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.formfi {
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    width: 350px;
+    font-size: 14px;
+    font-family: SF UI Display light, sans-serif;
+    margin-bottom: 10px;
+    color: #bbb;
+    padding-left: 0px;
+}
+
+.textarea {
+    width: 350px;
+}
+
+.formbtn {
+    background-color: #117ea7;
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 3rem;
+    /* margin-bottom: 1rem; */
+}
+
+.copy {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.gozoom {
+    font-weight: bolder;
+}
+
+#contact {
+    width: 100%;
+    display: block;
+    min-height: 80vh;
+    /* background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif"); */
+    background: #0a1124 !important;
+    background-position: center top;
+    background-size: cover;
+    margin: 3rem 0 0 0;
+}
+
+.fot {
+    padding-top: 2rem;
+}
+
+.foologo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .logo {
+    padding: 0 15px;
+    margin-top: 3px;
+}
+
+.footer .logo a {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #39b7ff;
+    font-weight: 600;
+}
+
+.focon {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fohead {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+.flag {
+    max-height: 50px;
+    max-width: 50px;
+    padding: 10px;
+}
+
+.foadd {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.foadd h3 {
+    font-size: 18px;
+}
+
+.folinks {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.folinks ul li>a {
+    color: white;
+    line-height: 2rem;
+}
+
+.folinks ul li:hover>a {
+    color: #00a2fe;
+}
+
+.foform {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.formfi {
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    width: 350px;
+    font-size: 14px;
+    font-family: SF UI Display light, sans-serif;
+    margin-bottom: 10px;
+    color: #bbb;
+    padding-left: 0px;
+}
+
+.textarea {
+    width: 350px;
+}
+
+.formbtn {
+    background-color: #117ea7;
+    width: 350px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 4px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 3rem;
+    /* margin-bottom: 1rem; */
+}
+
+.copy {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.gozoom {
+    font-weight: bolder;
+}
