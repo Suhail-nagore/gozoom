@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>GOZOOM TECH</title>
+    <title>Software Development Company - Gozoom</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,6 +11,12 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/blogs.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -356,5 +362,27 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script>
+      window.addEventListener("load", function () {
+        adjustCardsHeight();
+      });
+
+      function adjustCardsHeight() {
+        const cols = document.querySelectorAll(".col");
+        let maxHeight = 0;
+
+        cols.forEach((col) => {
+          const card = col.querySelector(".card");
+          if (card.offsetHeight > maxHeight) {
+            maxHeight = card.offsetHeight;
+          }
+        });
+
+        cols.forEach((col) => {
+          const card = col.querySelector(".card");
+          card.style.height = `${maxHeight}px`;
+        });
+      }
+    </script>
   </body>
 </html>

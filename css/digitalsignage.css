@@ -351,7 +351,7 @@ li.kt-svg-icon-list-style-default svg {
         font-weight: 600;
         font-family: Poppins;
         padding-top: 16px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: 'Lato', sans-serif;
         margin-top: 2rem;
         margin-bottom: 2rem;
 }
@@ -359,7 +359,7 @@ li.kt-svg-icon-list-style-default svg {
 .card-text{
     font-size: 18px;
     line-height: 24px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lato', sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -417,7 +417,7 @@ li.kt-svg-icon-list-style-default svg {
     line-height: 28px;
     font-weight: 600;
     font-family: Poppins;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
 }
 
