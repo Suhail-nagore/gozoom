@@ -10,6 +10,17 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+      function validateForm() {
+        var recaptchaResponse = grecaptcha.getResponse();
+        if (recaptchaResponse.length === 0) {
+          alert("Please complete the reCAPTCHA.");
+          return false;
+        }
+        return true;
+      }
+    </script>
+
     <link
       rel="stylesheet"
       media="all"
@@ -699,6 +710,7 @@
                       class="quick-form"
                       action="process_form.php"
                       method="POST"
+                      onsubmit="return validateForm();"
                     >
                       <label class="input-label"
                         >Your Name<span class="req">*</span> </label

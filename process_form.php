@@ -7,7 +7,22 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+$recaptcha_secret = "6Lf9TsQnAAAAANxF0lHRxZTC_YMZIMmV1qX1v1qs"; // Replace with your secret key
+$recaptcha_response = $_POST['g-recaptcha-response'];
+
+$response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=$recaptcha_secret&response=$recaptcha_response");
+$responseKeys = json_decode($response, true);
+
+
+
+
+
+if(intval($responseKeys["success"]) !== 1) {
+    echo "reCAPTCHA verification failed.";
+} else {
+
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
     $email = $_POST["email"];
     $contactNumber = $_POST["contact-number"];
@@ -98,4 +113,7 @@ try {
 
 
 }
+}
+
+
 ?>
