@@ -51,7 +51,7 @@ div {
 }
 
 .laravel-banner {
-    background-image: url(//www.codeclouds.com/wp-content/themes/CodeClouds/images/laravel-banner.jpg);
+    background-image: url(../images/laravelbg.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;

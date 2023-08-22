@@ -1,0 +1,611 @@
+
+#contact {
+    width: 100%;
+    display: block;
+    min-height: 80vh;
+    /* background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif"); */
+    background: #0a1124 !important;
+    background-position: center top;
+    background-size: cover;
+    margin: 3rem 0 0 0;
+}
+
+.fot {
+    padding-top: 2rem;
+}
+
+.foologo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .logo {
+    padding: 0 15px;
+    margin-top: 3px;
+}
+
+.footer .logo a {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #39b7ff;
+    font-weight: 600;
+}
+
+.focon {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fohead {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+.flag {
+    max-height: 50px;
+    max-width: 50px;
+    padding: 10px;
+}
+
+.foadd {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.folinks {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.folinks ul li>a {
+    color: white;
+    line-height: 2rem;
+}
+
+.folinks ul li:hover>a {
+    color: #00a2fe;
+}
+
+.foform {
+    margin-top: 1rem;
+    color: black !important;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+
+.textarea {
+    width: 315px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #b3b3b3;
+
+}
+
+.formbtn {
+   width: 100%;
+    border: 1px solid #0067f1!important;
+    color: white!important;
+    background: #0067f1!important;
+    border-radius: 4px;
+    font-size: 16px;
+    /* font-family: var(--font-family-regular); */
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 190px;
+    line-height: 41px;
+    text-align: center;
+
+}
+.formbtn:hover {
+   width: 100%;
+    border: 1px solid #0067f1!important;
+    color: #0067f1!important;
+    background: transparent!important;
+    border-radius: 4px;
+    font-size: 16px;
+    /* font-family: var(--font-family-regular); */
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 190px;
+    line-height: 41px;
+    text-align: center;
+
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 3rem;
+    /* margin-bottom: 1rem; */
+}
+
+.copy {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.gozoom {
+    font-weight: bolder;
+}
+
+#contact {
+    width: 100%;
+    display: block;
+    min-height: 80vh;
+    /* background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif"); */
+    background: #0a1124 !important;
+    background-position: center top;
+    background-size: cover;
+    margin: 3rem 0 0 0;
+}
+
+.fot {
+    padding-top: 2rem;
+}
+
+.foologo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .logo {
+    padding: 0 15px;
+    margin-top: 3px;
+}
+
+.footer .logo a {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #39b7ff;
+    font-weight: 600;
+}
+
+.footer .logo a img {
+    width: 100%;
+    height: 8vh !important;
+}
+
+.focon {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fohead {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+.flag {
+    max-height: 50px;
+    max-width: 50px;
+    padding: 10px;
+}
+
+.foadd {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.folinks {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.folinks ul li>a {
+    color: white;
+    line-height: 2rem;
+}
+
+.folinks ul li:hover>a {
+    color: #00a2fe;
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 3rem;
+    /* margin-bottom: 1rem; */
+}
+
+.copy {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.gozoom {
+    font-weight: bolder;
+}
+
+#contact {
+    width: 100%;
+    display: block;
+    min-height: 80vh;
+    background: #0a1124 !important;
+    background-position: center top;
+    background-size: cover;
+    margin: 0rem 0 0 0;
+}
+
+.fot {
+    padding-top: 2rem;
+}
+
+.foologo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .logo {
+    padding: 0 15px;
+    margin-top: 3px;
+}
+
+.footer .logo a {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #39b7ff;
+    font-weight: 600;
+}
+
+.focon {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.fohead {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+}
+
+.flag {
+    max-height: 50px;
+    max-width: 50px;
+    padding: 10px;
+}
+
+.foadd {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.foadd h3 {
+    font-size: 18px;
+}
+
+.folinks {
+    margin-top: 1rem;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.folinks ul li>a {
+    color: white;
+    line-height: 2rem;
+}
+
+.folinks ul li:hover>a {
+    color: #00a2fe;
+}
+.formfi {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    width: 316px;
+    font-size: 15px;
+    font-family: SF UI Display light, sans-serif;
+    margin-bottom: 15px;
+    color: black;
+    padding-left: 0px;
+
+}
+
+.formri {
+    background: transparent;
+    border: 0px;
+    width: 350px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    padding-left: 0px;
+}
+
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: 3rem;
+    /* margin-bottom: 1rem; */
+}
+
+.copy {
+    font-size: 15px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.gozoom {
+    font-weight: bolder;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 7px;
+    color: #333333;
+    font-weight: 100 !important;
+}
+.req {
+    color: red;
+    font-size: 14px;
+}
+
+
+.wrapper{
+  width: 350px;
+}
+.select-btn{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.select-btn{
+  font-size: 15px;
+  background: transparent;
+  justify-content: space-between;
+}
+.select-btn i{
+  font-size: 15px;
+  transition: transform 0.3s linear;
+}
+.wrapper.active .select-btn i{
+  transform: rotate(-180deg);
+}
+.content{
+    display: none;
+    z-index: 3;
+    padding: 0px;
+    margin-top: -15px;
+    background: #fff;
+    border-top: none;
+    border: 1px solid rgb(204, 204, 204);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    width: 316px;
+}
+
+hr {
+    border: none; /* Remove the default border */
+    height: 1.5px; /* Set the height of the line */
+    background-color: rgb(204, 204, 204); /* Set the color of the line */
+    margin: 10px 0; /* Add some margin above and below the line */
+  }
+.wrapper.active .content{
+  display: block;
+  position: absolute;
+}
+.content .search{
+    position: relative;
+    margin: 3px 9px;
+    padding-top: 6px;
+  
+}
+.search i{
+  top: 57%;
+  left: 13px;
+  color: #999;
+  font-size: 18px;
+  pointer-events: none;
+  transform: translateY(-50%);
+  position: absolute;
+  
+}
+.search input{
+  height: 32px;
+  width: 100%;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 0 20px 0 35px;
+  /* border: 1px solid grey; */
+  border: 1px solid rgb(204, 204, 204);
+  /* border: 2px solid #333; */
+  color:black;
+}
+.search input:focus{
+  padding-left: 35px;
+  /* border: 2px solid grey ; */
+}
+.search input::placeholder{
+  color: #bbb;
+}
+.content .options{
+  margin-top: 6px;
+  max-height: 148px;
+  overflow-y: auto;
+  padding-right: 7px;
+}
+.options::-webkit-scrollbar{
+  width: 7px;
+}
+.options::-webkit-scrollbar-track{
+  background: #333;
+  border-radius: 25px;
+}
+.options::-webkit-scrollbar-thumb{
+  background: #333;
+  border-radius: 25px;
+}
+.options::-webkit-scrollbar-thumb:hover{
+  background: rgb(70, 70, 210);
+}
+.options li{
+  height: 26px;
+  padding: 0 14px;
+  font-size: 15px;
+  color: #000;
+  cursor: pointer;
+}
+.options li:hover{
+  border-radius: 0px;
+  background: #0067f1;
+  color: #fff;
+}
+.options li.selected{
+    background-color: #ddd;
+    color: #000;
+}
+.error-message {
+    color: red;
+    visibility: hidden;
+    font-size: 10px;
+    margin-bottom: 0rem !important;
+    margin-top: -10px;
+  }
+  .error-message1 {
+    color: red;
+    visibility: hidden;
+    font-size: 10px;
+  }
+
+
+
+.quick-box {
+    width: 95%;
+    display: block;
+    float: right;
+    position: relative;
+    z-index: 9;
+    background: #fff;
+    margin: 0;
+    padding: 32px 39px;
+    border-radius: 5px;
+    -webkit-box-shadow: -6px 9px 19px 0 rgba(0,0,0,.15);
+    -moz-box-shadow: -6px 9px 19px 0 rgba(0,0,0,.15);
+    box-shadow: -6px 9px 19px 0 rgba(0,0,0,.15);
+}
+#inquiry-page #inquiryForm-section {
+    position: relative;
+}
+#inquiryForm-section.current-opening-form {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+
+.formbtn:hover{
+    background-color: transparent;
+}
+
+.formfi:hover {
+
+    border-bottom: 1px solid black;
+    
+}
+.select-btn.formfi:hover {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    
+}
+@media (max-width: 539px) {
+    .formfi{
+        width: 234px;
+
+    }
+    .textarea{
+        width: 234px;
+    }
+    .content{
+        width:234px
+    }
+    .wrapper {
+        width: 234px;
+    }
+}
+@media (max-width: 915px) {
+    .formfi{
+        width: 234px;
+
+    }
+    .textarea{
+        width: 234px;
+    }
+    .content{
+        width:234px
+    }
+    .wrapper {
+        width: 234px;
+    }
+}
+@media (max-width: 290px) {
+    .formfi{
+        width: 190px;
+
+    }
+    .textarea{
+        width: 190px;
+    }
+    .content{
+        width:190px
+    }
+    .wrapper {
+        width: 190px;
+    }
+}

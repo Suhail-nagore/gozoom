@@ -369,10 +369,10 @@ h1, h2, h2, h4, h5 {
 .h1, h1 {
     font-size: 36px;
 }
-.h1, .h2, .h3, h1, h2, h3 {
+/* .h1, .h2, .h3, h1, h2, h3 {
     margin-top: 20px;
     margin-bottom: 10px;
-}
+} */
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: inherit;
     font-weight: 500;
@@ -1062,12 +1062,12 @@ b, optgroup, strong {
     margin-top: 2px;
 }
 .choose-us-developer-inner-category-top .collective-icon {
-    width: 35px;
+    width: 45px;
     height: 35px;
     float: left;
 }
 .choose-us-developer-inner-category-top .fast-development-icon {
-    width: 20px;
+    width: 48px;
     height: 34px;
     float: left;
     margin-top: 1px;
@@ -1128,141 +1128,3 @@ b, optgroup, strong {
     display: inline-block;
 }
 /* Footer css  */
-#contact {
-    width: 100%;
-    display: block;
-    min-height: 80vh;
-    /* background-image: url("https://cyntralabs.com/assets/img/HotAirBalloon.gif"); */
-    background: #0a1124 !important;
-    background-position: center top;
-    background-size: cover;
-    margin:0;
-  }
- 
-  .fot {
-    padding-top: 2rem;
-  }
- 
-  .foologo {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    padding-top: 2rem;
-    display: flex;
-    justify-content: center;
-  }
- 
-  .footer .logo {
-    padding: 0 15px;
-    margin-top: 3px;
-  }
- 
-  .footer .logo a {
-    font-size: 30px;
-    text-transform: capitalize;
-    color: #39b7ff;
-    font-weight: 600;
-  }
- 
-  .focon {
-    margin: auto;
-    padding: auto;
-    display: flex;
-    justify-content: center;
-  }
- 
-  .fohead {
-    text-align: left;
-    font-size: 25px;
-    color: white;
-  }
- 
-  .flag {
-    max-height: 50px;
-    max-width: 50px;
-    padding: 10px;
-  }
- 
-  .foadd {
-    margin-top: 1rem;
-    color: white;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-  }
- 
-  .folinks {
-    margin-top: 1rem;
-    color: white;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-    font-size: 18px;
-  }
- 
-  .folinks ul li>a {
-    color: white;
-    line-height: 2rem;
-  }
- 
-  .folinks ul li:hover>a {
-    color: #00a2fe;
-  }
- 
-  .foform {
-    margin-top: 1rem;
-    color: white;
-    text-align: left;
-    display: flex;
-    justify-content: center;
-  }
- 
-  .formfi {
-    background: transparent;
-    border: 0px;
-    border-bottom: 1px solid #ccc;
-    width: 350px;
-    font-size: 14px;
-    font-family: SF UI Display light, sans-serif;
-    margin-bottom: 10px;
-    color: #bbb;
-    padding-left: 0px;
-  }
- 
-  .textarea {
-    width: 350px;
-  }
- 
-  .formbtn {
-    background-color: #117ea7;
-    width: 350px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: none;
-    border-radius: 4px;
-  }
- 
-  .copyright {
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    margin-top: 3rem;
-    /* margin-bottom: 1rem; */
-  }
- 
-  .copy {
-    font-size: 15px;
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-  }
- 
-  .gozoom {
-    font-weight: bolder;
-  }
- 
-  @media (max-width: 560px){
-    .page-jquery .choose-us-developer-inner-category.block-3 ul li {
-        width: 91.33%;
-        padding: 9px 14px;
-    }
-    }

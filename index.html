@@ -4,6 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>Software Development Company - Gozoom</title>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <link rel="stylesheet" href="./OwlCarousel2-develop/dist/assets/owl.carousel.css" />
@@ -18,6 +21,19 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="./css/demo.css">
+  <link rel="stylesheet" href="./css/intlTelInput.css">
+  <link rel="stylesheet" href="./css/intlTelInput.min.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3HYLL1G1N5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3HYLL1G1N5');
+</script>
 
 
 </head>
@@ -2387,51 +2403,62 @@
             <div class="foform">
               <div id='inquiryForm-section' class="current-opening-form">
                 <div class="quick-box">
-              <form name="inquiryForm" id="inquiryForm" class="quick-form" action="process_form.php" method="POST">
-                
-                          <label class="input-label ">Your Name<span class="req">*</span> </label>
-                          <input type="text" id="name" name="name" class="formfi" placeholder="Name" maxlength="50"
-                            autocomplete="off" required /><br>
+                  <form name="inquiryForm" id="inquiryForm" class="quick-form" action="process_form.php" method="POST">
 
-                          <label class="input-label ">Email<span class="req">*</span> </label><br>
-                          <input type="email" id="email" name="email" autocomplete="on" class="formfi"
-                            placeholder="E-mail" required />
-                            <p class="error-message" id="errorMessage">Please enter a valid email address.</p>
+                    <label class="input-label ">Your Name<span class="req">*</span> </label><br>
+                    <input type="text" id="name" name="name" class="formfi" placeholder="Name" maxlength="50"
+                      autocomplete="off" required /><br>
 
-                          <label class="input-label">Phone<span class="req">*</span></label><br>
-                          <input type="tel" autocomplete='on' id="contact-number" name="contact-number" class="formfi"
-                            placeholder="Contact No." required/><br>
-                         
-                          <label class="input-label" >Interested Service </label>
+                    <label class="input-label ">Email<span class="req">*</span> </label><br>
+                    <input type="email" id="email" name="email" autocomplete="on" class="formfi" placeholder="E-mail"
+                      required />
+                    <p class="error-message" id="errorMessage">Please enter a valid email address.</p>
 
-                          <div class="wrapper">
-                            <div class="select-btn formfi" >
-                              <span style="color:#bbb;" >Interested In</span>
-                              <i class="uil uil-angle-down"></i>
-                            </div>
-                            <div class="content">
-                              <div class="search">
-                                <i class="uil uil-search"></i>
-                                <input spellcheck="false" type="text" placeholder="Search">
-                              </div>
-                              <hr>
-                              <ul class="options"></ul>
-                            </div>
-                          
+                    <label class="input-label">Phone<span class="req">*</span></label><br>
+                    <input type="tel" autocomplete='on' id="contact-number" name="contact-number" class="formfi"
+                      placeholder="Contact No." required /><br>
 
+                    <label class="input-label " style="margin-top: 15px;">Interested Service </label>
 
+                    <div class="wrapper">
+                      
+                      <div class="select-btn formfi">
                         
-                                    <label class="input-label ">Message</label> 
-                                    <textarea class="textarea" id="message" placeholder="Message"
-                                    name="message"></textarea><br><br>
-                                    
-                                    <div class="center">
+                        <span style="color:#bbb;">Interested In</span>
+                        <i class="uil uil-angle-down"></i>
+                      </div>
+                      <div class="content">
+                        <div class="search">
+                          <i class="uil uil-search"></i>
+                          <input spellcheck="false" type="text" placeholder="Search">
+                        </div>
+                        <hr>
+                        <ul class="options"></ul>
+                      </div>
+                    </div>
+                    <input type="hidden" name="solution" id="selecti" required>
 
-                                <input class="formbtn" type="submit" value="Submit">
-                              </div>
-              </form>
-            
+
+
+
+                    <label class="input-label ">Message</label><br>
+                    <textarea class="textarea" id="message" placeholder="Message" name="message"></textarea><br><br>
+                    <input type="text" name="hidden1-input1"  style="display: none;">
+
+                    <div class="center">
+
+                      <input class="formbtn" type="submit" value="Submit">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
+
+
     <div class="container copyright">
       <h2 class="copy">
         © COPYRIGHT <span class="gozoom">GoZoom</span>. All Rights Reserved
@@ -2511,83 +2538,12 @@
     });
   });
 </script>
+<script src="./js/index.js"></script>
+<script src="./js/intlTelInput.js"></script>
 <script>
-  const wrapper = document.querySelector(".wrapper"),
-    selectBtn = wrapper.querySelector(".select-btn"),
-    searchInp = wrapper.querySelector("input"),
-    options = wrapper.querySelector(".options");
+  var input = document.querySelector("#contact-number");
+  window.intlTelInput(input, {})
 
-  let countries = ["Mobile Development", "Web Development", "Retail", "Integration", "Others"];
-
-  function addCountry(selectedCountry) {
-    options.innerHTML = "";
-    countries.forEach(country => {
-      let isSelected = country == selectedCountry ? "selected" : "";
-      let li = `<li onclick="updateName(this)" class="${isSelected}">${country}</li>`;
-      options.insertAdjacentHTML("beforeend", li);
-    });
-  }
-  addCountry();
-
-  function updateName(selectedLi) {
-    searchInp.value = "";
-    addCountry(selectedLi.innerText);
-    wrapper.classList.remove("active");
-    selectBtn.firstElementChild.innerText = selectedLi.innerText;
-  }
-
-  searchInp.addEventListener("keyup", () => {
-    let arr = [];
-    let searchWord = searchInp.value.toLowerCase();
-    arr = countries.filter(data => {
-      return data.toLowerCase().startsWith(searchWord);
-    }).map(data => {
-      let isSelected = data == selectBtn.firstElementChild.innerText ? "selected" : "";
-      return `<li onclick="updateName(this)" class="${isSelected}">${data}</li>`;
-    }).join("");
-    options.innerHTML = arr ? arr : `<p style="color: #333; font-size:13px;">Oops! Service not found</p>`;
-  });
-
-  selectBtn.addEventListener("click", () => wrapper.classList.toggle("active"));
 </script>
-
-<script>
-  const emailInput = document.getElementById("email");
-  const phoneInput = document.getElementById("contact-number");
-  const errorMessage = document.getElementById("errorMessage");
-
-  emailInput.addEventListener("input", validateEmail);
-  phoneInput.addEventListener("input", validatePhone);
-  const phonePattern = /^\d{10}$/;
-  const phoneValue = phoneInput.value.trim();
-
-  function validateEmail() {
-    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-    
-    if (!emailPattern.test(emailInput.value)) {
-      errorMessage.style.visibility = "visible";
-      emailInput.style.borderColor = "red";
-    } else {
-      errorMessage.style.visibility = "hidden";
-      emailInput.style.borderColor = "initial";
-    }
-  }
-  function validatePhone() {
-      const phonePattern = /^\+?\d{10,}$/;
-    let phoneValue = phoneInput.value.trim();
-
-    // Remove non-numeric characters
-    phoneValue = phoneValue.replace(/[^\d+]/g, '');
-
-  //   if (phoneValue.length > 10) {
-  //     phoneValue = phoneValue.substr(0, 10);
-  //   }
-    
-    phoneInput.value = phoneValue;
-
-     
-  }
-</script>
-
 
 </html>

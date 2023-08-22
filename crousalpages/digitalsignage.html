@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>Software Development Company - Gozoom</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link
@@ -23,6 +26,11 @@
     <link rel="stylesheet" href="../css/index.css" />
     <link rel="stylesheet" href="../css/newstyle.css" />
     <link rel="stylesheet" href="../css/digitalsignage.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="../css/demo.css">
+    <link rel="stylesheet" href="../css/intlTelInput.css">
+    <link rel="stylesheet" href="../css/intlTelInput.min.css">
+    <link rel="stylesheet" href="../css/footer.css">
     <script
       src="https://kit.fontawesome.com/9c5eb2a5cc.js"
       crossorigin="anonymous"
@@ -33,6 +41,15 @@
       href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
       rel="stylesheet"
     />
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3HYLL1G1N5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3HYLL1G1N5');
+</script>
   </head>
 
   <body>
@@ -950,10 +967,10 @@
       <footer class="footer">
         <div class="container fot">
           <!-- <div class="container logo foologo">
-                    <a href="index.html"><img src="images/logo.png" alt=""></a>
-                </div> -->
+                      <a href="index.html"><img src="images/logo.png" alt=""></a>
+                  </div> -->
         </div>
-
+  
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-lg">
@@ -963,7 +980,7 @@
               <div class="foadd">
                 <ul>
                   <li>
-                    <img class="flag" src="../images/usflag.webp" alt="" />
+                    <img class="flag" src="images/usflag.webp" alt="" />
                     <h3>
                       400 River Side CT <br />
                       Santa Clara <br />
@@ -972,11 +989,19 @@
                     </h3>
                   </li>
                   <li>
-                    <img class="flag" src="../images/indiaflag.png" alt="" />
+                    <img class="flag" src="images/indiaflag.png" alt="" />
                     <h3>
                       A1B/19 A, Paschim Vihar <br />
                       New Delhi 110063 <br />
                       India <br />info@gozoomtech.com
+                    </h3>
+                  </li>
+                  <li>
+                    <img class="flag" src="images/usflag.webp" alt="" />
+                    <h3>
+                      520 Spotswood Gravel Hill Road <br />
+                      Monroe Township, NJ, 08831 <br />
+                      United States
                     </h3>
                   </li>
                 </ul>
@@ -989,25 +1014,25 @@
               <div class="folinks">
                 <ul>
                   <li>
-                    <a href="../index.html">HOME</a>
+                    <a href="index.html">HOME</a>
                   </li>
                   <li>
-                    <a href="../integration.html">INTEGRATION</a>
+                    <a href="integration.html">INTEGRATION</a>
                   </li>
                   <li>
-                    <a href="../retail.html">RETAILS</a>
+                    <a href="retail.html">RETAILS</a>
                   </li>
                   <li>
-                    <a href="../web.html">WEB DEVELOPMENT</a>
+                    <a href="web.html">WEB DEVELOPMENT</a>
                   </li>
                   <li>
-                    <a href="../web.html">MOBILE DEVELOPMENT</a>
+                    <a href="web.html">MOBILE DEVELOPMENT</a>
                   </li>
                   <li>
                     <a href="#">GET BROUCHER</a>
                   </li>
                   <li>
-                    <a href="../about.html">ABOUT-US</a>
+                    <a href="about.html">ABOUT-US</a>
                   </li>
                 </ul>
               </div>
@@ -1017,98 +1042,64 @@
                 <h2 class="fohead">REACH US TODAY</h2>
               </div>
               <div class="foform">
-                <form action="../process_form.php" method="POST">
-                  <!-- <label for="name">Name:</label> -->
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    class="formfi"
-                    placeholder="Name"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="designation">Designation:</label> -->
-                  <input
-                    type="text"
-                    id="designation"
-                    name="designation"
-                    class="formfi"
-                    placeholder="Designation"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="email">Email:</label> -->
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    title="Please enter a valid Email ID."
-                    class="formfi"
-                    placeholder="E-mail"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="contact-number">Contact Number:</label> -->
-                  <input
-                    type="tel"
-                    id="contact-number"
-                    name="contact-number"
-                    class="formfi"
-                    placeholder="Contact No."
-                    pattern="[0-9]+"
-                    title="Please Enter a valid Phone Number."
-                    required
-                  />
-                  <br /><br />
-
-                  <!-- <label for="industry">Industry:</label> -->
-                  <input
-                    type="text"
-                    id="industry"
-                    name="industry"
-                    class="formfi"
-                    placeholder="Industry"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="company-name">Company Name:</label> -->
-                  <input
-                    type="text"
-                    id="company-name"
-                    name="company-name"
-                    class="formfi"
-                    placeholder="company-name"
-                    required
-                  /><br /><br />
-
-                  <!-- <label for="solution">Solution:</label> -->
-                  <select id="solution" name="solution" class="formfi" required>
-                    <option value="">Select an option</option>
-                    <option value="Integration">Integration</option>
-                    <option value="Retail">Retail</option>
-                    <option value="Web DEV">Web Development</option>
-                    <option value="Mobile DEV">
-                      Mobile Development
-                    </option></select
-                  ><br /><br />
-
-                  <!-- <label for="message">Message:</label> -->
-                  <textarea
-                    class="textarea"
-                    id="message"
-                    placeholder="Message"
-                    name="message"
-                  ></textarea
-                  ><br /><br />
-
-                  <input class="formbtn" type="submit" value="Submit" />
-                </form>
+                <div id='inquiryForm-section' class="current-opening-form">
+                  <div class="quick-box">
+                    <form name="inquiryForm" id="inquiryForm" class="quick-form" action="process_form.php" method="POST">
+  
+                      <label class="input-label ">Your Name<span class="req">*</span> </label><br>
+                      <input type="text" id="name" name="name" class="formfi" placeholder="Name" maxlength="50"
+                        autocomplete="off" required /><br>
+  
+                      <label class="input-label ">Email<span class="req">*</span> </label><br>
+                      <input type="email" id="email" name="email" autocomplete="on" class="formfi" placeholder="E-mail"
+                        required />
+                      <p class="error-message" id="errorMessage">Please enter a valid email address.</p>
+  
+                      <label class="input-label">Phone<span class="req">*</span></label><br>
+                      <input type="tel" autocomplete='on' id="contact-number" name="contact-number" class="formfi"
+                        placeholder="Contact No." required /><br>
+  
+                      <label class="input-label " style="margin-top: 15px;">Interested Service </label>
+  
+                      <div class="wrapper">
+                        
+                        <div class="select-btn formfi">
+                          
+                          <span style="color:#bbb;" name="solution">Interested In</span>
+                          <i class="uil uil-angle-down"></i>
+                        </div>
+                        <div class="content">
+                          <div class="search">
+                            <i class="uil uil-search"></i>
+                            <input spellcheck="false" type="text" placeholder="Search">
+                          </div>
+                          <hr>
+                          <ul class="options"></ul>
+                        </div>
+                      </div>
+                      <input type="hidden" name="solution" id="selecti" required>
+  
+  
+  
+  
+                      <label class="input-label ">Message</label><br>
+                      <textarea class="textarea" id="message" placeholder="Message" name="message"></textarea><br><br>
+                      <input type="text" name="hidden1-input1"  style="display: none;">
+  
+                      <div class="center">
+  
+                        <input class="formbtn" type="submit" value="Submit">
+                      </div>
+                    </form>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </footer>
+  
+  
       <div class="container copyright">
         <h2 class="copy">
           © COPYRIGHT <span class="gozoom">GoZoom</span>. All Rights Reserved
@@ -1127,4 +1118,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="../OwlCarousel2-develop/dist/owl.carousel.js"></script>
   <script src="../OwlCarousel2-develop/dist/owl.carousel.min.js"></script>
+  <script src="../js/index.js"></script>
+<script src="../js/intlTelInput.js"></script>
+<script>
+  var input = document.querySelector("#contact-number");
+  window.intlTelInput(input, {})
+  </script>
 </html>

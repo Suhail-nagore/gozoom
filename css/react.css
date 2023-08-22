@@ -499,3 +499,7 @@ p a {
 }
 
 
+
+label {
+    font-weight: 100 !important;
+}

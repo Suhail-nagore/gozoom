@@ -1,0 +1,1078 @@
+[03-Jun-2023 13:11:16 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[03-Jun-2023 13:11:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[03-Jun-2023 17:25:51 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[03-Jun-2023 17:25:51 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 12:39:58 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 12:39:58 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 16:14:08 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 16:14:08 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 16:14:09 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 16:14:09 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 16:14:10 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 16:14:10 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 16:14:12 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 16:14:12 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 16:14:14 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 16:14:14 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 19:56:06 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Jun-2023 19:56:06 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[05-Jun-2023 22:03:02 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[05-Jun-2023 22:03:02 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[06-Jun-2023 07:12:26 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[06-Jun-2023 07:12:26 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[06-Jun-2023 13:15:23 America/Boise] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home2/gozoomte/public_html/process_form.php:58
+Stack trace:
+#0 {main}
+  thrown in /home2/gozoomte/public_html/process_form.php on line 58
+[06-Jun-2023 13:15:38 America/Boise] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home2/gozoomte/public_html/process_form.php:58
+Stack trace:
+#0 {main}
+  thrown in /home2/gozoomte/public_html/process_form.php on line 58
+[06-Jun-2023 13:16:27 America/Boise] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home2/gozoomte/public_html/process_form.php:58
+Stack trace:
+#0 {main}
+  thrown in /home2/gozoomte/public_html/process_form.php on line 58
+[06-Jun-2023 13:17:30 America/Boise] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home2/gozoomte/public_html/process_form.php:58
+Stack trace:
+#0 {main}
+  thrown in /home2/gozoomte/public_html/process_form.php on line 58
+[06-Jun-2023 13:23:08 America/Boise] PHP Fatal error:  Uncaught Error: Class "PHPMailer" not found in /home2/gozoomte/public_html/process_form.php:58
+Stack trace:
+#0 {main}
+  thrown in /home2/gozoomte/public_html/process_form.php on line 58
+[06-Jun-2023 19:41:49 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[06-Jun-2023 19:41:49 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[06-Jun-2023 21:50:43 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[06-Jun-2023 21:50:43 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[06-Jun-2023 22:14:05 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[06-Jun-2023 22:14:05 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[06-Jun-2023 23:53:54 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[06-Jun-2023 23:53:54 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[07-Jun-2023 02:20:21 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[07-Jun-2023 02:20:21 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[07-Jun-2023 03:13:20 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[07-Jun-2023 03:13:20 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[07-Jun-2023 03:33:17 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[07-Jun-2023 03:33:17 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[07-Jun-2023 07:51:34 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[07-Jun-2023 07:51:34 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[07-Jun-2023 08:41:32 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[07-Jun-2023 08:41:32 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[07-Jun-2023 09:52:04 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[07-Jun-2023 09:52:04 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[10-Jun-2023 09:49:49 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[10-Jun-2023 09:49:49 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[12-Jun-2023 02:54:21 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[12-Jun-2023 02:54:21 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[12-Jun-2023 03:07:41 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[12-Jun-2023 03:07:41 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[13-Jun-2023 13:45:37 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "console" in /home2/gozoomte/public_html/process_form.php:92
+Stack trace:
+#0 {main}
+  thrown in /home2/gozoomte/public_html/process_form.php on line 92
+[13-Jun-2023 13:47:34 America/Boise] PHP Fatal error:  Uncaught Error: Object of class PHPMailer\PHPMailer\PHPMailer could not be converted to string in /home2/gozoomte/public_html/process_form.php:92
+Stack trace:
+#0 {main}
+  thrown in /home2/gozoomte/public_html/process_form.php on line 92
+[13-Jun-2023 13:47:40 America/Boise] PHP Fatal error:  Uncaught Error: Object of class PHPMailer\PHPMailer\PHPMailer could not be converted to string in /home2/gozoomte/public_html/process_form.php:92
+Stack trace:
+#0 {main}
+  thrown in /home2/gozoomte/public_html/process_form.php on line 92
+[13-Jun-2023 13:47:49 America/Boise] PHP Fatal error:  Uncaught Error: Object of class PHPMailer\PHPMailer\PHPMailer could not be converted to string in /home2/gozoomte/public_html/process_form.php:92
+Stack trace:
+#0 {main}
+  thrown in /home2/gozoomte/public_html/process_form.php on line 92
+[13-Jun-2023 13:48:37 America/Boise] PHP Fatal error:  Uncaught Error: Object of class PHPMailer\PHPMailer\PHPMailer could not be converted to string in /home2/gozoomte/public_html/process_form.php:92
+Stack trace:
+#0 {main}
+  thrown in /home2/gozoomte/public_html/process_form.php on line 92
+[13-Jun-2023 13:54:54 America/Boise] PHP Fatal error:  Uncaught Error: Object of class PHPMailer\PHPMailer\PHPMailer could not be converted to string in /home2/gozoomte/public_html/process_form.php:92
+Stack trace:
+#0 {main}
+  thrown in /home2/gozoomte/public_html/process_form.php on line 92
+[17-Jun-2023 15:28:20 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[17-Jun-2023 15:28:20 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[17-Jun-2023 22:47:59 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[17-Jun-2023 22:47:59 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[18-Jun-2023 19:55:02 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[18-Jun-2023 19:55:02 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[18-Jun-2023 22:59:27 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[18-Jun-2023 22:59:27 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[20-Jun-2023 00:23:02 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[20-Jun-2023 00:23:02 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[20-Jun-2023 08:15:08 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[20-Jun-2023 08:15:08 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jun-2023 03:08:39 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jun-2023 03:08:39 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jun-2023 03:08:39 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jun-2023 03:08:39 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jun-2023 03:08:42 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jun-2023 03:08:42 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jun-2023 03:08:44 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jun-2023 03:08:44 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jun-2023 03:08:46 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jun-2023 03:08:46 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jun-2023 16:26:08 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jun-2023 16:26:08 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[25-Jun-2023 03:46:04 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[25-Jun-2023 03:46:04 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[26-Jun-2023 15:53:40 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[26-Jun-2023 15:53:40 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[27-Jun-2023 14:17:01 America/Boise] PHP Parse error:  syntax error, unexpected variable "$mail" in /home2/gozoomte/public_html/laravel.php on line 79
+[27-Jun-2023 14:23:52 America/Boise] PHP Parse error:  syntax error, unexpected variable "$mail" in /home2/gozoomte/public_html/laravel.php on line 79
+[27-Jun-2023 14:28:37 America/Boise] PHP Parse error:  syntax error, unexpected variable "$mail" in /home2/gozoomte/public_html/angular.php on line 79
+[27-Jun-2023 14:48:07 America/Boise] PHP Parse error:  syntax error, unexpected variable "$mail" in /home2/gozoomte/public_html/angular.php on line 79
+[27-Jun-2023 14:53:00 America/Boise] PHP Parse error:  syntax error, unexpected variable "$mail" in /home2/gozoomte/public_html/angular.php on line 79
+[27-Jun-2023 14:53:07 America/Boise] PHP Parse error:  syntax error, unexpected variable "$mail" in /home2/gozoomte/public_html/angular.php on line 79
+[27-Jun-2023 14:54:03 America/Boise] PHP Parse error:  syntax error, unexpected variable "$mail" in /home2/gozoomte/public_html/angular.php on line 79
+[27-Jun-2023 14:56:09 America/Boise] PHP Parse error:  syntax error, unexpected variable "$mail" in /home2/gozoomte/public_html/laravel.php on line 79
+[27-Jun-2023 14:58:35 America/Boise] PHP Parse error:  syntax error, unexpected variable "$mail" in /home2/gozoomte/public_html/laravel.php on line 79
+[27-Jun-2023 14:58:42 America/Boise] PHP Parse error:  syntax error, unexpected variable "$mail" in /home2/gozoomte/public_html/laravel.php on line 79
+[27-Jun-2023 15:02:39 America/Boise] PHP Parse error:  syntax error, unexpected variable "$mail" in /home2/gozoomte/public_html/laravel.php on line 79
+[27-Jun-2023 15:31:15 America/Boise] PHP Parse error:  syntax error, unexpected variable "$mail" in /home2/gozoomte/public_html/laravel.php on line 79
+[27-Jun-2023 15:48:18 America/Boise] PHP Parse error:  syntax error, unexpected variable "$mail" in /home2/gozoomte/public_html/angular.php on line 79
+[27-Jun-2023 15:51:00 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[27-Jun-2023 15:51:00 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[27-Jun-2023 15:52:50 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[27-Jun-2023 15:52:50 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[27-Jun-2023 15:53:04 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[27-Jun-2023 15:53:04 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[27-Jun-2023 15:57:54 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[27-Jun-2023 15:57:54 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[27-Jun-2023 15:58:25 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[27-Jun-2023 15:58:25 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[27-Jun-2023 16:02:42 America/Boise] PHP Warning:  Undefined array key "laravelBussiness" in /home2/gozoomte/public_html/laravel.php on line 12
+[27-Jun-2023 16:03:27 America/Boise] PHP Warning:  Undefined array key "laravelBussiness" in /home2/gozoomte/public_html/laravel.php on line 12
+[27-Jun-2023 16:03:58 America/Boise] PHP Warning:  Undefined array key "laravelBussiness" in /home2/gozoomte/public_html/laravel.php on line 12
+[27-Jun-2023 16:05:00 America/Boise] PHP Warning:  Undefined array key "laravelBussiness" in /home2/gozoomte/public_html/laravel.php on line 12
+[27-Jun-2023 16:06:12 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[27-Jun-2023 16:06:12 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[27-Jun-2023 16:06:35 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[27-Jun-2023 16:06:35 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[27-Jun-2023 18:35:30 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[27-Jun-2023 18:35:30 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[27-Jun-2023 22:20:02 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[27-Jun-2023 22:20:02 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jun-2023 04:26:37 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jun-2023 04:26:37 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jun-2023 09:06:20 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jun-2023 09:06:20 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jun-2023 19:17:39 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jun-2023 19:17:39 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jun-2023 20:59:16 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jun-2023 20:59:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[29-Jun-2023 14:00:20 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[29-Jun-2023 14:00:20 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[29-Jun-2023 14:45:45 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[29-Jun-2023 14:45:45 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[30-Jun-2023 10:58:43 America/Boise] PHP Warning:  Undefined array key "laravelBussiness" in /home2/gozoomte/public_html/laravel.php on line 12
+[30-Jun-2023 13:34:40 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[30-Jun-2023 13:34:40 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[01-Jul-2023 07:30:39 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[01-Jul-2023 07:30:39 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[01-Jul-2023 10:29:41 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[01-Jul-2023 10:29:41 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[08-Jul-2023 03:57:39 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[08-Jul-2023 03:57:39 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[08-Jul-2023 03:57:40 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[08-Jul-2023 03:57:40 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[08-Jul-2023 03:57:41 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[08-Jul-2023 03:57:41 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[08-Jul-2023 03:57:44 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[08-Jul-2023 03:57:44 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[08-Jul-2023 03:57:46 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[08-Jul-2023 03:57:46 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[08-Jul-2023 04:06:19 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[08-Jul-2023 04:06:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[11-Jul-2023 08:55:13 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[11-Jul-2023 08:55:13 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[11-Jul-2023 14:47:00 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[11-Jul-2023 14:47:00 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[11-Jul-2023 15:02:46 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[11-Jul-2023 15:02:46 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[12-Jul-2023 08:10:59 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 17
+[12-Jul-2023 19:43:43 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[12-Jul-2023 19:43:43 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[14-Jul-2023 01:18:34 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[14-Jul-2023 01:18:34 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[15-Jul-2023 08:12:30 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[15-Jul-2023 08:12:30 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[16-Jul-2023 01:25:59 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[16-Jul-2023 01:25:59 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[16-Jul-2023 03:27:56 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[16-Jul-2023 03:27:56 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[16-Jul-2023 18:54:19 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[16-Jul-2023 18:54:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[17-Jul-2023 02:13:56 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[17-Jul-2023 02:13:56 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[17-Jul-2023 19:45:22 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[17-Jul-2023 19:45:22 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[17-Jul-2023 19:51:55 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[17-Jul-2023 19:51:55 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[17-Jul-2023 22:40:25 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[17-Jul-2023 22:40:25 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[18-Jul-2023 10:18:01 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[18-Jul-2023 10:18:01 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[18-Jul-2023 15:16:05 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[18-Jul-2023 15:16:05 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[18-Jul-2023 20:59:09 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[18-Jul-2023 20:59:09 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[19-Jul-2023 01:42:39 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[19-Jul-2023 01:42:39 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[19-Jul-2023 09:13:19 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[19-Jul-2023 09:13:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[19-Jul-2023 22:22:59 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[19-Jul-2023 22:22:59 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[19-Jul-2023 23:58:03 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[19-Jul-2023 23:58:03 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[20-Jul-2023 00:59:56 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[20-Jul-2023 00:59:56 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[20-Jul-2023 03:32:44 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[20-Jul-2023 03:32:44 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[20-Jul-2023 05:02:02 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[20-Jul-2023 05:02:02 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[20-Jul-2023 19:30:51 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[20-Jul-2023 19:30:51 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jul-2023 03:45:30 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jul-2023 03:45:30 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jul-2023 08:19:21 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[21-Jul-2023 08:19:21 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 14:20:50 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 14:20:50 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 14:33:54 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 14:33:54 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 16:36:07 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 16:36:07 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 17:53:14 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 17:53:14 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 17:53:15 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 17:53:15 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 17:53:16 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 17:53:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 17:53:19 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 17:53:19 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 17:53:21 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 17:53:21 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 18:35:50 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 18:35:50 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 18:49:05 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 18:49:05 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 19:35:57 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[23-Jul-2023 19:35:57 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[25-Jul-2023 14:09:42 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[25-Jul-2023 14:09:42 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[25-Jul-2023 15:12:20 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gozoomte/public_html/process_form.php:92) in /home2/gozoomte/public_html/process_form.php on line 96
+[28-Jul-2023 05:44:54 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jul-2023 05:44:54 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jul-2023 10:56:26 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jul-2023 10:56:26 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jul-2023 17:14:51 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jul-2023 17:14:51 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jul-2023 18:13:37 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[28-Jul-2023 18:13:37 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[29-Jul-2023 02:49:42 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[29-Jul-2023 02:49:42 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[29-Jul-2023 08:11:10 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[29-Jul-2023 08:11:10 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[29-Jul-2023 14:26:56 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[29-Jul-2023 14:26:56 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[30-Jul-2023 03:16:47 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[30-Jul-2023 03:16:47 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[30-Jul-2023 08:17:05 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[30-Jul-2023 08:17:05 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[30-Jul-2023 11:16:22 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[30-Jul-2023 11:16:22 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[30-Jul-2023 19:45:48 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[30-Jul-2023 19:45:48 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[31-Jul-2023 03:40:54 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[31-Jul-2023 03:40:54 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[31-Jul-2023 22:01:48 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[31-Jul-2023 22:01:48 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[01-Aug-2023 12:22:12 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 17
+[01-Aug-2023 14:45:47 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[01-Aug-2023 14:45:47 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[02-Aug-2023 08:36:53 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[02-Aug-2023 08:36:53 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[03-Aug-2023 19:18:23 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[03-Aug-2023 19:18:23 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[04-Aug-2023 10:35:22 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[04-Aug-2023 10:35:22 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[04-Aug-2023 10:43:45 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[04-Aug-2023 10:43:45 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[04-Aug-2023 10:47:58 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[04-Aug-2023 10:47:58 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[04-Aug-2023 11:02:09 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[04-Aug-2023 11:02:09 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[04-Aug-2023 11:02:15 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[04-Aug-2023 11:02:15 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[04-Aug-2023 11:02:18 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[04-Aug-2023 11:02:18 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[04-Aug-2023 11:06:54 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[04-Aug-2023 11:06:54 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[04-Aug-2023 11:18:28 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[04-Aug-2023 11:18:28 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[04-Aug-2023 12:31:35 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[04-Aug-2023 12:31:35 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[04-Aug-2023 12:40:21 America/Boise] PHP Warning:  Undefined array key "angularName" in /home2/gozoomte/public_html/angular.php on line 11
+[04-Aug-2023 12:40:21 America/Boise] PHP Warning:  Undefined array key "angularBussiness" in /home2/gozoomte/public_html/angular.php on line 12
+[05-Aug-2023 08:53:27 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[05-Aug-2023 08:53:27 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[05-Aug-2023 15:35:06 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[05-Aug-2023 15:35:06 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[07-Aug-2023 16:11:36 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 14
+[07-Aug-2023 16:12:45 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 14
+[07-Aug-2023 17:43:44 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 14
+[07-Aug-2023 17:44:43 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 14
+[08-Aug-2023 02:26:08 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 14
+[08-Aug-2023 02:45:07 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 14
+[08-Aug-2023 06:46:00 America/Boise] PHP Parse error:  syntax error, unexpected token "}" in /home2/gozoomte/public_html/process_form.php on line 97
+[08-Aug-2023 06:47:43 America/Boise] PHP Parse error:  syntax error, unexpected token "}" in /home2/gozoomte/public_html/process_form.php on line 97
+[08-Aug-2023 06:47:58 America/Boise] PHP Parse error:  syntax error, unexpected token "}" in /home2/gozoomte/public_html/process_form.php on line 97
+[08-Aug-2023 06:48:02 America/Boise] PHP Parse error:  syntax error, unexpected token "}" in /home2/gozoomte/public_html/process_form.php on line 97
+[08-Aug-2023 06:48:17 America/Boise] PHP Parse error:  syntax error, unexpected token "}" in /home2/gozoomte/public_html/process_form.php on line 97
+[08-Aug-2023 07:58:56 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gozoomte/public_html/process_form.php:84) in /home2/gozoomte/public_html/process_form.php on line 87
+[08-Aug-2023 08:07:29 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gozoomte/public_html/process_form.php:84) in /home2/gozoomte/public_html/process_form.php on line 87
+[08-Aug-2023 08:10:08 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gozoomte/public_html/process_form.php:83) in /home2/gozoomte/public_html/process_form.php on line 87
+[08-Aug-2023 09:50:27 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gozoomte/public_html/process_form.php:83) in /home2/gozoomte/public_html/process_form.php on line 87
+[08-Aug-2023 09:53:35 America/Boise] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/gozoomte/public_html/process_form.php:83) in /home2/gozoomte/public_html/process_form.php on line 87
+[08-Aug-2023 11:05:08 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 14
+[08-Aug-2023 11:27:39 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 14
+[08-Aug-2023 11:28:21 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 14
+[08-Aug-2023 11:28:39 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 14
+[08-Aug-2023 12:37:17 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 14
+[08-Aug-2023 13:12:39 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 14
+[08-Aug-2023 13:13:11 America/Boise] PHP Warning:  Undefined array key "solution" in /home2/gozoomte/public_html/process_form.php on line 14
+[08-Aug-2023 13:22:15 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[08-Aug-2023 13:22:15 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[09-Aug-2023 11:01:26 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[09-Aug-2023 11:01:26 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/xmlrpc.php(31): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[09-Aug-2023 15:36:05 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[09-Aug-2023 15:36:05 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[10-Aug-2023 07:05:24 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[10-Aug-2023 07:05:24 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[10-Aug-2023 10:56:43 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[10-Aug-2023 10:56:43 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[12-Aug-2023 12:33:59 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[12-Aug-2023 12:33:59 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[13-Aug-2023 18:38:18 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[13-Aug-2023 18:38:18 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[15-Aug-2023 03:45:23 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[15-Aug-2023 03:45:23 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-cron.php(46): require_once('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[15-Aug-2023 16:45:37 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[15-Aug-2023 16:45:37 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33
+[18-Aug-2023 17:48:55 America/Boise] PHP Warning:  require(/home2/gozoomte/public_html/wp-includes/version.php): Failed to open stream: No such file or directory in /home2/gozoomte/public_html/wp-settings.php on line 33
+[18-Aug-2023 17:48:55 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/gozoomte/public_html/wp-includes/version.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home2/gozoomte/public_html/wp-settings.php:33
+Stack trace:
+#0 /home2/gozoomte/public_html/wp-config.php(101): require_once()
+#1 /home2/gozoomte/public_html/wp-load.php(50): require_once('/home2/gozoomte...')
+#2 /home2/gozoomte/public_html/wp-login.php(12): require('/home2/gozoomte...')
+#3 {main}
+  thrown in /home2/gozoomte/public_html/wp-settings.php on line 33

@@ -6,8 +6,8 @@
     overflow: hidden;
 }
 .page-404-banner.banner-top, .print-design-banner.banner-top, .page-webdesign-banner.banner-top, .page-packaging-banner.banner-top, .page-ui-ux-banner.banner-top, .banner-top {
-    min-height: 680px;
-    height: 680px;
+    min-height: 580px !important;
+    height: 0px !important;
 }
 .conversion-banner {
     position: relative;
@@ -278,11 +278,10 @@ ul.psdxd-right li, ul.psdxd-right li h3, ul.psdxd-right li h4, ul.psdxd-right li
 } */
 
 .psdxd-hire {
-    background-image: url(//www.codeclouds.com/wp-content/themes/CodeClouds/images/psdxd-hire-bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #f8f9fe;
+    background-color: tomato;
 }
 .pd-bott220 {
     padding-bottom: 220px;

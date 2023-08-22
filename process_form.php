@@ -9,15 +9,16 @@ use PHPMailer\PHPMailer\Exception;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = $_POST["name"];
-    $designation = $_POST["designation"];
     $email = $_POST["email"];
     $contactNumber = $_POST["contact-number"];
-    $industry = $_POST["industry"];
-    $companyName = $_POST["company-name"];
     $solution = $_POST["solution"];
     $message = $_POST["message"];
 
     // Validate and sanitize the form data (perform necessary checks)
+    if (isset($_POST["hidden1-input1"]) && !empty($_POST["hidden1-input1"])){
+            echo "SPAM!!";
+            die();
+        }
 
     
 
@@ -39,13 +40,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Prepare and execute the database query
     try {
-        $stmt = $conn->prepare("INSERT INTO enquiry (name, designation, email, contact_number, industry, company_name, solution, message) VALUES (:name, :designation, :email, :contactNumber, :industry, :companyName, :solution, :message)");
+        $stmt = $conn->prepare("INSERT INTO enquiry (name, email, contact_number, solution, message) VALUES (:name, :email, :contactNumber, :solution, :message)ON DUPLICATE KEY UPDATE name='$solution'");
         $stmt->bindParam(':name', $name);
-        $stmt->bindParam(':designation', $designation);
         $stmt->bindParam(':email', $email);
         $stmt->bindParam(':contactNumber', $contactNumber);
-        $stmt->bindParam(':industry', $industry);
-        $stmt->bindParam(':companyName', $companyName);
         $stmt->bindParam(':solution', $solution);
         $stmt->bindParam(':message', $message);
         $stmt->execute();
@@ -65,7 +63,7 @@ $mail = new PHPMailer(true);
 try {
     // Server settings
     $mail->isSMTP();
-    $mail->Host = 'mail.gozoomtech.com'; // Replace with your SMTP server address
+    $mail->Host = 'mail.gozoomtech.com'; // Replace with your SMTP serveraddress
     $mail->SMTPAuth = true;
     $mail->Username = 'info@gozoomtech.com'; // Replace with your SMTP username
     $mail->Password = 'Gozoom@123'; // Replace with your SMTP password
@@ -80,11 +78,8 @@ try {
     $mail->isHTML(false);
     $mail->Subject = 'Form Submission';
     $mail->Body = "Name: $name\n"
-        . "Designation: $designation\n"
         . "Email: $email\n"
         . "Contact Number: $contactNumber\n"
-        . "Industry: $industry\n"
-        . "Company Name: $companyName\n"
         . "Solution: $solution\n"
         . "Message: $message\n";
 
@@ -100,6 +95,7 @@ try {
     echo "Error sending email: " . $mail->ErrorInfo;
     exit;
 }
+
 
 }
 ?>

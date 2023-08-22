@@ -30,7 +30,7 @@ a {
 }
 
 .page-angular-banner {
-    background-image: url(//www.codeclouds.com/wp-content/themes/CodeClouds/images/angular-header2.jpg);
+    background-image: url(../images/angularbg.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -193,7 +193,7 @@ h1 {
     font-size: 36px;
 }
 
-.h1,
+/* .h1,
 .h2,
 .h3,
 h1,
@@ -201,7 +201,7 @@ h2,
 h3 {
     margin-top: 20px;
     margin-bottom: 10px;
-}
+} */
 
 .h1,
 .h2,
@@ -1525,6 +1525,41 @@ img {
 }
 hr, img {
     border: 0;
+}
+
+.banner-overlay1 {
+    background-color: #dd4814;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+.banner-overlay-shape1 {
+    position: absolute;
+    width: 79%;
+    height: 1436px;
+    -webkit-transform: skew(-250deg);
+    -moz-transform: skew(-250deg);
+    transform: skew(-250deg);
+    background-color: #fff;
+    opacity: .1;
+    left: -1103px;
+    top: -369px;
+}
+ .banner-overlay-shape2 {
+    position: absolute;
+    left: 9%;
+    top: -58%;
+    width: 100%;
+    height: 860px;
+    opacity: .502;
+    transform: rotate(52deg);
+    background-color: #fff;
+    opacity: .1;
+    transform-origin: top left;
+    /* min-height: 1395px; */
 }
 
  
