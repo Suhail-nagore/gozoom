@@ -10,14 +10,14 @@
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script>
     function validateForm() {
-        var recaptchaResponse = grecaptcha.getResponse();
-        if (recaptchaResponse.length === 0) {
-            alert("Please complete the reCAPTCHA.");
-            return false;
-        }
-        return true;
+      var recaptchaResponse = grecaptcha.getResponse();
+      if (recaptchaResponse.length === 0) {
+        alert("Please complete the reCAPTCHA.");
+        return false;
+      }
+      return true;
     }
-</script>
+  </script>
 
   <link rel="stylesheet" media="all" onload="this.onload=null;this.media='all';" id="ao_optimized_gfonts"
     href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900%7CRoboto+Slab:100,300,400,700%7CIBM+Plex+Sans:300,400,500,600,700&amp;display=swap">
@@ -37,14 +37,14 @@
   <link rel="stylesheet" href="../css/footer.css">
   <title>Software Development Company - Gozoom</title>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1HBBE7QYMR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HBBE7QYMR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-1HBBE7QYMR');
-</script>
+    gtag('config', 'G-1HBBE7QYMR');
+  </script>
 </head>
 
 <body>
@@ -468,7 +468,8 @@
             <div class="foform">
               <div id='inquiryForm-section' class="current-opening-form">
                 <div class="quick-box">
-                  <form name="inquiryForm" id="inquiryForm" class="quick-form" action="process_form.php" method="POST" onsubmit="return validateForm();">
+                  <form name="inquiryForm" id="inquiryForm" class="quick-form" action="process_form.php" method="POST"
+                    onsubmit="return validateForm();">
 
                     <label class="input-label ">Your Name<span class="req">*</span> </label><br>
                     <input type="text" id="name" name="name" class="formfi" placeholder="Name" maxlength="50"
