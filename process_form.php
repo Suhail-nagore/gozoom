@@ -12,8 +12,8 @@ use PHPMailer\PHPMailer\Exception;
 
 
 // Twilio credentials
-$accountSid = 'your_account_sid';
-$authToken = 'your_auth_token';
+$accountSid = 'AC875e57fee731961c13eee99327b35348';
+$authToken = '69fb4f61fc98c2fce63d2c532ff42626';
 $twilioNumber = '+14155238886'; // Your Twilio phone number
 
 $recaptcha_secret = "6Lf9TsQnAAAAAAyZiEcU4rEDn7fVGOGKr7kISjBn"; // Replace with your secret key
