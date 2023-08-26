@@ -14,7 +14,8 @@ use PHPMailer\PHPMailer\Exception;
 // Twilio credentials
 $accountSid = 'AC875e57fee731961c13eee99327b35348';
 $authToken = '69fb4f61fc98c2fce63d2c532ff42626';
-$twilioNumber = '+14155238886'; // Your Twilio phone number
+$twilioNumber = '+14155238886'; // Your Twilio phone 
+$ownerNumber = '+919456222022'; // owner number
 
 $recaptcha_secret = "6Lf9TsQnAAAAAAyZiEcU4rEDn7fVGOGKr7kISjBn"; // Replace with your secret key
 $recaptcha_response = $_POST['g-recaptcha-response'];
@@ -83,7 +84,7 @@ if (intval($responseKeys["success"]) !== 1) {
 
             // Send WhatsApp message to the owner
             $twilio->messages->create(
-                  "whatsapp:+919456222022", // Owner's WhatsApp phone number
+                  "whatsapp:$ownerNumber", // Owner's WhatsApp phone number
          array(
              "from" => "whatsapp:$twilioNumber", // Use your Twilio phone number as the sender
              "body" => $ownerMessage
