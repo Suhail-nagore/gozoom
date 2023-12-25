@@ -33,7 +33,14 @@ a {
     text-decoration: none;
 }
 
-
+.laravel-banner {
+    background-image: url(../images/laravelbg.webp);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
 /* Section  */
 
 .page-404-banner.banner-top,
@@ -50,14 +57,7 @@ div {
     display: block;
 }
 
-.laravel-banner {
-    background-image: url(../images/laravelbg.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-}
+
 
 .banner-top {
     padding: 200px 0;
