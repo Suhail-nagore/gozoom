@@ -1,20 +1,11 @@
 <?php
-require 'vendor/autoload.php';
 require 'PHPMailer.php';
 require 'SMTP.php';
 require 'Exception.php';
 
-
-use Twilio\Rest\Client;
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
-
-
-// Twilio credentials
-$accountSid = 'your_account_sid';
-$authToken = 'your_auth_token';
-$twilioNumber = '+14155238886'; // Your Twilio phone number
 
 $recaptcha_secret = "6Lf9TsQnAAAAAAyZiEcU4rEDn7fVGOGKr7kISjBn"; // Replace with your secret key
 $recaptcha_response = $_POST['g-recaptcha-response'];
@@ -60,35 +51,6 @@ if (intval($responseKeys["success"]) !== 1) {
 
             // Close the database connection
             $conn = null;
-
-
-            // Construct the WhatsApp message for the customer
-           $customerMessage = "Hello $name! Thank you for submitting the form. We will contact you at $email.";
-
-           // Initialize the Twilio client
-            $twilio = new Client($accountSid, $authToken);
-
-          // Send WhatsApp message to the customer
-          $twilio->messages->create(
-          "whatsapp:$contactNumber", // Customer's WhatsApp phone number
-        array(
-                "from" => "whatsapp:$twilioNumber", // Use your Twilio phone number as the sender
-                "body" => $customerMessage
-            )
-        );
-
-
-            // Construct the WhatsApp message for the owner
-            $ownerMessage = "New form submission from $name ($email). Please check the dashboard.";
-
-            // Send WhatsApp message to the owner
-            $twilio->messages->create(
-                  "whatsapp:+919456222022", // Owner's WhatsApp phone number
-         array(
-             "from" => "whatsapp:$twilioNumber", // Use your Twilio phone number as the sender
-             "body" => $ownerMessage
-            )
-        );
 
         } catch (PDOException $e) {
             // Handle database connection and query error
