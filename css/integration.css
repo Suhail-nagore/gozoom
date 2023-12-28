@@ -90,7 +90,7 @@ video {
         margin-top: 4rem;
     }
     .hero {
-        font-size: 2.1rem;
+        font-size: 25px;
     }
 }
 
@@ -156,6 +156,16 @@ video {
     margin: 5px;
     color: #16a9e2;
 }
+
+.gcard {
+    /* width: 200px;
+    height: 150px;
+    margin: 20px;*/
+    opacity: 0; 
+    transform: translateX(-300px);
+    /* Adjust styles as needed */
+  }
+  
 
 
 /* img3 ki style yaha se start ho rahi hai  */
