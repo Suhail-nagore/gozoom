@@ -47,6 +47,8 @@
   const phoneInputs = document.getElementById("contact-numbers");
   const errorMessage = document.getElementById("errorMessage");
   const errorMessages = document.getElementById("errorMessages");
+  const popupSubmit = document.getElementById("btn_ef6491f");
+  const footerForm = document.getElementById("footerSub");
 
   emailInput.addEventListener("input", validateEmail);
   emailInputs.addEventListener("input", validateEmail);
@@ -61,16 +63,20 @@
 
     if (!emailPattern.test(emailInput.value)) {
       errorMessage.style.visibility = "visible";
+      footerForm.disabled = true;
       emailInput.style.borderColor = "red";
     } else {
       errorMessage.style.visibility = "hidden";
+      footerForm.disabled = false;
       emailInput.style.borderColor = "initial";
     }
     if (!emailPattern.test(emailInputs.value)) {
       errorMessages.style.visibility = "visible";
+      popupSubmit.disabled = true;
       emailInputs.style.borderColor = "red";
     } else {
       errorMessages.style.visibility = "hidden";
+      popupSubmit.disabled = false;
       emailInputs.style.borderColor = "initial";
     }
   }
