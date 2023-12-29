@@ -1,4 +1,6 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+
 #contact {
     width: 100%;
     display: block;
@@ -510,6 +512,13 @@ hr {
     margin-bottom: 0rem !important;
     margin-top: -10px;
   }
+.error-messagehh {
+    color: red !important;
+    visibility: hidden;
+    font-size: 10px;
+    margin-bottom: 0rem !important;
+    margin-top: 3px;
+  }
   .error-message1 {
     color: red;
     visibility: hidden;
@@ -813,7 +822,7 @@ exit-modal .modal-dialog {
 }
 
 .exit-modal .modal-dialog .modal-content .modal-body h2 {
-    font-family: poppinsbold;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 20px
 }
 @media screen and (max-width:991px) {

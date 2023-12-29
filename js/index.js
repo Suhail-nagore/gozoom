@@ -42,13 +42,19 @@
   selectBtn.addEventListener("click", () => wrapper.classList.toggle("active"));
 
   const emailInput = document.getElementById("email");
+  const emailInputs = document.getElementById("email_ef6491f");
   const phoneInput = document.getElementById("contact-number");
+  const phoneInputs = document.getElementById("contact-numbers");
   const errorMessage = document.getElementById("errorMessage");
+  const errorMessages = document.getElementById("errorMessages");
 
   emailInput.addEventListener("input", validateEmail);
+  emailInputs.addEventListener("input", validateEmail);
   phoneInput.addEventListener("input", validatePhone);
+  phoneInputs.addEventListener("input", validatePhone);
   const phonePattern = /^\d{10}$/;
   const phoneValue = phoneInput.value.trim();
+  const phoneValues = phoneInputs.value.trim();
 
   function validateEmail() {
     const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
@@ -60,19 +66,29 @@
       errorMessage.style.visibility = "hidden";
       emailInput.style.borderColor = "initial";
     }
+    if (!emailPattern.test(emailInputs.value)) {
+      errorMessages.style.visibility = "visible";
+      emailInputs.style.borderColor = "red";
+    } else {
+      errorMessages.style.visibility = "hidden";
+      emailInputs.style.borderColor = "initial";
+    }
   }
   function validatePhone() {
     const phonePattern = /^\+?\d{10,}$/;
     let phoneValue = phoneInput.value.trim();
+    let phoneValues = phoneInputs.value.trim();
 
     // Remove non-numeric characters
     phoneValue = phoneValue.replace(/[^\d+]/g, '');
+    phoneValues = phoneValues.replace(/[^\d+]/g, '');
 
     //   if (phoneValue.length > 10) {
     //     phoneValue = phoneValue.substr(0, 10);
     //   }
 
     phoneInput.value = phoneValue;
+    phoneInputs.value = phoneValues;
 
 
   }

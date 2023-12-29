@@ -3738,7 +3738,7 @@
                                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                                         <ul></ul>
                                     </div>
-                                    <form action="process_form2.php" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init" onsubmit="return validateForm();" >
+                                    <form action="process_form2.php" method="post" class="wpcf7-form init" aria-label="Contact form"  >
                                         
                                         <div class="row form-row">
                                             
@@ -3766,9 +3766,12 @@
                                             </div>
                                             <div class="col-sm-12 col-md-12 col-gap">
                                                 <div class="line">
-                                                    <p><span class="wpcf7-form-control-wrap" data-name="email-contact"><input size="40" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email validate form-control" id="email_ef6491f" aria-required="true" aria-invalid="false" placeholder="Email Address *" value type="email" name="email" /></span>
+                                                    <p><span class="wpcf7-form-control-wrap" data-name="email-contact"><input size="40" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email validate form-control" id="email_ef6491f" aria-required="true" aria-invalid="false" placeholder="Email Address *" value type="email" name="email" required /></span>
                                                     </p>
                                                 </div>
+                                                <p class="error-messagehh" id="errorMessages">
+                                                  Please enter a valid email address.
+                                                </p>
                                             </div>
                                             <div class="col-sm-8 col-md-8 col-gap">
                                                 <div class="line msg">
@@ -3781,10 +3784,7 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <div
-                                        class="g-recaptcha"
-                                        data-sitekey="6Lf9TsQnAAAAANxF0lHRxZTC_YMZIMmV1qX1v1qs"
-                                      ></div>
+                                        
                                     </form>
                                 </div>
                             </div>
@@ -3990,153 +3990,6 @@
 
   
 </script>
-<!-- 
-<script>
-  (function() {
-    var guid = 0;
-    var exitModalObj = function(element, options) {
-        this.guid = guid++;
-        this.settings = $.extend({}, exitModalInterface.defaults, options);
-        this.$element = $(element);
-        this.showCounter = 0;
-        this.eventPrefix = '.exitModal' + this.guid;
-        this.modalShowEvent = 'show.bs.modals' + this.eventPrefix;
-        this.modalShownEvent = 'shown.bs.modals' + this.eventPrefix;
-        this.modalHideEvent = 'hide.bs.modals' + this.eventPrefix;
-        this.modalHiddenEvent = 'hidden.bs.modals' + this.eventPrefix;
-    }
-    exitModalObj.prototype = {
-        init: function() {
-            var plugin = this;
-            plugin.$element.modal({
-                backdrop: plugin.settings.modalBackdrop,
-                keyboard: plugin.settings.modalKeyboard,
-                show: false
-            });
-            plugin.$element.on(plugin.modalShowEvent, function(e) {
-                plugin.showCounter++;
-                plugin.mouseOutEventUnbind();
-                plugin.settings.callbackOnModalShow.call(plugin);
-            });
-            plugin.$element.on(plugin.modalShownEvent, function(e) {
-                plugin.settings.callbackOnModalShown.call(plugin);
-            });
-            plugin.$element.on(plugin.modalHideEvent, function(e) {
-                plugin.settings.callbackOnModalHide.call(plugin);
-            });
-            plugin.$element.on(plugin.modalHiddenEvent, function(e) {
-                if (plugin.settings.numberToShown) {
-                    if (plugin.showCounter < plugin.settings.numberToShown) {
-                        plugin.mouseOutEventBind();
-                    }
-                } else {
-                    plugin.mouseOutEventBind();
-                }
-                plugin.settings.callbackOnModalHidden.call(plugin);
-            });
-            plugin.mouseOutEventBind();
-        },
-        mouseOutEventBind: function() {
-            var plugin = this;
-            var oldY = 0;
-            $(plugin.settings.viewportSelector).on("mousemove" + plugin.eventPrefix, function(e) {
-                if ((e.clientY <= plugin.settings.pageYValueForEventFired) && (e.pageY < oldY)) {
-                    plugin.showModal();
-                }
-                oldY = e.pageY;
-            });
-        },
-        mouseOutEventUnbind: function() {
-            var plugin = this;
-            $(plugin.settings.viewportSelector).off("mousemove" + plugin.eventPrefix);
-        },
-        allEventsUnbind: function() {
-            var plugin = this;
-            $(plugin.settings.viewportSelector).off(plugin.eventPrefix);
-            plugin.$element.off(plugin.eventPrefix);
-        },
-        showModal: function() {
-            var plugin = this;
-            plugin.$element.modal('show');
-        },
-        hideModal: function() {
-            var plugin = this;
-            plugin.$element.modal('hide');
-        },
-        destroy: function() {
-            var plugin = this;
-            plugin.allEventsUnbind();
-            plugin.$element.data('exitModal', null);
-        }
-    };
-
-    function exitModalInterface(methodOrOptions) {
-        var methodsParameters = Array.prototype.slice.call(arguments, 1);
-        return this.each(function() {
-            if (!$(this).data('exitModal')) {
-                var plugin = new exitModalObj(this, methodOrOptions);
-                $(this).data('exitModal', plugin);
-                plugin.init();
-            } else if (typeof methodOrOptions === 'object') {
-                $.error('jQuery.exitModal already initialized');
-            } else {
-                var plugin = $(this).data('exitModal');
-                if (plugin[methodOrOptions]) {
-                    plugin[methodOrOptions].apply(plugin, methodsParameters);
-                } else {
-                    $.error('Method ' + methodOrOptions + ' does not exist on jQuery.exitModal');
-                }
-            }
-        })
-    }
-    exitModalInterface.defaults = {
-        viewportSelector: document,
-        showButtonClose: true,
-        showButtonCloseOnlyForMobile: true,
-        pageYValueForEventFired: 10,
-        numberToShown: false,
-        modalBackdrop: true,
-        modalKeyboard: true,
-        modalShowEvent: 'show.bs.modal',
-        modalShownEvent: 'shown.bs.modal',
-        modalHideEvent: 'hide.bs.modal',
-        modalHiddenEvent: 'hidden.bs.modal',
-        callbackOnModalShow: function() {},
-        callbackOnModalShown: function() {},
-        callbackOnModalHide: function() {},
-        callbackOnModalHidden: function() {}
-    };
-    $.fn.exitModal = exitModalInterface;
-})();
-$(document).ready(function() {
-    var timer;
-    var exitModalParams = {
-        numberToShown: 1,
-        callbackOnModalShow: function() {
-            var counter = $('.exit-modal').data('exitModal').showCounter;
-        },
-    }
-    $('.destroy-exit-modal').on("click", function(e) {
-        e.preventDefault();
-        if ($('.exit-modal').data('exit-modal')) {
-            $(".initialized-state").hide();
-            $(".destroyed-state").show();
-        }
-        $('.exit-modal').exitModal('hideModal');
-        $('.exit-modal').exitModal('destroy');
-        $(".initialized").hide();
-    });
-    $('.exit-modal').exitModal(exitModalParams);
-    if ($('.exit-modal').data('exit-modal')) {
-        $(".destroyed-state").hide();
-        $(".initialized-state").show();
-    }
-    $('.close-exit-modal').on('click', function(e) {
-        e.preventDefault();
-        $('.exit-modal').exitModal('hideModal');
-    });
-});
-</script> -->
 
 
 
