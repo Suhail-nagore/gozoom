@@ -3738,7 +3738,7 @@
                                         <p role="status" aria-live="polite" aria-atomic="true"></p>
                                         <ul></ul>
                                     </div>
-                                    <form action="process_form2.php" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+                                    <form action="process_form2.php" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init" onsubmit="return validateForm();" >
                                         
                                         <div class="row form-row">
                                             
@@ -3781,13 +3781,10 @@
                                                 </p>
                                             </div>
                                         </div>
-                                        <p style="display: none !important;"><label>&#916;<textarea name="_wpcf7_ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_3" name="_wpcf7_ak_js" value="12" />
-                                            <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                                            <script>
-                                                document.getElementById("ak_js_3").setAttribute("value", (new Date()).getTime());
-                                            </script>
-                                        </p>
-                                        <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                        <div
+                                        class="g-recaptcha"
+                                        data-sitekey="6Lf9TsQnAAAAANxF0lHRxZTC_YMZIMmV1qX1v1qs"
+                                      ></div>
                                     </form>
                                 </div>
                             </div>
