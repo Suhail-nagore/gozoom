@@ -9,6 +9,7 @@ body {
     /* font-family: 'Gill Sans', sans-serif; */
     /* font-weight: 400; */
     overflow-x: hidden;
+    
 }
 
 body.hidden-scroling {
@@ -1039,14 +1040,14 @@ video {
     /* background-color: #fff; */
     display: flex;
     justify-content: space-between;
-    padding: 3px 0;
+    /* padding: 3px 0; */
     /* border-radius: 10px; */
     
     flex-direction: row-reverse;
-    padding: 9px 45px;
+    padding: 14px 45px;
     top: 0;
     left: 0;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     z-index: 11110;
     transition: all .3s ease-in-out
 }

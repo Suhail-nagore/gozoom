@@ -1,5 +1,6 @@
 
-/* HEADER HAI YAHA PE  */
+
+
 
 .header {
     position: fixed;
@@ -12,14 +13,24 @@
 }
 
 .header-main {
-    background-color: #fff;
+    /* background-color: #fff; */
     display: flex;
     justify-content: space-between;
-    padding: 3px 0;
+    /* padding: 3px 0; */
     /* border-radius: 10px; */
-    box-shadow: 0 0 10px rgba(0,0,0,0.43);
+    
     flex-direction: row-reverse;
-    padding: 9px 45px;
+    padding: 14px 45px;
+    top: 0;
+    left: 0;
+    /* padding: 20px 0; */
+    z-index: 11110;
+    transition: all .3s ease-in-out
+}
+.scrolled {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.43);
+    
 }
 
 .header .logo {
@@ -54,23 +65,29 @@
     display: block;
     padding: 12px 0;
     font-size: 16px;
-    color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.scrolled1 .menu>.menu-item>a {
+    display: block;
+    padding: 12px 0;
+    font-size: 16px;
+    color: black !important;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     transition: all 0.3s ease;
 }
 
-
-/* .menu-item a:hover {
+.header .menu>.menu-item>.sub-menu>.menu-item:hover>a,
+.header .menu>.menu-item:hover>a {
     color: #39b7ff;
-    
-} */
-.menu .menu-item a:hover {
+}
+.menu .menu-item a:hover{
     color: #39b7ff !important;
 
 }
-
-
 
 .header .menu>.menu-item>.sub-menu {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -326,3 +343,43 @@
     /* display: flexbox; */
     /* position: absolute; */
 }
+    
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  @media screen and (max-width: 768px) {
+    .banImg img{
+        width:220px !important ;
+        height:200px !important;
+    }
+    
+    
+}
+.banImg img{
+    width:700px ;
+     height:800px ;
+     
+}
+
+  
+
+        

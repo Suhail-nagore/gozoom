@@ -70,3 +70,44 @@
         }
     })
 })();
+
+
+  window.addEventListener('scroll', function() {
+  var header = document.querySelector('.header-main');
+  var header2 = document.querySelector('.header');
+  var scrollPosition = window.scrollY;
+
+  if (scrollPosition > 120) {
+    header.classList.add('scrolled');
+    header2.classList.add('scrolled1');
+    // header.classList.remove('header-main');
+  } else {
+    header.classList.remove('scrolled');
+    header2.classList.remove('scrolled1');
+    // header.classList.add('header-main');
+  }
+});
+
+  document.addEventListener("DOMContentLoaded", function () {
+  
+
+ 
+  let closeBtn = document.querySelector(".btn-close");
+  let modals = document.querySelector(".modals");
+  closeBtn.addEventListener('click',()=>{
+    modals.style.display = "none"
+
+
+
+
+  })
+   // Set a timeout for 10 seconds (10000 milliseconds)
+   setTimeout(() => {
+    // Change the display style to block after 10 seconds
+    modals.style.display = "block";
+  }, 10000);
+});
+
+
+
+
