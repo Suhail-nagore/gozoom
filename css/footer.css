@@ -1217,8 +1217,15 @@ exit-modal .modal-dialog {
   .swiper-container {
     position: relative;
 }
+/* 
+ .swiper-slide {
+    opacity: 0;
+    transition: opacity 0.5s ease; 
+}
 
-
+.swiper-slide-active {
+    opacity: 1;
+}  */
 
 
   
