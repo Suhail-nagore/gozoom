@@ -690,7 +690,9 @@
   <script src="./js/index.js"></script>
   <script src="./js/intlTelInput.js"></script>
   <script>
-    var input = document.querySelector("#contact-number");
-    window.intlTelInput(input, {});
-  </script>
+  var input = document.querySelector("#contact-number");
+  var inputs = document.querySelector("#contact-numbers");
+  window.intlTelInput(input, {});
+  window.intlTelInput(inputs, {});
+</script>
 </html>
