@@ -1,5 +1,5 @@
 .react-js-next-banner {
-    background-image: url("/images/laravelbg.webp");
+    background-image: url("/images/mobileBackG.jpg");
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -503,3 +503,21 @@ p a {
 label {
     font-weight: 100 !important;
 }
+/* .react-wt-nw-intro-img{
+    width: 600px;
+} */
+/* 
+@media (max-width: 1400px) {
+    .react-wt-nw-intro-img{
+        width: 400px;
+    }
+    
+    
+}
+@media (max-width: 700px) {
+    .react-wt-nw-intro-img{
+        width: 340px;
+    }
+    
+    
+} */
