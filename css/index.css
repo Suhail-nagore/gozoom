@@ -1403,6 +1403,14 @@ video {
      height:800px ;
      
 }
+@media screen and (max-width: 768px) {
+    .setWidth{
+        width: 290px !important;
+    }
+    
+    
+}
+
 
   
 
