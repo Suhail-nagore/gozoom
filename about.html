@@ -1,483 +1,508 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      http-equiv="Cache-Control"
-      content="no-cache, no-store, must-revalidate"
-    />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-    <title>Software Development Company - Gozoom</title>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script>
-      function validateForm() {
-        var recaptchaResponse = grecaptcha.getResponse();
-        if (recaptchaResponse.length === 0) {
-          alert("Please complete the reCAPTCHA.");
-          return false;
-        }
-        return true;
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Software Development Company - Gozoom</title>
+  <link rel="icon" sizes="32x32" href="./images/favicon.png" type="image/png">
+  <link rel="icon" sizes="48x48" href="./images/favicon.png" type="image/png">
+  <link rel="icon" sizes="64x64" href="./images/favicon.png" type="image/png">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script>
+    function validateForm() {
+      var recaptchaResponse = grecaptcha.getResponse();
+      if (recaptchaResponse.length === 0) {
+        alert("Please complete the reCAPTCHA.");
+        return false;
       }
-    </script>
+      return true;
+    }
+  </script>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/about.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
-    />
-    <link rel="stylesheet" href="./css/demo.css" />
-    <link rel="stylesheet" href="./css/intlTelInput.css" />
-    <link rel="stylesheet" href="./css/intlTelInput.min.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-    <!-- Google tag (gtag.js) -->
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-1HBBE7QYMR"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/header.css" />
+  <link rel="stylesheet" href="css/about.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="./css/demo.css" />
+  <link rel="stylesheet" href="./css/intlTelInput.css" />
+  <link rel="stylesheet" href="./css/intlTelInput.min.css" />
+  <link rel="stylesheet" href="./css/footer.css" />
+  <!-- Google tag (gtag.js) -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1HBBE7QYMR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-      gtag("config", "G-1HBBE7QYMR");
-    </script>
-  </head>
+    gtag("config", "G-1HBBE7QYMR");
+  </script>
+</head>
 
-  <body>
-    <!-- header hai ye yaha se start-->
+<body>
+  <!-- header hai ye yaha se start-->
 
-    <header class="header">
-      <div class="container1">
-        <div class="header-main">
-          <div class="open-nav-menu">
-            <span></span>
+  <header class="header">
+    <div class="container1">
+      <div class="header-main">
+        <div class="open-nav-menu">
+          <span></span>
+        </div>
+        <div class="menu-overlay"></div>
+
+        <!-- ----------------ye yaha se navigation menu start ho rahi hai -------------------------- -->
+        <nav class="nav-menu">
+          <div class="close-nav-menu">
+            <img src="images/close.svg" alt="close button" />
           </div>
-          <div class="menu-overlay"></div>
+          <ul class="menu">
+            <li class="menu-item hover-underline-animation">
+              <a href="index.html">HOME</a>
+            </li>
+            <li class="menu-item hover-underline-animation">
+              <a href="integration.html">INTEGRATION</a>
+            </li>
+            <li class="menu-item menu-item-has-children hover-underline-animation">
+              <a href="retail.html" data-toggle="sub-menu">RETAIL </a>
 
-          <!-- ----------------ye yaha se navigation menu start ho rahi hai -------------------------- -->
-          <nav class="nav-menu">
-            <div class="close-nav-menu">
-              <img src="images/close.svg" alt="close button" />
-            </div>
-            <ul class="menu">
-              <li class="menu-item hover-underline-animation">
-                <a href="index.html">HOME</a>
-              </li>
-              <li class="menu-item hover-underline-animation">
-                <a href="integration.html">INTEGRATION</a>
-              </li>
-              <li class="menu-item menu-item-has-children hover-underline-animation">
-                <a href="retail.html" data-toggle="sub-menu">RETAIL </a>
-                
-              <li class="menu-item hover-underline-animation">
-                <a href="web.html">WEB</a>
-              </li>
+            <li class="menu-item hover-underline-animation">
+              <a href="web.html">WEB</a>
+            </li>
 
-                
-              <li class="menu-item hover-underline-animation">
-                <a href="about.html">ABOUT US</a>
-              </li>
-              <li class="menu-item menu-item-has-children hover-underline-animation">
-                <a href="#contact" data-toggle="sub-menu"
-                  >CONTACT US
-                 
-                </a>
-                
-              </li>
-            </ul>
-          </nav>
-          <div class="logo">
-            <a href="index.html"><img src="images/logo2.webp" alt="" /></a>
-          </div>
+
+            <li class="menu-item hover-underline-animation">
+              <a href="about.html">ABOUT US</a>
+            </li>
+            <li class="menu-item menu-item-has-children hover-underline-animation">
+              <a href="#contact" data-toggle="sub-menu">CONTACT US
+
+              </a>
+
+            </li>
+          </ul>
+        </nav>
+        <div class="logo">
+          <a href="index.html"><img src="images/logo2.webp" alt="" /></a>
         </div>
       </div>
-    </header>
-    <div class="container-fluid heading">
-      <h2 class="hero">ABOUT US</h2>
-      <p class="hero1">
-        Delivering Innovation and Excellence beyond Expectation
-      </p>
     </div>
+  </header>
+  <div class="container-fluid heading">
+    <h2 class="hero">ABOUT US</h2>
+    <p class="hero1">
+      Delivering Innovation and Excellence beyond Expectation
+    </p>
+  </div>
 
-    <!--------------------- home section ye hai =========== -->
+  <!--------------------- home section ye hai =========== -->
 
-    <section class="home-section"></section>
+  <section class="home-section"></section>
 
-    <!--=========== story wala section yaha se start ho raha hai ======= -->
+  <!--=========== story wala section yaha se start ho raha hai ======= -->
 
-    <section class="inner-page">
-      <div class="container" style="padding: 40px 10px">
-        <div class="row">
-          <div class="col-sm-6 ourstory_imgsec2">
-            <div class="fstdiv33">
-              <div class="story_imgdiv1">
-                <img class="story_img1 clfab2" src="images/aboutusimage.webp" />
-              </div>
+  <section class="inner-page">
+    <div class="container" style="padding: 40px 10px">
+      <div class="row">
+        <div class="col-sm-6 ourstory_imgsec2">
+          <div class="fstdiv33">
+            <div class="story_imgdiv1">
+              <img class="story_img1 clfab2" src="images/aboutusimage.webp" />
             </div>
           </div>
-          <div class="col-sm-6 ab">
-            <h3 class="ourstory_h1">ABOUT US</h3>
-            <p class="ourstory_p1">
-              Welcome to Gozoom Technologies, your one-stop shop for all your
-              retail and integration needs! At Gozoom Technologies, we are
-              passionate about technology and helping businesses succeed. With
-              over 3 years of experience in the IT industry, we have the
-              expertise and knowledge to help you achieve your goals. Our team
-              of experts specializes in retail and integration, providing a
-              range of services to help you streamline your operations and
-              improve your bottom line. Whether you need help with point of sale
-              systems, inventory management, or e-commerce integration, we have
-              you covered.
-            </p>
-            <p class="ourstory_p1">
-              We pride ourselves on delivering exceptional customer service and
-              support, and we work closely with our clients to understand their
-              unique needs and develop customized solutions that meet their
-              specific requirements. We believe in building strong, long-lasting
-              relationships with our clients, and we are committed to providing
-              the highest level of service and support. At Gozoom Technologies,
-              we are dedicated to staying on the cutting edge of technology, and
-              we are constantly exploring new and innovative solutions to help
-              our clients stay ahead of the competition. We are passionate about
-              what we do, and we are committed to helping our clients succeed.
-            </p>
-            <p class="ourstory_p1">
-              Thank you for considering Gozoom Technologies for your retail and
-              integration needs. We look forward to working with you!
-            </p>
-          </div>
         </div>
-      </div>
-    </section>
-
-    <!--=========== we stand ka section yaha se start ho raha hai ============= -->
-
-    <section class="pt-0">
-      <div class="row ourteam_div1">
-        <div class="header_div1">
-          <h1 class="ourteam65">WHAT WE STAND FOR</h1>
-          <p class="ourstory_p2">
-            Our company’s leaders share a passion for developing innovative
-            technology solutions that drive significant bottom-line value,
-            enabling customers and partners to succeed and win. Our team works
-            together in one environment committed to deliver nothing, but the
-            best.
+        <div class="col-sm-6 ab">
+          <h3 class="ourstory_h1">ABOUT US</h3>
+          <p class="ourstory_p1">
+            Welcome to Gozoom Technologies, your one-stop shop for all your
+            retail and integration needs! At Gozoom Technologies, we are
+            passionate about technology and helping businesses succeed. With
+            over 3 years of experience in the IT industry, we have the
+            expertise and knowledge to help you achieve your goals. Our team
+            of experts specializes in retail and integration, providing a
+            range of services to help you streamline your operations and
+            improve your bottom line. Whether you need help with point of sale
+            systems, inventory management, or e-commerce integration, we have
+            you covered.
+          </p>
+          <p class="ourstory_p1">
+            We pride ourselves on delivering exceptional customer service and
+            support, and we work closely with our clients to understand their
+            unique needs and develop customized solutions that meet their
+            specific requirements. We believe in building strong, long-lasting
+            relationships with our clients, and we are committed to providing
+            the highest level of service and support. At Gozoom Technologies,
+            we are dedicated to staying on the cutting edge of technology, and
+            we are constantly exploring new and innovative solutions to help
+            our clients stay ahead of the competition. We are passionate about
+            what we do, and we are committed to helping our clients succeed.
+          </p>
+          <p class="ourstory_p1">
+            Thank you for considering Gozoom Technologies for your retail and
+            integration needs. We look forward to working with you!
           </p>
         </div>
-        <div class="row clin">
-          <div class="col-sm-4">
-            <div class="con1">
-              <img
-                src="images/about_innovation.jpeg"
-                alt="img"
-                class="image1"
-              />
-              <div class="conimghed">
-                <h2 class="imghead">INNOVATION</h2>
-              </div>
-              <div class="overlay1 overlayLeft1">
-                <div class="text1">
-                  <h2>INNOVATION</h2>
-                  <ul class="industries_ul1">
-                    <li>+ To ideate better and innovative strategy</li>
-                    <li>+ To create Now and future proof solutions</li>
-                    <li>+ To adapt to changing trends effortlessly</li>
-                    <li>+ To outplace and outpace your competitors</li>
-                  </ul>
-                </div>
+      </div>
+    </div>
+  </section>
+
+  <!--=========== we stand ka section yaha se start ho raha hai ============= -->
+
+  <section class="pt-0">
+    <div class="row ourteam_div1">
+      <div class="header_div1">
+        <h1 class="ourteam65">WHAT WE STAND FOR</h1>
+        <p class="ourstory_p2">
+          Our company’s leaders share a passion for developing innovative
+          technology solutions that drive significant bottom-line value,
+          enabling customers and partners to succeed and win. Our team works
+          together in one environment committed to deliver nothing, but the
+          best.
+        </p>
+      </div>
+      <div class="row clin">
+        <div class="col-sm-4">
+          <div class="con1">
+            <img src="images/about_innovation.jpeg" alt="img" class="image1" />
+            <div class="conimghed">
+              <h2 class="imghead">INNOVATION</h2>
+            </div>
+            <div class="overlay1 overlayLeft1">
+              <div class="text1">
+                <h2>INNOVATION</h2>
+                <ul class="industries_ul1">
+                  <li>+ To ideate better and innovative strategy</li>
+                  <li>+ To create Now and future proof solutions</li>
+                  <li>+ To adapt to changing trends effortlessly</li>
+                  <li>+ To outplace and outpace your competitors</li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="con1">
-              <img src="images/commitment.png" alt="img" class="image1" />
-              <div class="conimghed">
-                <h2 class="imghead">COMMITMENTS</h2>
-              </div>
-              <div class="overlay1 overlayLeft1">
-                <div class="text1">
-                  <h2>COMMITMENTS</h2>
-                  <ul class="industries_ul1">
-                    <li>+ To ensure all stakeholders are working</li>
-                    <li>+ To communicate hassle-free</li>
-                    <li>+ To drive better results</li>
-                    <li>+ To enhance growth</li>
-                  </ul>
-                </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="con1">
+            <img src="images/commitment.png" alt="img" class="image1" />
+            <div class="conimghed">
+              <h2 class="imghead">COMMITMENTS</h2>
+            </div>
+            <div class="overlay1 overlayLeft1">
+              <div class="text1">
+                <h2>COMMITMENTS</h2>
+                <ul class="industries_ul1">
+                  <li>+ To ensure all stakeholders are working</li>
+                  <li>+ To communicate hassle-free</li>
+                  <li>+ To drive better results</li>
+                  <li>+ To enhance growth</li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="con1">
-              <img src="images/excellence.webp" alt="img" class="image1" />
-              <div class="conimghed">
-                <h2 class="imghead">EXCELLENCE</h2>
-              </div>
-              <div class="overlay1 overlayLeft1">
-                <div class="text1">
-                  <h2>EXCELLENCE</h2>
-                  <ul class="industries_ul1">
-                    <li>+ To be customer-driven more than ever</li>
-                    <li>+ To deliver exceptional quality. Always!</li>
-                    <li>+ To take real time and informed decisions</li>
-                    <li>+ To enhance customer experience</li>
-                  </ul>
-                </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="con1">
+            <img src="images/excellence.webp" alt="img" class="image1" />
+            <div class="conimghed">
+              <h2 class="imghead">EXCELLENCE</h2>
+            </div>
+            <div class="overlay1 overlayLeft1">
+              <div class="text1">
+                <h2>EXCELLENCE</h2>
+                <ul class="industries_ul1">
+                  <li>+ To be customer-driven more than ever</li>
+                  <li>+ To deliver exceptional quality. Always!</li>
+                  <li>+ To take real time and informed decisions</li>
+                  <li>+ To enhance customer experience</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!--======= progress bar ka section yaha se start ho raha hai ====== -->
+  <!--======= progress bar ka section yaha se start ho raha hai ====== -->
 
-    <section class="progressbar_section1 clfab3">
-      <div class="counter">
-        <div class="container" style="padding: 40px 10px">
-          <div class="row">
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-              <div class="employees">
-                <div class="counter_bardiv33">
-                  <p class="counter-count ag-counter">3</p>
-                </div>
-                <p class="employee-p">YEARS IN<br />BUSINESS</p>
+  <section class="progressbar_section1 clfab3">
+    <div class="counter">
+      <div class="container" style="padding: 40px 10px">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div class="employees">
+              <div class="counter_bardiv33">
+                <p class="counter-count ag-counter">3</p>
               </div>
+              <p class="employee-p">YEARS IN<br />BUSINESS</p>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-              <div class="customer">
-                <div class="counter_bardiv33">
-                  <p class="counter-count ag-counter">5</p>
-                  <span class="counter_span22">+</span>
-                </div>
-                <p class="customer-p">OUTLETS<br />INSTALLED</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div class="customer">
+              <div class="counter_bardiv33">
+                <p class="counter-count ag-counter">5</p>
+                <span class="counter_span22">+</span>
               </div>
+              <p class="customer-p">OUTLETS<br />INSTALLED</p>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-              <div class="design">
-                <div class="counter_bardiv33">
-                  <p class="counter-count ag-counter">8000</p>
-                  <span class="counter_span22">+</span>
-                </div>
-                <p class="design-p">TRANSATIONS<br />CAPTURED</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div class="design">
+              <div class="counter_bardiv33">
+                <p class="counter-count ag-counter">8000</p>
+                <span class="counter_span22">+</span>
               </div>
+              <p class="design-p">TRANSATIONS<br />CAPTURED</p>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-              <div class="order">
-                <div class="counter_bardiv33">
-                  <span class="counter_span33">$</span>
-                  <p class="counter-count ag-counter">1000</p>
-                  <span class="counter_span22">k+</span>
-                </div>
-                <p class="order-p">TRANSACTION<br />VALUE</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div class="order">
+              <div class="counter_bardiv33">
+                <span class="counter_span33">$</span>
+                <p class="counter-count ag-counter">1000</p>
+                <span class="counter_span22">k+</span>
               </div>
+              <p class="order-p">TRANSACTION<br />VALUE</p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- ================footer ka section yaha se start ho raha hai =============== -->
-    <section id="contact">
-      <footer class="footer">
-        <div class="container fot">
-          <!-- <div class="container logo foologo">
+  <!-- ================footer ka section yaha se start ho raha hai =============== -->
+  <section id="contact">
+    <footer class="footer">
+      <div class="container fot">
+        <!-- <div class="container logo foologo">
                     <a href="index.html"><img src="images/logo.png" alt=""></a>
                 </div> -->
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg">
+            <div class="focon">
+              <h2 class="fohead">GLOBAL LOCATIONS</h2>
+            </div>
+            <div class="foadd">
+              <ul>
+                <li>
+                  <img class="flag" src="images/usflag.webp" alt="" />
+                  <h3>
+                    400 River Side CT <br />
+                    Santa Clara <br />
+                    CA 95054-3535 <br />
+                    United States
+                  </h3>
+                </li>
+                <li>
+                  <img class="flag" src="images/indiaflag.png" alt="" />
+                  <h3>
+                    A1B/19 A, Paschim Vihar <br />
+                    New Delhi 110063 <br />
+                    India <br />info@gozoomtech.com
+                  </h3>
+                </li>
+                <li>
+                  <img class="flag" src="images/usflag.webp" alt="" />
+                  <h3>
+                    520 Spotswood Gravel Hill Road <br />
+                    Monroe Township, NJ, 08831 <br />
+                    United States
+                  </h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg">
+            <div class="focon">
+              <h2 class="fohead">QUICK LINKS</h2>
+            </div>
+            <div class="folinks">
+              <ul>
+                <li>
+                  <a href="index.html">HOME</a>
+                </li>
+                <li>
+                  <a href="integration.html">INTEGRATION</a>
+                </li>
+                <li>
+                  <a href="retail.html">RETAILS</a>
+                </li>
+                <li>
+                  <a href="web.html">WEB DEVELOPMENT</a>
+                </li>
+                <li>
+                  <a href="/webpages/mobile.html">MOBILE DEVELOPMENT</a>
+                </li>
+                <li>
+                  <a href="#">GET BROUCHER</a>
+                </li>
+                <li>
+                  <a href="about.html">ABOUT-US</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg">
+            <div class="focon">
+              <h2 class="fohead">REACH US TODAY</h2>
+            </div>
+            <div class="foform">
+              <div id="inquiryForm-section" class="current-opening-form">
+                <div class="quick-box">
+                  <form name="inquiryForm" id="inquiryForm" class="quick-form" action="process_form.php" method="POST"
+                    onsubmit="return validateForm();">
+                    <label class="input-label">Your Name<span class="req">*</span> </label><br />
+                    <input type="text" id="name" name="name" class="formfi" placeholder="Name" maxlength="50"
+                      autocomplete="off" required /><br />
+
+                    <label class="input-label">Email<span class="req">*</span> </label><br />
+                    <input type="email" id="email" name="email" autocomplete="on" class="formfi" placeholder="E-mail"
+                      required />
+                    <p class="error-message" id="errorMessage">
+                      Please enter a valid email address.
+                    </p>
+
+                    <label class="input-label">Phone<span class="req">*</span></label><br />
+                    <input type="tel" autocomplete="on" id="contact-number" name="contact-number" class="formfi"
+                      placeholder="Contact No." required /><br />
+
+                    <label class="input-label" style="margin-top: 15px">Interested Service
+                    </label>
+
+                    <div class="wrapper">
+                      <div class="select-btn formfi">
+                        <span style="color: #bbb">Interested In</span>
+                        <i class="uil uil-angle-down"></i>
+                      </div>
+                      <div class="content">
+                        <div class="search">
+                          <i class="uil uil-search"></i>
+                          <input spellcheck="false" type="text" placeholder="Search" />
+                        </div>
+                        <hr />
+                        <ul class="options"></ul>
+                      </div>
+                    </div>
+                    <input type="hidden" name="solution" id="selecti" required />
+
+                    <label class="input-label">Message</label><br />
+                    <textarea class="textarea" id="message" placeholder="Message" name="message"></textarea><br /><br />
+                    <input type="text" name="hidden1-input1" style="display: none" />
+                    <div class="g-recaptcha" data-sitekey="6Lf9TsQnAAAAANxF0lHRxZTC_YMZIMmV1qX1v1qs"></div>
+
+                    <div class="center">
+                      <input class="formbtn" type="submit" value="Submit" />
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-lg">
-              <div class="focon">
-                <h2 class="fohead">GLOBAL LOCATIONS</h2>
+      </div>
+    </footer>
+    <div class="container copyright">
+      <h2 class="copy">
+        © COPYRIGHT <span class="gozoom">GoZoom</span>. All Rights Reserved
+      </h2>
+    </div>
+  </section>
+  <section>
+    <div class="modals fades exit-modal web" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="row row-m">
+              <div class="col-md-5 col-sm-5 col-p request-bnr">
+                <div class="get-link" data-bs-dismiss="modal" aria-label="Close">Get In Touch <svg version="1.1" x="0px"
+                    y="0px" viewBox="0 0 94.8 21.4" xml:space="preserve">
+                    <path class="st0"
+                      d="M89.6,12.2H1.5c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5h88.1l-6.5-6.5c-0.6-0.6-0.6-1.6,0-2.2 c0.6-0.6,1.6-0.6,2.2,0l9.2,9.2c0.6,0.6,0.6,1.6,0,2.2l-9.2,9.2c-0.6,0.6-1.6,0.6-2.2,0c-0.6-0.6-0.6-1.6,0-2.2L89.6,12.2z" />
+                  </svg></div>
               </div>
-              <div class="foadd">
-                <ul>
-                  <li>
-                    <img class="flag" src="images/usflag.webp" alt="" />
-                    <h3>
-                      400 River Side CT <br />
-                      Santa Clara <br />
-                      CA 95054-3535 <br />
-                      United States
-                    </h3>
-                  </li>
-                  <li>
-                    <img class="flag" src="images/indiaflag.png" alt="" />
-                    <h3>
-                      A1B/19 A, Paschim Vihar <br />
-                      New Delhi 110063 <br />
-                      India <br />info@gozoomtech.com
-                    </h3>
-                  </li>
-                  <li>
-                    <img class="flag" src="images/usflag.webp" alt="" />
-                    <h3>
-                      520 Spotswood Gravel Hill Road <br />
-                      Monroe Township, NJ, 08831 <br />
-                      United States
-                    </h3>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg">
-              <div class="focon">
-                <h2 class="fohead">QUICK LINKS</h2>
-              </div>
-              <div class="folinks">
-                <ul>
-                  <li>
-                    <a href="index.html">HOME</a>
-                  </li>
-                  <li>
-                    <a href="integration.html">INTEGRATION</a>
-                  </li>
-                  <li>
-                    <a href="retail.html">RETAILS</a>
-                  </li>
-                  <li>
-                    <a href="web.html">WEB DEVELOPMENT</a>
-                  </li>
-                  <li>
-                    <a href="/webpages/mobile.html">MOBILE DEVELOPMENT</a>
-                  </li>
-                  <li>
-                    <a href="#">GET BROUCHER</a>
-                  </li>
-                  <li>
-                    <a href="about.html">ABOUT-US</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg">
-              <div class="focon">
-                <h2 class="fohead">REACH US TODAY</h2>
-              </div>
-              <div class="foform">
-                <div id="inquiryForm-section" class="current-opening-form">
-                  <div class="quick-box">
-                    <form
-                      name="inquiryForm"
-                      id="inquiryForm"
-                      class="quick-form"
-                      action="process_form.php"
-                      method="POST"
-                      onsubmit="return validateForm();"
-                    >
-                      <label class="input-label"
-                        >Your Name<span class="req">*</span> </label
-                      ><br />
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        class="formfi"
-                        placeholder="Name"
-                        maxlength="50"
-                        autocomplete="off"
-                        required
-                      /><br />
+              <div class="col-md-7 col-sm-7 col-p">
+                <div class="form-box">
+                  <h2 class="modal-title" id="exampleModalLabel">Request a Proposal</h2>
+                  <div class="red-text mb-30">* Mandatory Field</div>
+                  <div class="wpcf7 no-js" id="wpcf7-f78307-o3" lang="en-US" dir="ltr">
+                    <div class="screen-reader-response">
+                      <p role="status" aria-live="polite" aria-atomic="true"></p>
+                      <ul></ul>
+                    </div>
+                    <form action="process_form2.php" method="post" class="wpcf7-form init" aria-label="Contact form">
 
-                      <label class="input-label"
-                        >Email<span class="req">*</span> </label
-                      ><br />
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        autocomplete="on"
-                        class="formfi"
-                        placeholder="E-mail"
-                        required
-                      />
-                      <p class="error-message" id="errorMessage">
-                        Please enter a valid email address.
-                      </p>
+                      <div class="row form-row">
 
-                      <label class="input-label"
-                        >Phone<span class="req">*</span></label
-                      ><br />
-                      <input
-                        type="tel"
-                        autocomplete="on"
-                        id="contact-number"
-                        name="contact-number"
-                        class="formfi"
-                        placeholder="Contact No."
-                        required
-                      /><br />
-
-                      <label class="input-label" style="margin-top: 15px"
-                        >Interested Service
-                      </label>
-
-                      <div class="wrapper">
-                        <div class="select-btn formfi">
-                          <span style="color: #bbb">Interested In</span>
-                          <i class="uil uil-angle-down"></i>
-                        </div>
-                        <div class="content">
-                          <div class="search">
-                            <i class="uil uil-search"></i>
-                            <input
-                              spellcheck="false"
-                              type="text"
-                              placeholder="Search"
-                            />
+                        <div class="col-sm-6 col-md-6 col-gap">
+                          <div class="line">
+                            <p><span class="wpcf7-form-control-wrap" data-name="full-name"><input size="40"
+                                  class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control"
+                                  id="name_ef6491f" aria-required="true" aria-invalid="false" placeholder="Full Name *"
+                                  value type="text" name="full-name" required /></span>
+                            </p>
                           </div>
-                          <hr />
-                          <ul class="options"></ul>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-gap">
+                          <div class="line">
+                            <div class="form-group">
+                              <div class="row">
+                                <!-- <div class="col-sm-5 col-xs-5">
+                                                                <p><span class="wpcf7-form-control-wrap" data-name="pre-phone"><input size="40" maxlength="5" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required pre_phone form-control validate" aria-required="true" aria-invalid="false" placeholder="Country Code" value type="text" name="pre-phone"  /></span>
+                                                                </p>
+                                                            </div> -->
+                                <div class="col-sm-7 col-xs-7">
+                                  <p><span class="wpcf7-form-control-wrap" data-name="phone"><input
+                                        class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number validate form-control formfi"
+                                        id="contact-numbers" aria-required="true" aria-invalid="false"
+                                        placeholder="Mobile Number *" value type="tel" name="phone"
+                                        style="margin-left: 37px; width: 140%;" required /></span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-gap">
+                          <div class="line">
+                            <p><span class="wpcf7-form-control-wrap" data-name="email-contact"><input size="40"
+                                  class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email validate form-control"
+                                  id="email_ef6491f" aria-required="true" aria-invalid="false"
+                                  placeholder="Email Address *" value type="email" name="email" required /></span>
+                            </p>
+                          </div>
+                          <p class="error-messagehh" id="errorMessages">
+                            Please enter a valid email address.
+                          </p>
+                        </div>
+                        <div class="col-sm-8 col-md-8 col-gap">
+                          <div class="line msg">
+                            <p><span class="wpcf7-form-control-wrap" data-name="message"><textarea cols="40" rows="10"
+                                  class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control msg"
+                                  id="message_ef6491f" aria-required="true" aria-invalid="false" placeholder="Message"
+                                  name="message"></textarea></span>
+                            </p>
+                          </div>
+                        </div>
+                        <div class="g-recaptcha" data-sitekey="6Lf9TsQnAAAAANxF0lHRxZTC_YMZIMmV1qX1v1qs"></div>
+                        <div class="col-sm-4 col-md-4 col-gap text-end">
+                          <p><input class="wpcf7-form-control wpcf7-submit has-spinner btn btn-circle submit mysubmit1"
+                              id="btn_ef6491f" type="submit" value="Submit" />
+                          </p>
                         </div>
                       </div>
-                      <input
-                        type="hidden"
-                        name="solution"
-                        id="selecti"
-                        required
-                      />
 
-                      <label class="input-label">Message</label><br />
-                      <textarea
-                        class="textarea"
-                        id="message"
-                        placeholder="Message"
-                        name="message"
-                      ></textarea
-                      ><br /><br />
-                      <input
-                        type="text"
-                        name="hidden1-input1"
-                        style="display: none"
-                      />
-                      <div
-                        class="g-recaptcha"
-                        data-sitekey="6Lf9TsQnAAAAANxF0lHRxZTC_YMZIMmV1qX1v1qs"
-                      ></div>
-
-                      <div class="center">
-                        <input class="formbtn" type="submit" value="Submit" />
-                      </div>
                     </form>
                   </div>
                 </div>
@@ -485,99 +510,19 @@
             </div>
           </div>
         </div>
-      </footer>
-      <div class="container copyright">
-        <h2 class="copy">
-          © COPYRIGHT <span class="gozoom">GoZoom</span>. All Rights Reserved
-        </h2>
       </div>
-    </section>
-    <section>
-      <div class="modals fades exit-modal web" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" >
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div class="row row-m">
-                        <div class="col-md-5 col-sm-5 col-p request-bnr">
-                            <div class="get-link" data-bs-dismiss="modal" aria-label="Close">Get In Touch <svg version="1.1" x="0px" y="0px" viewBox="0 0 94.8 21.4" xml:space="preserve"><path class="st0" d="M89.6,12.2H1.5c-0.8,0-1.5-0.7-1.5-1.5s0.7-1.5,1.5-1.5h88.1l-6.5-6.5c-0.6-0.6-0.6-1.6,0-2.2 c0.6-0.6,1.6-0.6,2.2,0l9.2,9.2c0.6,0.6,0.6,1.6,0,2.2l-9.2,9.2c-0.6,0.6-1.6,0.6-2.2,0c-0.6-0.6-0.6-1.6,0-2.2L89.6,12.2z" /></svg></div>
-                        </div>
-                        <div class="col-md-7 col-sm-7 col-p">
-                            <div class="form-box">
-                                <h2 class="modal-title" id="exampleModalLabel">Request a Proposal</h2>
-                                <div class="red-text mb-30">* Mandatory Field</div>
-                                <div class="wpcf7 no-js" id="wpcf7-f78307-o3" lang="en-US" dir="ltr">
-                                    <div class="screen-reader-response">
-                                        <p role="status" aria-live="polite" aria-atomic="true"></p>
-                                        <ul></ul>
-                                    </div>
-                                    <form action="process_form2.php" method="post" class="wpcf7-form init" aria-label="Contact form"  >
-                                        
-                                        <div class="row form-row">
-                                            
-                                            <div class="col-sm-6 col-md-6 col-gap">
-                                                <div class="line">
-                                                    <p><span class="wpcf7-form-control-wrap" data-name="full-name"><input size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="name_ef6491f" aria-required="true" aria-invalid="false" placeholder="Full Name *" value type="text" name="full-name" required/></span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6 col-md-6 col-gap">
-                                                <div class="line">
-                                                    <div class="form-group">
-                                                        <div class="row">
-                                                            <!-- <div class="col-sm-5 col-xs-5">
-                                                                <p><span class="wpcf7-form-control-wrap" data-name="pre-phone"><input size="40" maxlength="5" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required pre_phone form-control validate" aria-required="true" aria-invalid="false" placeholder="Country Code" value type="text" name="pre-phone"  /></span>
-                                                                </p>
-                                                            </div> -->
-                                                            <div class="col-sm-7 col-xs-7">
-                                                                <p><span class="wpcf7-form-control-wrap" data-name="phone"><input class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number validate form-control formfi" id="contact-numbers" aria-required="true" aria-invalid="false" placeholder="Mobile Number *" value type="tel" name="phone" style="margin-left: 37px; width: 140%;" required /></span>
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-12 col-md-12 col-gap">
-                                                <div class="line">
-                                                    <p><span class="wpcf7-form-control-wrap" data-name="email-contact"><input size="40" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email validate form-control" id="email_ef6491f" aria-required="true" aria-invalid="false" placeholder="Email Address *" value type="email" name="email" required /></span>
-                                                    </p>
-                                                </div>
-                                                <p class="error-messagehh" id="errorMessages">
-                                                  Please enter a valid email address.
-                                                </p>
-                                            </div>
-                                            <div class="col-sm-8 col-md-8 col-gap">
-                                                <div class="line msg">
-                                                    <p><span class="wpcf7-form-control-wrap" data-name="message"><textarea cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control msg" id="message_ef6491f" aria-required="true" aria-invalid="false" placeholder="Message" name="message"></textarea></span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="g-recaptcha" data-sitekey="6Lf9TsQnAAAAANxF0lHRxZTC_YMZIMmV1qX1v1qs"></div>
-                                            <div class="col-sm-4 col-md-4 col-gap text-end">
-                                                <p><input class="wpcf7-form-control wpcf7-submit has-spinner btn btn-circle submit mysubmit1" id="btn_ef6491f" type="submit" value="Submit" />
-                                                </p>
-                                            </div>
-                                        </div>
-                                        
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
-    </section>
-  </body>
-  <script src="js/script.js"></script>
-  <script src="js/counter.js"></script>
-  <script src="./js/index.js"></script>
-  <script src="./js/intlTelInput.js"></script>
-  <script>
+  </section>
+</body>
+<script src="js/script.js"></script>
+<script src="js/counter.js"></script>
+<script src="./js/index.js"></script>
+<script src="./js/intlTelInput.js"></script>
+<script>
   var input = document.querySelector("#contact-number");
   var inputs = document.querySelector("#contact-numbers");
   window.intlTelInput(input, {});
   window.intlTelInput(inputs, {});
 </script>
+
 </html>
