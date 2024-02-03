@@ -218,3 +218,18 @@ label {
     border-color: #269d39;
     font-weight: 400;
 }
+.foadd ul li {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    width: 236px
+}
+.foadd ul {
+    display: flex;
+}
+#contact {
+    min-height: 30vh !important;
+}
+.folinks ul li > a {
+    text-decoration: none;
+}
