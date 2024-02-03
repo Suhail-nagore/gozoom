@@ -240,3 +240,29 @@ label {
     height: 29px !important;
     font-size: 17px !important;
 }
+@media (max-width: 573px){
+    .heading1{
+        font-size: 49px !important;
+    }
+    .requestPro {
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        right: 32px !important;
+        top: -30px;
+        background: #fff;
+        width: calc(63% - 50px) !important;
+        border-radius: 14px 14px 0 0;
+        z-index: 2;
+        box-shadow: 0px 0px 74px 0px rgb(41 74 69/11%);
+    }
+    .werhrehelp-sec{
+        width: 255vw !important;
+    }
+    #contact {
+        width: 255vw !important;
+    }
+    .topBg {
+        width: 255vw !important;
+    }
+    }
