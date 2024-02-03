@@ -233,3 +233,10 @@ label {
 .folinks ul li > a {
     text-decoration: none;
 }
+.content {
+    width: 488px !important;
+}
+.options li {
+    height: 29px !important;
+    font-size: 17px !important;
+}
