@@ -241,7 +241,7 @@ label {
     height: 29px !important;
     font-size: 17px !important;
 }
-@media (max-width: 573px){
+/* @media (max-width: 573px){
     .heading1{
         font-size: 49px !important;
     }
@@ -267,4 +267,58 @@ label {
     .topBg {
         width: 255vw !important;
     }
+    } */
+
+
+
+@media (max-width: 573px){
+    .requestPro {
+      
+            right: 32px !important;
+            top: 494px !important;
+            width: calc(109% - 70px) !important;
+      
+      
     }
+    .formfi {
+        width: 269px !important;
+        font-size: 16px !important;
+    }
+    .textarea {
+        width: 269px !important;
+    }
+    .cmn-title {
+        display: inline-block;
+        text-align: center;
+        width: 100% !important;
+        position: relative;
+
+        
+    }
+    .common-ul-li h3 {
+    font-size: 16px !important;
+    }
+    common-ul-li {
+        
+            margin-top: 43px !important;
+            padding-left: 0.5rem !important;
+            
+        
+    }
+    .foadd {
+        
+        display: block !important;
+        font-size: 22px !important;
+        
+    }
+    .foadd ul {
+        display: block !important;
+    }
+    .werhrehelp-sec {
+        margin-top: 635px !important;
+    }
+    .content {
+        width: 269px !important;
+    }
+}
+
