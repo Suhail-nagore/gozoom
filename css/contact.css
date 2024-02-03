@@ -1,0 +1,220 @@
+body{
+    overflow-x: hidden;
+    background-color: #fff;
+
+}
+.wrappers {
+    position: relative
+    
+}
+.topBg{
+    background: url("../images/gozoomContactBg.webp")no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 35px;
+    padding-top: 0;
+    height: 700px;
+
+}
+@media (max-width: 899px){
+.top_bl_bg {
+    height: 590px;
+}
+}
+.top_bl_bg .container {
+    position: relative;
+    height: 700px;
+}
+@media (max-width: 1550px){
+.contact_wrapper {
+    top: 50%;
+}
+}
+@media (max-width: 1550px){
+.contact_wrapper {
+    top: 50%;
+}
+}
+@media (max-width: 1899px){
+.contact_wrapper {
+    top: 50%;
+}
+}
+.contact_wrapper {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    transform: translate(0,-50%);
+}
+.banner_cont {
+    width: 45%;
+}
+.contact_wrapper .heading1, .contact_wrapper .heading5 {
+    color: #fff;
+}
+@media (max-width: 1550px){
+.heading1 {
+    font-size: 52px;
+}
+}
+@media (max-width: 1899px){
+.heading1 {
+    font-size: 60px;
+}
+}
+.requestPro{
+position: absolute;
+    padding: 0;
+    margin: 0;
+    right: 175px;
+    top: -30px;
+    background: #fff;
+    width: calc(46% - 70px);
+    border-radius: 14px 14px 0 0;
+    z-index: 2;
+    box-shadow: 0px 0px 74px 0px rgb(41 74 69/11%);
+}
+.header .menu > .menu-item > a {
+    text-decoration: none !important;
+}
+.foheads {
+    color: black !important;
+    margin-top: 44px !important;
+}
+.foform {
+    margin-top: 0.1rem !important;
+}
+.quick-boxes {
+    width: 100%;
+    display: block;
+   
+    position: relative;
+    z-index: 9;
+    
+    margin: 0;
+    padding: 32px 39px;
+   
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 7px;
+    color: #333333;
+    
+    font-size: larger !important;
+    font-weight: 480 !important;
+}
+.formfi {
+
+    width: 488px !important;
+    font-size: 18px !important;
+    
+}
+.textarea {
+    width: 488px !important;
+}
+#inquiry-page .werarehlp {
+    margin-top: 270px;
+}
+#inquiry-page .inquiry-content-lft {
+    margin-top: 270px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+.inquiry-content-lft.cmn-title {
+    text-align: left;
+}
+.cmn-title {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+#inquiry-page .werhrehelp-sec .inquiry-content-lft .cmn-title p {
+    text-align: center;
+}
+#inquiry-page .inquiry-content-lft .cmn-title p {
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--light-grey);
+}
+#inquiry-page .cmn-title p {
+    display: block;
+    margin: 15px 0 0;
+    padding: 0;
+    font-size: 20px!important;
+    line-height: 34px;
+    color: var(--gray);
+    font-family: var(--font-family-regular);
+    font-weight: 400;
+}
+#inquiry-page .common-ul-li {
+    margin-left: 0!important;
+    float: left;
+}
+.werhrehelp-sec .inquiry-content-lft ul {
+    display: flex;
+    justify-content: space-between;
+}
+#inquiry-page .werarehlp .common-ul-li {
+    margin-top: 60px;
+}
+#inquiry-page .inquiry-content-lft ul {
+    margin: 30px 0;
+}
+#inquiry-page .common-ul-li {
+    margin-left: 0!important;
+    float: left;
+}
+.werhrehelp-sec .common-ul-li li {
+    width: 27%;
+    list-style-type: none!important;
+}
+.common-ul-li li:nth-child(1) h3 {
+    border-color: #f4bd00;
+    font-weight: 400;
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px){
+#inquiry-page .common-ul-li h3 {
+    font-size: 28px;
+    line-height: 32px;
+}
+}
+.common-ul-li h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    display: block;
+    margin-top: 0;
+    font-family: var(--font-family-regular);
+}
+.werhrehelp-sec h3 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+.common-ul-li>li p {
+    display: block;
+    margin: 15px 0 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--light-grey);
+    font-family: var(--font-family-regular);
+    font-weight: 400;
+}
+.werhrehelp-sec{
+    margin-top: 277px;
+}
+.common-ul-li{
+    margin-top: 43px;
+}
+.common-ul-li li:nth-child(2) h3 {
+    border-color: #0884c4;
+    font-weight: 400;
+}
+.common-ul-li li:nth-child(3) h3 {
+    border-color: #269d39;
+    font-weight: 400;
+}
