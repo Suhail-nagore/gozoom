@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=IBM+Plex+Sans:ital,wght@0,100;1,400&family=Lato:wght@300&family=Roboto+Slab&display=swap');
 /* Import Google Font - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 body {
     line-height: 1.5;
     font-family: 'Lato', sans-serif;
@@ -1098,7 +1101,7 @@ video {
     display: block;
     padding: 12px 0;
     font-size: 16px;
-    color: black !important;
+    color: black;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     transition: all 0.3s ease;
@@ -1149,7 +1152,7 @@ video {
     padding: 10px 20px;
     font-size: 16px;
     font-weight: 600;
-    color: #000000;
+    color: white;
     transition: all 0.3s ease;
     text-transform: capitalize;
 }

@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   line-height: 1.5;
   font-family: 'Lato', sans-serif;

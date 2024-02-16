@@ -8,6 +8,9 @@ body {
 body.hidden-scroling {
     overflow-y: hidden;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 * {
     margin: 0;

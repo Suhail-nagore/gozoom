@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .react-js-next-banner {
     background-image: url(//www.codeclouds.com/wp-content/themes/CodeClouds/images/react_header-desk.jpg);
     background-position: center top;

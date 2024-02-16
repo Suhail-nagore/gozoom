@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=IBM+Plex+Sans:ital,wght@0,100;1,400&family=Lato:wght@300&family=Roboto+Slab&display=swap');
-
+html {
+    scroll-behavior: smooth;
+}
 
 .we-hb-section {
     display: block;

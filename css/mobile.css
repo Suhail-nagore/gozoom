@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 .react-js-next-banner {
     background-image: url("/images/mobileBackG.jpg");
     background-position: center top;
@@ -521,3 +524,7 @@ label {
     
     
 } */
+
+/* Add styles for the active heading */
+
+  

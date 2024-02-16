@@ -418,7 +418,7 @@ summary {
 
 .whiteSection:before {
     background-color: #fff;
-    top: -67px;
+    top: 100px;
     content: '';
     left: 0;
     right: 0;
