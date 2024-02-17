@@ -655,6 +655,11 @@ a {
   font-weight: 400;
   color: #332a31;
 }
+.starBtn:hover{
+  background-color: white;
+}
+
+
 
 
 /* sdlc circle css  */
