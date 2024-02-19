@@ -9,7 +9,7 @@ use PHPMailer\PHPMailer\Exception;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $angularName = $_POST["angularName"];
-    $angularBussiness = $_POST["angularBussiness"];
+    $angularBusiness = $_POST["angularBusiness"];
     $angularEmail = $_POST["angularEmail"];
     $angularPhoneNumber = $_POST["angularPhoneNo"];
     $angularSubject = $_POST["angularSubject"];
@@ -31,9 +31,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     try {
-        $stmt = $conn->prepare("INSERT INTO angularform (name, bussiness, email, phoneNo, subject, textArea) VALUES (:angularName, :angularBussiness, :angularEmail, :angularPhoneNo, :angularSubject, :angularTextArea)");
+        $stmt = $conn->prepare("INSERT INTO angularform (name, bussiness, email, phoneNo, subject, textArea) VALUES (:angularName, :angularBusiness, :angularEmail, :angularPhoneNo, :angularSubject, :angularTextArea)");
         $stmt->bindParam(':angularName', $angularName);
-        $stmt->bindParam(':angularBussiness', $angularBussiness);
+        $stmt->bindParam(':angularBusiness', $angularBusiness);
         $stmt->bindParam(':angularEmail', $angularEmail);
         $stmt->bindParam(':angularPhoneNo', $angularPhoneNumber);
         $stmt->bindParam(':angularSubject', $angularSubject);

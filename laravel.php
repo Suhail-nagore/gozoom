@@ -9,7 +9,7 @@ use PHPMailer\PHPMailer\Exception;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $laravelName = $_POST["laravelName"];
-    $laravelBussiness = $_POST["laravelBussiness"];
+    $laravelBusiness = $_POST["laravelBusiness"];
     $laravelEmail = $_POST["laravelEmail"];
     $laravelPhoneNumber = $_POST["laravelPhoneNo"];
     $laravelSubject = $_POST["laravelSubject"];
@@ -31,9 +31,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     try {
-        $stmt = $conn->prepare("INSERT INTO laravelForm (name, bussiness, email, phoneNo, subject, textArea) VALUES (:laravelName, :laravelBussiness, :laravelEmail, :laravelPhoneNo, :laravelSubject, :laravelTextArea)");
+        $stmt = $conn->prepare("INSERT INTO laravelForm (name, bussiness, email, phoneNo, subject, textArea) VALUES (:laravelName, :laravelBusiness, :laravelEmail, :laravelPhoneNo, :laravelSubject, :laravelTextArea)");
         $stmt->bindParam(':laravelName', $laravelName);
-        $stmt->bindParam(':laravelBussiness', $laravelBussiness);
+        $stmt->bindParam(':laravelBusiness', $laravelBusiness);
         $stmt->bindParam(':laravelEmail', $laravelEmail);
         $stmt->bindParam(':laravelPhoneNo', $laravelPhoneNumber);
         $stmt->bindParam(':laravelSubject', $laravelSubject);

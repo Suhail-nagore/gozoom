@@ -149,6 +149,10 @@ div {
 }
 .page-jquery-banner.banner-top {
     padding: 140px 0 174px;
+    background-image: url("/images/laravelbg.webp");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     overflow: hidden;
 }
